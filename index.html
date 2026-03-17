@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Daily Whistle</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Sans+3:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+/* ─── TOKENS ──────────────────────────────────────────────────── */
+:root {
+  --bg:           #F5F0E8;
+  --bg-card:      #FFFCF5;
+  --ink:          #1A1714;
+  --ink-mid:      #4A4540;
+  --ink-light:    #8A8477;
+  --red:          #C4371B;
+  --green:        #1A6B3C;
+  --green-bg:     #E8F5EC;
+  --blue:         #1A4A7A;
+  --blue-bg:      #E8F0FA;
+  --gold:         #B8960C;
+  --gold-bg:      #FDF5E0;
+  --border:       #D4CFC4;
+  --border-light: #E8E3D8;
+
+  --serif: 'Playfair Display', Georgia, serif;
+  --sans:  'Source Sans 3', -apple-system, sans-serif;
+  --mono:  'JetBrains Mono', monospace;
+}
+
+/* ─── RESET ───────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* ─── ANIMATIONS ──────────────────────────────────────────────── */
+@keyframes fadeUp   { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes ticker   { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@keyframes pulseDot { 0%,100% { opacity:1; } 50% { opacity:0.25; } }
+
+.anim-1 { animation: fadeUp 0.6s cubic-bezier(0.22,1,0.36,1) 0.05s both; }
+.anim-2 { animation: fadeUp 0.6s cubic-bezier(0.22,1,0.36,1) 0.15s both; }
+.anim-3 { animation: fadeUp 0.6s cubic-bezier(0.22,1,0.36,1) 0.25s both; }
+.anim-4 { animation: fadeUp 0.6s cubic-bezier(0.22,1,0.36,1) 0.35s both; }
+
+/* ─── TICKER ─────────────────────────────────────────────────── */
+.ticker-bar {
+  background: var(--ink);
+  color: var(--bg);
+  padding: 7px 0;
+  overflow: hidden;
+  user-select: none;
+}
+.ticker-track {
+  display: flex;
+  animation: ticker 38s linear infinite;
+  white-space: nowrap;
+}
+.ticker-track:hover { animation-play-state: paused; }
+.tick-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 0 26px;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  border-right: 1px solid rgba(255,255,255,0.1);
+}
+.tick-live   { color: #7FDDAA; }
+.tick-final  { color: rgba(245,240,232,0.42); }
+.tick-next   { color: #88C8FF; }
+.tick-dot {
+  width: 5px; height: 5px;
+  background: #7FDDAA;
+  border-radius: 50%;
+  animation: pulseDot 1.4s ease infinite;
+  flex-shrink: 0;
+}
+.tick-badge {
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  padding: 1px 5px;
+  border-radius: 2px;
+}
+.tick-badge.upcoming { background: #1B2F6E; color: #88C8FF; }
+.tick-badge.final    { background: transparent; color: rgba(245,240,232,0.3); border: 1px solid rgba(255,255,255,0.12); }
+.tick-badge.wbc      { background: #0D4A24; color: #7FDDAA; }
+
+/* ─── MASTHEAD ───────────────────────────────────────────────── */
+.masthead {
+  text-align: center;
+  padding: 32px 20px 0;
+  border-bottom: 3px double var(--ink);
+}
+.masthead-columns {
+  display: grid;
+  grid-template-columns: 150px 1fr 150px;
+  align-items: center;
+  gap: 12px;
+  max-width: 780px;
+  margin: 0 auto 10px;
+}
+.masthead-col-meta {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.07em;
+  color: var(--ink-light);
+  line-height: 1.75;
+  white-space: nowrap;
+}
+.masthead-col-meta.right { text-align: right; }
+.masthead-col-meta .edition { color: var(--red); font-weight: 600; display: block; }
+.masthead-title h1 {
+  font-family: var(--serif);
+  font-weight: 900;
+  font-size: clamp(2.4rem, 6.5vw, 4.2rem);
+  letter-spacing: -0.025em;
+  line-height: 1.05;
+  color: var(--ink);
+  margin-bottom: 6px;
+}
+.masthead-rule { border: none; border-top: 1px solid var(--ink); margin: 0 0 8px; }
+.masthead-sub {
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+.masthead-sub::before,
+.masthead-sub::after { content: ''; display: block; width: 24px; height: 1px; background: var(--ink-mid); flex-shrink: 0; }
+.dateline {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--ink-light);
+  letter-spacing: 0.05em;
+  padding: 8px 0;
+  border-top: 1px solid var(--border);
+  max-width: 780px;
+  margin: 10px auto 0;
+}
+
+/* ─── CONTAINER ──────────────────────────────────────────────── */
+.container { max-width: 780px; margin: 0 auto; padding: 0 20px; }
+
+/* ─── SCOREBOARD ─────────────────────────────────────────────── */
+.scoreboard {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  margin: 28px 0;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(26,23,20,0.06), 0 1px 3px rgba(26,23,20,0.04);
+}
+.scoreboard-header {
+  background: var(--ink);
+  color: var(--bg);
+  padding: 9px 16px;
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.live-dot { width: 6px; height: 6px; background: #7FDDAA; border-radius: 50%; animation: pulseDot 1.4s ease infinite; }
+.league-section { padding: 12px 16px 14px; border-bottom: 1px solid var(--border-light); }
+.league-section:last-child { border-bottom: none; }
+.league-label {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.game { display: flex; align-items: center; padding: 4px 0; font-size: 13px; gap: 2px; border-bottom: 1px solid var(--border-light); }
+.game:last-of-type { border-bottom: none; }
+.g-pair { display: inline-flex; align-items: center; gap: 6px; }
+.g-team { font-family: var(--mono); font-size: 12px; font-weight: 500; width: 36px; letter-spacing: 0.03em; }
+.g-team-l { text-align: right; }
+.g-team-r { text-align: left; }
+.g-score { font-family: var(--mono); font-size: 13px; font-weight: 500; width: 26px; text-align: center; }
+.g-sep { width: 18px; text-align: center; color: var(--ink-light); font-size: 11px; font-family: var(--sans); flex-shrink: 0; }
+.g-win .g-team, .g-win .g-score { color: var(--green); }
+.g-tag { font-family: var(--sans); font-size: 10px; font-weight: 600; padding: 1px 6px; border-radius: 3px; margin-left: 8px; letter-spacing: 0.04em; white-space: nowrap; flex-shrink: 0; }
+.g-tag-final    { background: var(--border-light); color: var(--ink-light); }
+.g-tag-live     { background: #FCE8E8; color: var(--red); }
+.g-tag-upcoming { background: var(--blue-bg); color: var(--blue); }
+.g-tag-wbc      { background: var(--green-bg); color: var(--green); }
+.g-tag-context  { background: var(--gold-bg); color: var(--gold); }
+.scoreboard-note { font-size: 11px; color: var(--ink-light); font-style: italic; padding-top: 8px; line-height: 1.45; }
+
+/* ─── SECTION RULES & HEADERS ────────────────────────────────── */
+.section-rule { border: none; border-top: 2px solid var(--ink); margin: 36px 0 0; }
+.section-head { font-family: var(--serif); font-weight: 700; font-size: 1.55rem; margin: 12px 0 18px; line-height: 1.2; letter-spacing: -0.01em; }
+
+/* ─── STORIES ────────────────────────────────────────────────── */
+.story { margin-bottom: 22px; padding-bottom: 22px; border-bottom: 1px solid var(--border-light); }
+.story:last-child { border-bottom: none; padding-bottom: 0; margin-bottom: 0; }
+.kicker { font-family: var(--sans); font-size: 10px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); margin-bottom: 4px; }
+.story-headline { font-family: var(--serif); font-weight: 700; font-size: 1.1rem; line-height: 1.3; margin-bottom: 8px; letter-spacing: -0.01em; }
+.story p { font-family: var(--sans); font-size: 15px; line-height: 1.72; color: var(--ink-mid); margin-bottom: 8px; }
+.story p:last-child { margin-bottom: 0; }
+.story p strong { color: var(--ink); font-weight: 600; }
+
+/* ─── LEAGUE SUB-DIVIDERS ────────────────────────────────────── */
+.sub-divider { display: flex; align-items: center; gap: 10px; margin: 24px 0 18px; }
+.sub-divider::after { content: ''; flex: 1; border-top: 1px solid var(--border); }
+.sub-divider-label { font-family: var(--sans); font-size: 11px; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; color: var(--ink-light); white-space: nowrap; }
+
+/* ─── FOOTER ─────────────────────────────────────────────────── */
+.footer { text-align: center; padding: 28px 20px 36px; margin-top: 40px; border-top: 3px double var(--ink); font-size: 12px; color: var(--ink-light); letter-spacing: 0.04em; line-height: 1.8; }
+.footer-mark { font-family: var(--serif); font-weight: 700; font-size: 15px; color: var(--ink-mid); margin-bottom: 4px; }
+
+/* ─── LOADING STATE ──────────────────────────────────────────── */
+.loading { text-align: center; padding: 80px 20px; font-family: var(--mono); font-size: 12px; color: var(--ink-light); letter-spacing: 0.08em; }
+.loading::after { content: ''; animation: pulseDot 1.4s ease infinite; }
+
+/* ─── RESPONSIVE ─────────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .container { padding: 0 14px; }
+  .masthead { padding: 20px 14px 0; }
+  .masthead-columns { grid-template-columns: 1fr; gap: 6px; }
+  .masthead-col-meta { text-align: center !important; white-space: normal; }
+  .league-section { padding: 10px 12px 12px; }
+  .scoreboard-header { padding: 8px 12px; }
+  .section-head { font-size: 1.35rem; }
+  .story-headline { font-size: 1.05rem; }
+}
+</style>
+</head>
+<body>
+
+<div id="ticker-bar" class="ticker-bar" aria-hidden="true">
+  <div class="ticker-track" id="ticker-track"></div>
+</div>
+
+<div class="container">
+  <div id="masthead-container"></div>
+</div>
+
+<div class="container">
+  <div id="scoreboard-container"></div>
+</div>
+
+<div class="container" id="stories-container">
+  <div class="loading">Loading today's digest…</div>
+</div>
+
+<script>
+// ─── HELPERS ──────────────────────────────────────────────────────
+function el(tag, cls, html) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (html !== undefined) e.innerHTML = html;
+  return e;
+}
+
+function formatDate(dateStr) {
+  const d = new Date(dateStr + 'T12:00:00');
+  return d.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+}
+
+// ─── TICKER ───────────────────────────────────────────────────────
+function buildTicker(items) {
+  const track = document.getElementById('ticker-track');
+  const buildItems = () => items.map(item => {
+    const typeClass = item.type === 'next' ? 'tick-next' : item.type === 'final' ? 'tick-final' : 'tick-live';
+    const badgeType = item.badgeType || (item.type === 'next' ? 'upcoming' : 'final');
+    const dot = item.type === 'live' ? '<span class="tick-dot"></span> ' : '';
+    return `<span class="tick-item ${typeClass}">${dot}${item.text} <span class="tick-badge ${badgeType}">${item.badge}</span></span>`;
+  }).join('');
+  // Duplicate for seamless loop
+  track.innerHTML = buildItems() + buildItems();
+}
+
+// ─── MASTHEAD ─────────────────────────────────────────────────────
+function buildMasthead(meta) {
+  const d = new Date(meta.date + 'T12:00:00');
+  const dow = d.toLocaleDateString('en-US', { weekday: 'long' });
+  const dateStr = d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+
+  const header = document.createElement('header');
+  header.className = 'masthead anim-1';
+  header.innerHTML = `
+    <div class="masthead-columns">
+      <div class="masthead-col-meta">
+        <span class="edition">${meta.edition} Edition</span>
+        <span style="display:block;">Issue No. ${meta.issue}</span>
+        <span style="display:block;">Est. 2023</span>
+      </div>
+      <div class="masthead-title">
+        <h1>The Daily Whistle</h1>
+        <hr class="masthead-rule">
+        <div class="masthead-sub">Your curated sports digest</div>
+      </div>
+      <div class="masthead-col-meta right">
+        <span style="display:block;">${dow}</span>
+        <span style="display:block;">${dateStr}</span>
+        <span style="display:block;">Free · Daily</span>
+      </div>
+    </div>
+    <div class="dateline">3 leagues · 10 stories · 3-minute read · Delivered by 7am every morning</div>
+  `;
+  document.title = `The Daily Whistle — ${dateStr}`;
+  document.getElementById('masthead-container').appendChild(header);
+}
+
+// ─── SCOREBOARD ───────────────────────────────────────────────────
+function buildGameRow(game) {
+  const leftWin  = game.winner === 'away';
+  const rightWin = game.winner === 'home';
+  const sep      = game.status === 'upcoming' ? 'vs' : '–';
+  const leftScore  = game.awayScore !== null ? game.awayScore : '';
+  const rightScore = game.homeScore !== null ? game.homeScore : '';
+
+  return `
+    <div class="game">
+      <span class="g-pair ${leftWin ? 'g-win' : ''}">
+        <span class="g-team g-team-l">${game.away}</span>
+        <span class="g-score">${leftScore}</span>
+      </span>
+      <span class="g-sep">${sep}</span>
+      <span class="g-pair ${rightWin ? 'g-win' : ''}">
+        <span class="g-score">${rightScore}</span>
+        <span class="g-team g-team-r">${game.home}</span>
+      </span>
+      <span class="g-tag g-tag-${game.tagType || game.status}">${game.tag}</span>
+    </div>`;
+}
+
+function buildScoreboard(sb) {
+  const container = document.getElementById('scoreboard-container');
+  const board = el('div', 'scoreboard anim-2');
+
+  board.innerHTML = `
+    <div class="scoreboard-header">
+      <span class="live-dot"></span>
+      Scoreboard — Last night's results &amp; tonight's schedule
+    </div>`;
+
+  // NBA
+  const nbaSection = el('div', 'league-section');
+  nbaSection.innerHTML = `<div class="league-label">🏀 NBA</div>` +
+    sb.nba.games.map(buildGameRow).join('') +
+    `<div class="scoreboard-note">${sb.nba.note}</div>`;
+  board.appendChild(nbaSection);
+
+  // NHL
+  const nhlSection = el('div', 'league-section');
+  nhlSection.innerHTML = `<div class="league-label">🏒 NHL</div>` +
+    sb.nhl.games.map(buildGameRow).join('') +
+    `<div class="scoreboard-note">${sb.nhl.note}</div>`;
+  board.appendChild(nhlSection);
+
+  // WBC / MLB
+  const wbcSection = el('div', 'league-section');
+  wbcSection.innerHTML = `<div class="league-label">⚾ ${sb.wbc.label || 'WBC & MLB'}</div>` +
+    sb.wbc.games.map(buildGameRow).join('') +
+    `<div class="scoreboard-note">${sb.wbc.note}</div>`;
+  board.appendChild(wbcSection);
+
+  container.appendChild(board);
+}
+
+// ─── STORIES ──────────────────────────────────────────────────────
+function buildStory(story) {
+  const div = el('div', 'story');
+  let html = '';
+  if (story.kicker)   html += `<div class="kicker">${story.kicker}</div>`;
+  if (story.headline) html += `<div class="story-headline">${story.headline}</div>`;
+  story.body.forEach(p => { html += `<p>${p}</p>`; });
+  div.innerHTML = html;
+  return div;
+}
+
+function buildSectionDivider(label) {
+  const d = el('div', 'sub-divider');
+  d.innerHTML = `<span class="sub-divider-label">${label}</span>`;
+  return d;
+}
+
+function buildStories(data) {
+  const container = document.getElementById('stories-container');
+  container.innerHTML = '';
+
+  // Top stories
+  const topRule = el('hr', 'section-rule anim-3');
+  const topHead = el('h2', 'section-head anim-3', '🔥 Top stories');
+  container.appendChild(topRule);
+  container.appendChild(topHead);
+  data.topStories.forEach((s, i) => {
+    const story = buildStory(s);
+    story.classList.add(i < 3 ? 'anim-3' : 'anim-4');
+    container.appendChild(story);
+  });
+
+  // NBA
+  const nbaRule = el('hr', 'section-rule anim-4');
+  const nbaHead = el('h2', 'section-head anim-4', '🏀 NBA');
+  container.appendChild(nbaRule);
+  container.appendChild(nbaHead);
+  let lastDivider = null;
+  data.sections.nba.stories.forEach(s => {
+    if (s.divider && s.divider !== lastDivider) {
+      container.appendChild(buildSectionDivider(s.divider));
+      lastDivider = s.divider;
+    }
+    container.appendChild(buildStory(s));
+  });
+
+  // NHL
+  const nhlRule = el('hr', 'section-rule');
+  const nhlHead = el('h2', 'section-head', '🏒 NHL');
+  container.appendChild(nhlRule);
+  container.appendChild(nhlHead);
+  lastDivider = null;
+  data.sections.nhl.stories.forEach(s => {
+    if (s.divider && s.divider !== lastDivider) {
+      container.appendChild(buildSectionDivider(s.divider));
+      lastDivider = s.divider;
+    }
+    container.appendChild(buildStory(s));
+  });
+
+  // WBC / MLB
+  const mlbRule = el('hr', 'section-rule');
+  const mlbHead = el('h2', 'section-head', '⚾ WBC &amp; MLB');
+  container.appendChild(mlbRule);
+  container.appendChild(mlbHead);
+  lastDivider = null;
+  data.sections.mlb.stories.forEach(s => {
+    if (s.divider && s.divider !== lastDivider) {
+      container.appendChild(buildSectionDivider(s.divider));
+      lastDivider = s.divider;
+    }
+    container.appendChild(buildStory(s));
+  });
+
+  // Footer
+  const footer = el('footer', 'footer');
+  footer.innerHTML = `
+    <div class="footer-mark">The Daily Whistle</div>
+    Curated by Claude · Data via SportRadar, NBC Sports, ESPN, NHL.com, MLB.com
+  `;
+  container.appendChild(footer);
+}
+
+// ─── MAIN ─────────────────────────────────────────────────────────
+async function init() {
+  try {
+    const res = await fetch('data.json?t=' + Date.now());
+    if (!res.ok) throw new Error('Failed to load data.json');
+    const data = await res.json();
+
+    buildTicker(data.ticker);
+    buildMasthead(data.meta);
+    buildScoreboard(data.scoreboard);
+    buildStories(data);
+  } catch (err) {
+    document.getElementById('stories-container').innerHTML =
+      `<div class="loading" style="color:var(--red);">Failed to load today's digest. ${err.message}</div>`;
+    console.error(err);
+  }
+}
+
+init();
+</script>
+</body>
+</html>

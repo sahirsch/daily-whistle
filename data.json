@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "date": "2026-03-17",
+    "dayOfWeek": "Tuesday",
+    "edition": "Morning",
+    "issue": 852
+  },
+  "ticker": [
+    { "text": "OKC 119 · MEM 104", "type": "final", "badge": "Final" },
+    { "text": "LAL 108 · DEN 101", "type": "final", "badge": "Final" },
+    { "text": "MIA 103 · BKN 88",  "type": "final", "badge": "Final" },
+    { "text": "PHI vs BOS",        "type": "next",  "badge": "7 ET · NBATV" },
+    { "text": "COL 4 · SEA 1",     "type": "final", "badge": "Final" },
+    { "text": "TOR 3 · BOS 2 OT",  "type": "final", "badge": "Final" },
+    { "text": "FLA 5 · MTL 2",     "type": "final", "badge": "Final" },
+    { "text": "JPN vs DOM",        "type": "next",  "badge": "WBC FINAL · 8 ET · Fox", "badgeType": "wbc" },
+    { "text": "CAR vs NJD",        "type": "next",  "badge": "7 ET · ESPN" }
+  ],
+  "scoreboard": {
+    "nba": {
+      "games": [
+        { "away": "OKC", "awayScore": 119, "home": "MEM", "homeScore": 104, "winner": "away", "status": "final", "tag": "SGA: 129 straight 20-pt games", "tagType": "context" },
+        { "away": "LAL", "awayScore": 108, "home": "DEN", "homeScore": 101, "winner": "away", "status": "final", "tag": "final",    "tagType": "final" },
+        { "away": "MIA", "awayScore": 103, "home": "BKN", "homeScore": 88,  "winner": "away", "status": "final", "tag": "final",    "tagType": "final" },
+        { "away": "PHI", "awayScore": null, "home": "BOS", "homeScore": null, "winner": null, "status": "upcoming", "tag": "7 ET · NBATV", "tagType": "upcoming" }
+      ],
+      "note": "Tonight: GSW vs SAS (9:30 ET) — Wemby hosts shorthanded Warriors; West seeding on the line"
+    },
+    "nhl": {
+      "games": [
+        { "away": "COL", "awayScore": 4, "home": "SEA", "homeScore": 1, "winner": "away", "status": "final",    "tag": "final",              "tagType": "final" },
+        { "away": "TOR", "awayScore": 3, "home": "BOS", "homeScore": 2, "winner": "away", "status": "final",    "tag": "OT · Atlantic drama", "tagType": "context" },
+        { "away": "FLA", "awayScore": 5, "home": "MTL", "homeScore": 2, "winner": "away", "status": "final",    "tag": "final",              "tagType": "final" },
+        { "away": "CAR", "awayScore": null, "home": "NJD", "homeScore": null, "winner": null, "status": "upcoming", "tag": "7 ET · ESPN",    "tagType": "upcoming" }
+      ],
+      "note": "Colorado's 43rd win — MacKinnon now has 95 points; Avalanche 6 clear at the top of the West"
+    },
+    "wbc": {
+      "label": "WBC — Final",
+      "games": [
+        { "away": "JPN", "awayScore": null, "home": "DOM", "homeScore": null, "winner": null, "status": "upcoming", "tag": "Tonight · 8 ET · Fox · Oracle Park", "tagType": "wbc" }
+      ],
+      "note": "Semifinals: Japan beat USA 2–1 (Ohtani 14 K's) · Dominican Republic routed Italy 8–3"
+    }
+  },
+  "topStories": [
+    {
+      "kicker": "WBC Final — Tonight",
+      "headline": "Japan vs. Dominican Republic: the WBC Final we deserve",
+      "body": [
+        "It's Ohtani vs. the most star-studded lineup in tournament history. <strong>Shohei Ohtani</strong> torched Team USA in Sunday's semifinal — 14 strikeouts in 7 innings, the best postseason pitching performance in WBC history — to send Japan to the final. On the other side, the Dominican Republic dismantled Italy 8–3 behind a <strong>Soto-Vlad Jr.-Tatis Jr.</strong> triple-threat that scored in six of nine innings. Tonight, 8 ET on Fox from Oracle Park in San Francisco."
+      ]
+    },
+    {
+      "kicker": "Historic Streak",
+      "headline": "SGA is now 129 consecutive games — and counting",
+      "body": [
+        "<strong>Shai Gilgeous-Alexander</strong> scored 34 points in OKC's 119–104 win over Memphis on Monday, extending his record to 129 straight games with at least 20 points. He broke Wilt Chamberlain's 63-year-old record five days ago and keeps adding to it every night. OKC (55–15) has won 10 straight and has all but locked up the 1-seed. SGA is averaging <strong>33.1 points</strong> during the streak."
+      ]
+    },
+    {
+      "kicker": "West Seeding Battle",
+      "headline": "Lakers beat Nuggets 108–101 — the West standings chaos continues",
+      "body": [
+        "<strong>LeBron James</strong> (29 pts, 10 reb) and <strong>Anthony Davis</strong> (24 pts, 14 reb) combined for 53 in a physical road win over Denver. The Lakers (42–27) move into 5th in the West, with the 3-seed through 7-seed separated by just <strong>two and a half games</strong>. Jokic finished with 28 and 12 for Denver but the Nuggets' defense continues to leak — they've now lost 5 of their last 8."
+      ]
+    }
+  ],
+  "sections": {
+    "nba": {
+      "stories": [
+        {
+          "divider": "Scores & Standings",
+          "headline": "Heat on a 9-game win streak — a legitimate top-6 seed?",
+          "body": [
+            "Miami crushed Brooklyn 103–88 on Monday for their ninth straight win. <strong>Bam Adebayo</strong> is averaging a career-high 24.3 points and 11.1 rebounds during the streak. The Heat (41–28) have leapfrogged Atlanta and Indiana and are a half-game behind Cleveland for the 4-seed. Their remaining schedule is favorable — six of their last 12 games are against play-in teams."
+          ]
+        },
+        {
+          "divider": "Injuries & News",
+          "headline": "Celtics hold Tatum to a game-time decision",
+          "body": [
+            "Jayson Tatum (Achilles tendinopathy) has been listed as questionable for tonight's home game against Philadelphia. <strong>Derrick White</strong> returns from a two-game absence. Boston (46–22) is locked into the 2-seed regardless of tonight's result but the team wants Tatum's minutes managed heading into April. The Sixers (35–33) have Joel Embiid (oblique) still out and are fighting for their playoff lives."
+          ]
+        },
+        {
+          "headline": "Steph Curry remains week-to-week — the Warriors are fading",
+          "body": [
+            "No update on <strong>Stephen Curry's</strong> knee. Golden State (32–37) has gone 0–5 in their last five and are now outside the play-in picture entirely, a game and a half back of the 10-seed. Tonight they visit San Antonio, where <strong>Victor Wembanyama</strong> is putting on MVP-caliber performances every other night (31.5/12.4/4.1 over the last month)."
+          ]
+        }
+      ]
+    },
+    "nhl": {
+      "stories": [
+        {
+          "divider": "Western Conference",
+          "headline": "Colorado is playing a different sport from everyone else",
+          "body": [
+            "The Avalanche (45–11–3) crushed Seattle 4–1 on Monday with <strong>Nathan MacKinnon</strong> recording his 95th point of the season (30G, 65A). Since acquiring Nazem Kadri at the deadline, Colorado has gone 8–1–1 and their center depth — MacKinnon, Kadri, Brock Nelson, Nicolas Roy — remains the deepest of any team in the league. They're the heavy favorites to hoist the Cup and it's not particularly close."
+          ]
+        },
+        {
+          "divider": "Atlantic Division",
+          "headline": "Toronto upsets Boston in OT — Atlantic race gets spicy",
+          "body": [
+            "<strong>Auston Matthews</strong> scored the overtime winner 57 seconds into the extra frame as Toronto (38–22–8) took down division-leading Boston 3–2. The Maple Leafs have gone 6–2–1 in March and are now just three points back of the Bruins for the Atlantic lead. Meanwhile, Florida (36–22–10) beat Montreal 5–2 and the Panthers are quietly building momentum ahead of a playoff push — a sharp contrast to their injury-riddled January."
+          ]
+        }
+      ]
+    },
+    "mlb": {
+      "stories": [
+        {
+          "kicker": "World Baseball Classic",
+          "headline": "Ohtani's masterclass puts Japan in the Final — can anyone stop him?",
+          "body": [
+            "If you watched Sunday and didn't see it live, find the highlights immediately. <strong>Shohei Ohtani</strong> was simply dominant: 7 innings, 14 strikeouts, 2 walks, 1 run allowed against a Team USA lineup featuring Trout, Betts, Devers, and Goldschmidt. Japan won 2–1. Tonight he'll likely come out of the bullpen for an inning or two if needed. On offense, <strong>Munetaka Murakami</strong> is the WBC home run leader with 4 in the tournament.",
+            "The Dominican Republic got there a different way — sheer offensive brutality. They outscored opponents <strong>34–8</strong> over five tournament games. <strong>Juan Soto</strong> has reached base in all five games, <strong>Vladimir Guerrero Jr.</strong> has 2 HR in the knockout rounds, and <strong>Fernando Tatis Jr.</strong> is playing hurt and still producing. Their starter tonight is <strong>Sandy Alcántara</strong>, who's been lights-out since returning from Tommy John surgery."
+          ]
+        },
+        {
+          "headline": "Spring training wraps up — Opening Night is March 25",
+          "body": [
+            "With the WBC consuming all the oxygen, MLB's spring rosters are thin. The <strong>New York Yankees</strong> — who open at home against the Giants — are without Judge, Soto, and Glasnow for another week at least. The <strong>Seattle Mariners</strong> are perhaps most affected, missing Julio Rodriguez, Andrés Muñoz, and Cal Raleigh simultaneously. Every roster that sent players to the WBC is playing a managed spring, and some fatigue concerns are already being flagged. Teams want their stars healthy — and well-rested — for the long haul ahead."
+          ]
+        }
+      ]
+    }
+  }
+}
