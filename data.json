@@ -3,66 +3,61 @@
     "date": "2026-03-17",
     "dayOfWeek": "Tuesday",
     "edition": "Morning",
-    "issue": 852
+    "issue": 853
   },
   "ticker": [
-    { "text": "OKC 119 · MEM 104", "type": "final", "badge": "Final" },
-    { "text": "LAL 108 · DEN 101", "type": "final", "badge": "Final" },
-    { "text": "MIA 103 · BKN 88",  "type": "final", "badge": "Final" },
-    { "text": "PHI vs BOS",        "type": "next",  "badge": "7 ET · NBATV" },
-    { "text": "COL 4 · SEA 1",     "type": "final", "badge": "Final" },
-    { "text": "TOR 3 · BOS 2 OT",  "type": "final", "badge": "Final" },
-    { "text": "FLA 5 · MTL 2",     "type": "final", "badge": "Final" },
-    { "text": "JPN vs DOM",        "type": "next",  "badge": "WBC FINAL · 8 ET · Fox", "badgeType": "wbc" },
-    { "text": "CAR vs NJD",        "type": "next",  "badge": "7 ET · ESPN" }
+    { "text": "VEN 3 · USA 2 — Venezuela wins WBC!", "type": "final", "badge": "WBC Champs", "badgeType": "wbc" },
+    { "text": "DET 130 · WAS 117", "type": "final", "badge": "Final" },
+    { "text": "NYK 136 · IND 110", "type": "final", "badge": "Final" },
+    { "text": "MTL 3 · BOS 2 OT", "type": "final", "badge": "Final/OT" },
+    { "text": "MIN 4 · CHI 3 OT", "type": "final", "badge": "Final/OT" },
+    { "text": "TBL 6 · SEA 2", "type": "final", "badge": "Final" }
   ],
   "scoreboard": {
     "nba": {
       "games": [
-        { "away": "OKC", "awayScore": 119, "home": "MEM", "homeScore": 104, "winner": "away", "status": "final", "tag": "SGA: 129 straight 20-pt games", "tagType": "context" },
-        { "away": "LAL", "awayScore": 108, "home": "DEN", "homeScore": 101, "winner": "away", "status": "final", "tag": "final",    "tagType": "final" },
-        { "away": "MIA", "awayScore": 103, "home": "BKN", "homeScore": 88,  "winner": "away", "status": "final", "tag": "final",    "tagType": "final" },
-        { "away": "PHI", "awayScore": null, "home": "BOS", "homeScore": null, "winner": null, "status": "upcoming", "tag": "7 ET · NBATV", "tagType": "upcoming" }
+        { "away": "DET", "awayScore": 130, "home": "WAS", "homeScore": 117, "winner": "away", "status": "final", "tag": "Duren 36 pts/12 reb · Cunningham exits", "tagType": "context" },
+        { "away": "NYK", "awayScore": 136, "home": "IND", "homeScore": 110, "winner": "away", "status": "final", "tag": "Hart 33 pts · 12-of-13 FG", "tagType": "context" }
       ],
-      "note": "Tonight: GSW vs SAS (9:30 ET) — Wemby hosts shorthanded Warriors; West seeding on the line"
+      "note": "OKC clinched a playoff spot — 9th straight win; Russell Westbrook climbs to 5th all-time in assists"
     },
     "nhl": {
       "games": [
-        { "away": "COL", "awayScore": 4, "home": "SEA", "homeScore": 1, "winner": "away", "status": "final",    "tag": "final",              "tagType": "final" },
-        { "away": "TOR", "awayScore": 3, "home": "BOS", "homeScore": 2, "winner": "away", "status": "final",    "tag": "OT · Atlantic drama", "tagType": "context" },
-        { "away": "FLA", "awayScore": 5, "home": "MTL", "homeScore": 2, "winner": "away", "status": "final",    "tag": "final",              "tagType": "final" },
-        { "away": "CAR", "awayScore": null, "home": "NJD", "homeScore": null, "winner": null, "status": "upcoming", "tag": "7 ET · ESPN",    "tagType": "upcoming" }
+        { "away": "MTL", "awayScore": 3, "home": "BOS", "homeScore": 2, "winner": "away", "status": "final", "tag": "OT · Caufield winner", "tagType": "context" },
+        { "away": "MIN", "awayScore": 4, "home": "CHI", "homeScore": 3, "winner": "away", "status": "final", "tag": "OT · Zuccarello winner", "tagType": "context" },
+        { "away": "TBL", "awayScore": 6, "home": "SEA", "homeScore": 2, "winner": "away", "status": "final", "tag": "Kucherov: 3G 2A · 2nd in Art Ross", "tagType": "context" }
       ],
-      "note": "Colorado's 43rd win — MacKinnon now has 95 points; Avalanche 6 clear at the top of the West"
+      "note": "Two overtime thrillers on a packed 8-game Tuesday slate — Kucherov moves to 2nd in scoring"
     },
     "wbc": {
       "label": "WBC — Final",
       "games": [
-        { "away": "JPN", "awayScore": null, "home": "DOM", "homeScore": null, "winner": null, "status": "upcoming", "tag": "Tonight · 8 ET · Fox · Oracle Park", "tagType": "wbc" }
+        { "away": "VEN", "awayScore": 3, "home": "USA", "homeScore": 2, "winner": "away", "status": "final", "tag": "Venezuela's first WBC title", "tagType": "wbc" }
       ],
-      "note": "Semifinals: Japan beat USA 2–1 (Ohtani 14 K's) · Dominican Republic routed Italy 8–3"
+      "note": "Suárez RBI double in 9th · Harper HR tied it in 8th · Venezuela wins first-ever Classic crown"
     }
   },
   "topStories": [
     {
-      "kicker": "WBC Final — Tonight",
-      "headline": "Japan vs. Dominican Republic: the WBC Final we deserve",
+      "kicker": "WBC Champion",
+      "headline": "Venezuela stuns Team USA in the ninth to claim first WBC title",
       "body": [
-        "It's Ohtani vs. the most star-studded lineup in tournament history. <strong>Shohei Ohtani</strong> torched Team USA in Sunday's semifinal — 14 strikeouts in 7 innings, the best postseason pitching performance in WBC history — to send Japan to the final. On the other side, the Dominican Republic dismantled Italy 8–3 behind a <strong>Soto-Vlad Jr.-Tatis Jr.</strong> triple-threat that scored in six of nine innings. Tonight, 8 ET on Fox from Oracle Park in San Francisco."
+        "<strong>Venezuela</strong> captured its first World Baseball Classic championship with a heart-stopping 3–2 victory over Team USA on Tuesday night at loanDepot Park in Miami. <strong>Eugenio Suárez</strong> delivered the go-ahead RBI double against Garrett Whitlock in the top of the ninth, and closer <strong>Daniel Palencia</strong> retired the side in order to seal history. The U.S. had tied the game 2–2 in the eighth on a towering <strong>Bryce Harper</strong> center-field homer before Venezuela answered immediately.",
+        "<strong>Eduardo Rodriguez</strong> was the unsung hero — four scoreless innings, just one hit, four strikeouts against a loaded American lineup. <strong>Wilyer Abreu</strong>'s solo homer in the fifth had provided breathing room. Venezuela entered as underdogs, beat Japan and Italy in back-to-back nights with a taxed bullpen, and still found a way."
       ]
     },
     {
-      "kicker": "Historic Streak",
-      "headline": "SGA is now 129 consecutive games — and counting",
+      "kicker": "NBA Concern",
+      "headline": "Cade Cunningham exits with back spasms — Pistons' stretch-run worry",
       "body": [
-        "<strong>Shai Gilgeous-Alexander</strong> scored 34 points in OKC's 119–104 win over Memphis on Monday, extending his record to 129 straight games with at least 20 points. He broke Wilt Chamberlain's 63-year-old record five days ago and keeps adding to it every night. OKC (55–15) has won 10 straight and has all but locked up the 1-seed. SGA is averaging <strong>33.1 points</strong> during the streak."
+        "<strong>Cade Cunningham</strong> left Detroit's 130–117 win over Washington in the first quarter after reaggravating back spasms diving for a loose ball. He returned briefly before being removed at the 6:40 mark and did not come back. The Pistons won anyway — <strong>Jalen Duren</strong> was dominant with 36 points and 12 rebounds — but the timing is terrible for Eastern Conference-leading Detroit heading into the stretch. An update is expected Wednesday."
       ]
     },
     {
-      "kicker": "West Seeding Battle",
-      "headline": "Lakers beat Nuggets 108–101 — the West standings chaos continues",
+      "kicker": "Art Ross Chase",
+      "headline": "Kucherov's 5-point night rockets him into the scoring race",
       "body": [
-        "<strong>LeBron James</strong> (29 pts, 10 reb) and <strong>Anthony Davis</strong> (24 pts, 14 reb) combined for 53 in a physical road win over Denver. The Lakers (42–27) move into 5th in the West, with the 3-seed through 7-seed separated by just <strong>two and a half games</strong>. Jokic finished with 28 and 12 for Denver but the Nuggets' defense continues to leak — they've now lost 5 of their last 8."
+        "<strong>Nikita Kucherov</strong> had three goals and two assists as Tampa Bay routed Seattle 6–2, moving him to second in the Art Ross Trophy race. It was one of the most dominant individual performances of the NHL season — three different ways he put pucks in the net, and the Lightning looked every bit as dangerous as their Cup-window reputation demands."
       ]
     }
   ],
@@ -71,22 +66,16 @@
       "stories": [
         {
           "divider": "Scores & Standings",
-          "headline": "Heat on a 9-game win streak — a legitimate top-6 seed?",
+          "headline": "Hart goes 12-of-13, OKC clinches — a banner Tuesday in the NBA",
           "body": [
-            "Miami crushed Brooklyn 103–88 on Monday for their ninth straight win. <strong>Bam Adebayo</strong> is averaging a career-high 24.3 points and 11.1 rebounds during the streak. The Heat (41–28) have leapfrogged Atlanta and Indiana and are a half-game behind Cleveland for the 4-seed. Their remaining schedule is favorable — six of their last 12 games are against play-in teams."
+            "The night's most aesthetically pleasing performance: <strong>Josh Hart</strong> went 12-of-13 from the field and 5-of-5 from three for a season-high 33 points as the Knicks blitzed Indiana 136–110. In Detroit, <strong>Jalen Duren</strong> carried the Pistons past Washington 130–117 while Cunningham watched the second half from the bench. Rookie <strong>Will Riley</strong> added 21 points for Washington. <strong>OKC</strong> clinched a playoff berth with their 9th straight win, and <strong>Russell Westbrook</strong> moved to fifth all-time in assists on the night."
           ]
         },
         {
           "divider": "Injuries & News",
-          "headline": "Celtics hold Tatum to a game-time decision",
+          "headline": "Cunningham update Wednesday — Bub Carrington quietly putting up numbers",
           "body": [
-            "Jayson Tatum (Achilles tendinopathy) has been listed as questionable for tonight's home game against Philadelphia. <strong>Derrick White</strong> returns from a two-game absence. Boston (46–22) is locked into the 2-seed regardless of tonight's result but the team wants Tatum's minutes managed heading into April. The Sixers (35–33) have Joel Embiid (oblique) still out and are fighting for their playoff lives."
-          ]
-        },
-        {
-          "headline": "Steph Curry remains week-to-week — the Warriors are fading",
-          "body": [
-            "No update on <strong>Stephen Curry's</strong> knee. Golden State (32–37) has gone 0–5 in their last five and are now outside the play-in picture entirely, a game and a half back of the 10-seed. Tonight they visit San Antonio, where <strong>Victor Wembanyama</strong> is putting on MVP-caliber performances every other night (31.5/12.4/4.1 over the last month)."
+            "Detroit will provide a full update on <strong>Cade Cunningham's</strong> back on Wednesday. The Pistons atop the East cannot afford extended absence from their All-Star. On the Washington side, <strong>Bub Carrington</strong> scored a season-high 30 — a bright spot on a 13-game losing skid. Several WBC-participating players begin returning to spring training camps this week, and MLB teams with major league rosters still unsettled will be glad to have them back."
           ]
         }
       ]
@@ -94,17 +83,17 @@
     "nhl": {
       "stories": [
         {
-          "divider": "Western Conference",
-          "headline": "Colorado is playing a different sport from everyone else",
+          "divider": "Playoff Race",
+          "headline": "Montreal shocks Boston in OT — Atlantic Division race is wide open",
           "body": [
-            "The Avalanche (45–11–3) crushed Seattle 4–1 on Monday with <strong>Nathan MacKinnon</strong> recording his 95th point of the season (30G, 65A). Since acquiring Nazem Kadri at the deadline, Colorado has gone 8–1–1 and their center depth — MacKinnon, Kadri, Brock Nelson, Nicolas Roy — remains the deepest of any team in the league. They're the heavy favorites to hoist the Cup and it's not particularly close."
+            "<strong>Cole Caufield</strong> scored 57 seconds into overtime as Montreal upended Boston 3–2 in a genuine statement win. The Bruins had led heading into the third period, but the Canadiens have been one of hockey's hottest teams since the deadline. Separately, <strong>Mats Zuccarello</strong> won it in overtime as Minnesota edged Chicago 4–3. Two overtime games in one night — March hockey is delivering."
           ]
         },
         {
-          "divider": "Atlantic Division",
-          "headline": "Toronto upsets Boston in OT — Atlantic race gets spicy",
+          "divider": "Individual Brilliance",
+          "headline": "Kucherov looks like a Hart Trophy candidate again — Tampa is dangerous",
           "body": [
-            "<strong>Auston Matthews</strong> scored the overtime winner 57 seconds into the extra frame as Toronto (38–22–8) took down division-leading Boston 3–2. The Maple Leafs have gone 6–2–1 in March and are now just three points back of the Bruins for the Atlantic lead. Meanwhile, Florida (36–22–10) beat Montreal 5–2 and the Panthers are quietly building momentum ahead of a playoff push — a sharp contrast to their injury-riddled January."
+            "<strong>Nikita Kucherov</strong> scored three times and added two assists — 5 points — as Tampa Bay dismantled Seattle 6–2. He's now second in the Art Ross scoring race and playing as well as anyone in the league. The Lightning's forward group, with Kucherov operating at this level, makes them a legitimate dark-horse Cup contender with the playoffs weeks away."
           ]
         }
       ]
@@ -113,16 +102,16 @@
       "stories": [
         {
           "kicker": "World Baseball Classic",
-          "headline": "Ohtani's masterclass puts Japan in the Final — can anyone stop him?",
+          "headline": "Venezuela is champion — Suárez, Abreu, Rodriguez write the story",
           "body": [
-            "If you watched Sunday and didn't see it live, find the highlights immediately. <strong>Shohei Ohtani</strong> was simply dominant: 7 innings, 14 strikeouts, 2 walks, 1 run allowed against a Team USA lineup featuring Trout, Betts, Devers, and Goldschmidt. Japan won 2–1. Tonight he'll likely come out of the bullpen for an inning or two if needed. On offense, <strong>Munetaka Murakami</strong> is the WBC home run leader with 4 in the tournament.",
-            "The Dominican Republic got there a different way — sheer offensive brutality. They outscored opponents <strong>34–8</strong> over five tournament games. <strong>Juan Soto</strong> has reached base in all five games, <strong>Vladimir Guerrero Jr.</strong> has 2 HR in the knockout rounds, and <strong>Fernando Tatis Jr.</strong> is playing hurt and still producing. Their starter tonight is <strong>Sandy Alcántara</strong>, who's been lights-out since returning from Tommy John surgery."
+            "The road to the WBC title was anything but smooth. <strong>Venezuela</strong> dropped their final Pool D game, then came back to beat Japan (the defending champion) and Italy in the knockout rounds on back-to-back nights with a stretched bullpen. In the final, <strong>Eduardo Rodriguez</strong> gave four brilliant scoreless innings, <strong>Wilyer Abreu</strong> hit the go-ahead homer in the fifth, and <strong>Eugenio Suárez</strong> wrote the final sentence with his ninth-inning double against Whitlock. <strong>Bryce Harper's</strong> tying shot in the eighth looked like it might flip the game — instead it just made Venezuela's winner feel more earned.",
+            "For <strong>Team USA</strong>, a gut-punch after a strong run that included a semifinal win over the Dominican Republic thanks to a <strong>Roman Anthony</strong> solo shot. USA has now been eliminated in the championship game for the second straight WBC. MLB regular season opens <strong>March 25</strong>."
           ]
         },
         {
-          "headline": "Spring training wraps up — Opening Night is March 25",
+          "headline": "WBC stars return to camp — rosters take shape eight days before Opening Night",
           "body": [
-            "With the WBC consuming all the oxygen, MLB's spring rosters are thin. The <strong>New York Yankees</strong> — who open at home against the Giants — are without Judge, Soto, and Glasnow for another week at least. The <strong>Seattle Mariners</strong> are perhaps most affected, missing Julio Rodriguez, Andrés Muñoz, and Cal Raleigh simultaneously. Every roster that sent players to the WBC is playing a managed spring, and some fatigue concerns are already being flagged. Teams want their stars healthy — and well-rested — for the long haul ahead."
+            "With the Classic concluded, WBC players head back to spring training this week. Teams with heavy WBC rosters — the <strong>Yankees</strong>, <strong>Dodgers</strong>, <strong>Padres</strong>, and <strong>Astros</strong> — will have limited ramp-up time before the regular season. The good news for managers: every player returning from Miami is in peak mid-season condition. <strong>Opening Night is March 25</strong> — eight days away and counting."
           ]
         }
       ]
