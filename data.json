@@ -1,64 +1,57 @@
 {
   "meta": {
-    "date": "2026-03-19",
-    "dayOfWeek": "Thursday",
+    "date": "2026-03-20",
+    "dayOfWeek": "Friday",
     "edition": "Morning",
-    "issue": 854
+    "issue": 855
   },
   "ticker": [
-    { "text": "WSH 4 · OTT 1 — Ovi #922", "type": "final", "badge": "Final" },
-    { "text": "DAL 2 · COL 1 SO", "type": "final", "badge": "Final/SO" },
-    { "text": "CAR 6 · PIT 5 OT", "type": "final", "badge": "Final/OT" },
-    { "text": "BOS 120 · GSW 99", "type": "final", "badge": "Final" },
-    { "text": "NOP 124 · LAC 109", "type": "final", "badge": "Final" },
-    { "text": "LAL def. HOU — LeBron/Luka 70", "type": "final", "badge": "Final" }
+    { "text": "LAL 134 · MIA 126 — Luka 60!", "type": "final", "badge": "Final" },
+    { "text": "SAS 101 · PHX 100 — Spurs clinch!", "type": "final", "badge": "Final" },
+    { "text": "FLA 4 · EDM 0 — Bobrovsky SO", "type": "final", "badge": "Final" },
+    { "text": "WSH — Ovi one goal from 1,000", "type": "final", "badge": "999 combined" }
   ],
   "scoreboard": {
     "nba": {
       "games": [
-        { "away": "GSW", "awayScore": 99, "home": "BOS", "homeScore": 120, "winner": "home", "status": "final", "tag": "Brown 32 pts · passes Cowens all-time", "tagType": "context" },
-        { "away": "NOP", "awayScore": 124, "home": "LAC", "homeScore": 109, "winner": "away", "status": "final", "tag": "final", "tagType": "final" },
-        { "away": "LAL", "awayScore": null, "home": "HOU", "homeScore": null, "winner": "away", "status": "final", "tag": "LeBron + Luka: 70 combined", "tagType": "context" }
+        { "away": "LAL", "awayScore": 134, "home": "MIA", "homeScore": 126, "winner": "away", "status": "final", "tag": "Luka 60 pts · Most ever allowed by Heat", "tagType": "context" },
+        { "away": "SAS", "awayScore": 101, "home": "PHX", "homeScore": 100, "winner": "away", "status": "final", "tag": "Wemby 34/12 · Spurs clinch playoffs", "tagType": "context" }
       ],
-      "note": "Celtics close a 3-game homestand sweep — Tatum 24/10 in blowout of Warriors"
+      "note": "Lakers 8-game win streak · LeBron ties Robert Parrish for most games in NBA history"
     },
     "nhl": {
       "games": [
-        { "away": "WSH", "awayScore": 4, "home": "OTT", "homeScore": 1, "winner": "away", "status": "final", "tag": "Ovechkin goal No. 922 · 78 shy of 1,000", "tagType": "context" },
-        { "away": "DAL", "awayScore": 2, "home": "COL", "homeScore": 1, "winner": "away", "status": "final", "tag": "SO · Stars within 2 of Central lead", "tagType": "context" },
-        { "away": "PIT", "awayScore": 5, "home": "CAR", "homeScore": 6, "winner": "home", "status": "final", "tag": "OT · Crosby returns · Walker winner", "tagType": "context" }
+        { "away": "FLA", "awayScore": 4, "home": "EDM", "homeScore": 0, "winner": "away", "status": "final", "tag": "Bobrovsky SO · Cup Final rematch", "tagType": "context" }
       ],
-      "note": "Six-game Wednesday slate — Stars 15-1-1 in last 17, surging toward Avalanche atop the Central"
+      "note": "11-game Thursday slate — Panthers shut out Oilers in Cup Final rematch; Ovechkin 1 combined goal from 1,000"
     },
     "wbc": {
-      "label": "WBC — Final",
-      "games": [
-        { "away": "VEN", "awayScore": 3, "home": "USA", "homeScore": 2, "winner": "away", "status": "final", "tag": "Venezuela wins first WBC title", "tagType": "wbc" }
-      ],
-      "note": "Suárez 9th-inning double sealed it Tuesday · WBC stars return to spring camps this week"
+      "label": "MLB — Spring Training",
+      "games": [],
+      "note": "Venezuela WBC champions return to spring camps · Opening Night: March 25"
     }
   },
   "topStories": [
     {
-      "kicker": "History on Ice",
-      "headline": "Ovechkin scores No. 922 — one of the greatest nights in Washington sports history",
+      "kicker": "Luka Masterclass",
+      "headline": "60 points. LeBron's record night. Lakers are on fire.",
       "body": [
-        "<strong>Alex Ovechkin</strong> scored his 922nd career goal on Wednesday, deflecting a Rasmus Sandin centering pass off his right skate past Linus Ullmark to give Washington a 1–0 lead over Ottawa in the second period. It was his 25th goal of the season, tying <strong>Gordie Howe</strong> for the most 25-goal seasons in NHL history. The Capitals won 4–1. Ovechkin is now 78 goals from <strong>1,000 career goals</strong> — a number that once seemed impossible and now seems inevitable, if his legs hold.",
-        "Adding to the magic: rookie <strong>Cole Hutson</strong> scored his first NHL goal in the same game, one of those rare nights where history and youth collide cleanly. The Capital One Arena was electric."
+        "<strong>Luka Dončić</strong> scored 60 points — a season high, and the most points ever allowed in Miami Heat history — as the Los Angeles Lakers rallied past Miami 134–126 on Thursday. Dončić was practically unstoppable in the second half, scoring 39 of his 60 after the break. He went 18-of-30 from the field, 9-of-17 from three, and 15-of-19 from the line, topping <strong>James Harden's</strong> previous Heat-opponent record of 58. In doing so he also passed D'Angelo Russell for the Lakers' single-season three-point record.",
+        "That wasn't even the only history made. <strong>LeBron James</strong>, 41 years old, posted a 19-point, 15-rebound, 10-assist triple-double and in the process tied <strong>Robert Parrish</strong> for the most games played in NBA history. The Lakers are on an 8-game winning streak and surging up the West standings. <strong>Bam Adebayo</strong> (28 pts, 10 reb) kept Miami in it, but Luka simply had no ceiling Thursday night."
       ]
     },
     {
-      "kicker": "Central Division",
-      "headline": "Dallas stuns Colorado in a shootout — the Western Conference race just got interesting",
+      "kicker": "Wemby Does It",
+      "headline": "Wembanyama's fadeaway ends a 6-year wait — Spurs are back in the playoffs",
       "body": [
-        "<strong>Jake Oettinger</strong> made 33 saves and stopped all three shootout attempts as the Dallas Stars upset the Colorado Avalanche 2–1 in Denver on Wednesday night. <strong>Wyatt Johnston</strong> scored the lone shootout goal in round three to complete it. The Stars have now gone <strong>15–1–1 in their last 17 games</strong>, a scorching run that has them within two points of Colorado atop the Central Division. The Avalanche's lead at the top of the West suddenly looks much less comfortable."
+        "<strong>Victor Wembanyama</strong> buried a 17-foot fadeaway over Oso Ighodaro with 1.1 seconds remaining to lift San Antonio past Phoenix 101–100, clinching the Spurs' first playoff berth since 2019. The 22-year-old finished with 34 points, 12 rebounds, and 3 steals. The Spurs had not made the postseason in six seasons — the longest drought in franchise history — and they ended it with one of the most dramatic shots of the year. Wembanyama is the runaway frontrunner for the Western Conference's most exciting player this season."
       ]
     },
     {
-      "kicker": "Brown Passes Cowens",
-      "headline": "Jaylen Brown is top 10 all-time in Celtics scoring — Boston closes the homestand in style",
+      "kicker": "Cup Final Rematch",
+      "headline": "Bobrovsky blanks the Oilers — Panthers still own Edmonton",
       "body": [
-        "<strong>Jaylen Brown</strong> scored 32 points Wednesday, passing <strong>Dave Cowens</strong> to move into 10th on Boston's all-time scoring list. <strong>Jayson Tatum</strong> added 24 points and 10 rebounds in his third double-double in six games. The Celtics romped past Golden State 120–99 to sweep a three-game homestand. The Warriors, now 32–38, are out of the play-in picture entirely."
+        "<strong>Sergei Bobrovsky</strong> stopped all 21 shots he faced as the Florida Panthers shut out the Edmonton Oilers 4–0 in a Stanley Cup Final rematch Thursday night. It was Bobrovsky's 4th shutout of the season and 53rd of his career. <strong>Carter Verhaeghe</strong> and <strong>Anton Lundell</strong> scored for Florida. The Panthers have now thoroughly dominated the Oilers in their last two meetings — a statement from a team that considers themselves the gold standard of the modern NHL."
       ]
     }
   ],
@@ -67,16 +60,16 @@
       "stories": [
         {
           "divider": "Scores & Standings",
-          "headline": "LeBron and Luka combine for 70 as Lakers extend streak to seven",
+          "headline": "Lakers surge, Spurs clinch — the West is getting wild",
           "body": [
-            "<strong>LeBron James</strong> and <strong>Luka Doncic</strong> combined for 70 points as the Los Angeles Lakers won in Houston on Wednesday, matching their longest winning streak of the season at seven games. The Lakers are firmly in the West playoff picture with this run, and the James-Doncic pairing continues to find new gears late in the season. <strong>New Orleans</strong> also got a comfortable 124–109 road win over the Clippers, led by a quietly strong Pelicans squad trending up at the right time."
+            "Two of the night's best stories came from the West. The <strong>Lakers</strong> (now 8-game winners) are climbing the standings fast behind the Dončić-LeBron pairing operating at its absolute peak. The <strong>Spurs</strong> (43–27) have quietly put together one of the best second halves in the league and are now locked in for the postseason with Wembanyama looking better every week. Meanwhile, OKC remains the 1-seed — but the West from 3 through 8 is brutally tight with less than three weeks to go."
           ]
         },
         {
-          "divider": "Injuries & News",
-          "headline": "Celtics' Tatum back healthy — Warriors' Curry timeline still murky",
+          "divider": "Historic Milestones",
+          "headline": "LeBron ties Parrish — and he's still producing at an elite level",
           "body": [
-            "Jayson Tatum played 34 minutes Wednesday with no restrictions, a good sign after the Achilles tendinopathy that had him questionable earlier in the week. Boston looks healthy entering the home stretch. On the other end, <strong>Stephen Curry's</strong> knee rehab has no firm return date. Golden State (32–38) has lost six straight and is officially a lottery team. The organization faces real questions about who's on the roster come October."
+            "<strong>LeBron James</strong> has now played as many NBA games as <strong>Robert Parrish</strong> — more than anyone in history. What makes Thursday different from other record nights: he didn't just show up, he posted a genuine triple-double (19/15/10) in a meaningful late-season win. At 41, he's still a first-team candidate on the Lakers. The record-setter one game ahead of him: Parrish himself, at 1,611. James needs one more to be alone at the top of the all-time games list."
           ]
         }
       ]
@@ -84,17 +77,17 @@
     "nhl": {
       "stories": [
         {
-          "divider": "Central Division",
-          "headline": "Dallas is on fire — 15-1-1 in 17 games, closing in on Colorado",
+          "divider": "Playoff Picture",
+          "headline": "Panthers prove the Cup wasn't a fluke — Bobrovsky in Vezina territory",
           "body": [
-            "The Dallas Stars are playing the best hockey in the Western Conference right now. Wednesday's shootout win in Colorado — where they outshot the Avalanche and <strong>Oettinger</strong> was a wall — extended a remarkable run. <strong>Jason Robertson</strong> scored in regulation. The Stars (43–15–10) are within two points of the Avalanche for the Central lead and have genuine Cup contender credentials. Colorado's margin for error just got thinner."
+            "Florida shut out Edmonton 4–0 in what amounted to a statement game. The Panthers were clean, disciplined, and Bobrovsky was impenetrable. His 4th shutout of the season cements him as a legitimate <strong>Vezina Trophy</strong> candidate. Florida's defensive structure — anchored by a deep blue line and one of the league's best goaltenders — makes them an uncomfortable first-round opponent for anyone. The Oilers, missing McDavid-level production in this game, were never really in it."
           ]
         },
         {
-          "divider": "Metropolitan Division",
-          "headline": "Crosby returns; Hurricanes survive a wild one in OT",
+          "divider": "Chase for 1,000",
+          "headline": "Ovechkin is one combined goal from history — the whole league is watching",
           "body": [
-            "<strong>Sidney Crosby</strong> returned to Pittsburgh's lineup Wednesday after missing time with an upper-body injury, and for most of the night it looked like a storybook comeback — the Penguins led 5–4 with under a minute left. Then <strong>Sean Walker</strong> scored with 28.3 seconds left to tie it, and Walker again delivered in overtime as Carolina won 6–5. The Hurricanes remain atop the Metropolitan Division. Pittsburgh got a great Crosby performance but nothing to show for it."
+            "<strong>Alex Ovechkin</strong> stands at 999 combined regular season and playoff goals. He scored No. 922 in the regular season on Wednesday (77 career playoff goals) — and all of hockey is waiting for No. 1,000. The Capitals play again this weekend, and there's a genuine chance it comes at home. In the same game Wednesday, rookie <strong>Cole Hutson</strong> scored his first NHL goal, making it one of the more memorable nights Washington has seen in years."
           ]
         }
       ]
@@ -102,11 +95,9 @@
     "mlb": {
       "stories": [
         {
-          "kicker": "Spring Training",
-          "headline": "WBC stars trickle back to camps — Opening Night eight days away",
+          "headline": "Spring rosters taking shape — five days until Opening Night",
           "body": [
-            "Players from the World Baseball Classic are reporting to spring training sites this week, and MLB teams are balancing excitement with caution about workloads. Venezuela's <strong>Eugenio Suárez</strong> and <strong>Eduardo Rodriguez</strong> — the heroes of Tuesday's final — return to their respective clubs. <strong>Bryce Harper</strong> and Team USA stars head back to Phillies camp. The window to finalize 26-man rosters is shrinking fast with <strong>Opening Night on March 25</strong>.",
-            "One subplot worth watching: teams that sent multiple starters to the WBC — the <strong>Dodgers</strong>, <strong>Yankees</strong>, and <strong>Padres</strong> most notably — are managing pitch counts carefully. No one wants their ace arriving at the regular season gassed."
+            "With the WBC concluded and Opening Night five days away on <strong>March 25</strong>, MLB rosters are coming into focus. The <strong>Yankees</strong>, <strong>Dodgers</strong>, and <strong>Padres</strong> are integrating WBC returnees on short ramp-up timelines. Venezuela's <strong>Eugenio Suárez</strong> and <strong>Eduardo Rodriguez</strong> are back with their clubs. Team USA's <strong>Bryce Harper</strong> resumed live batting practice in Clearwater on Thursday. Every team with WBC participants is carefully monitoring workloads — no one wants a star sidelined come April."
           ]
         }
       ]
