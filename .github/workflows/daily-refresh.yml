@@ -1,0 +1,40 @@
+name: Daily Whistle Refresh
+
+on:
+  schedule:
+    - cron: '0 13 * * *'   # 6:00 AM PDT (UTC-7) every day
+  workflow_dispatch:         # also allows manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install anthropic
+
+      - name: Run refresh script
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/refresh.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "Daily Whistle Bot"
+          git config user.email "daily-whistle-bot@users.noreply.github.com"
+          git add data.json
+          git diff --staged --quiet && echo "No changes to commit" || (
+            git commit -m "Daily update: $(date -u +'%Y-%m-%d')" &&
+            git push
+          )
