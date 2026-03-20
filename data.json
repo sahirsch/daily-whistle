@@ -1,63 +1,64 @@
 {
   "meta": {
-    "date": "2026-03-17",
-    "dayOfWeek": "Tuesday",
+    "date": "2026-03-19",
+    "dayOfWeek": "Thursday",
     "edition": "Morning",
-    "issue": 853
+    "issue": 854
   },
   "ticker": [
-    { "text": "VEN 3 · USA 2 — Venezuela wins WBC!", "type": "final", "badge": "WBC Champs", "badgeType": "wbc" },
-    { "text": "DET 130 · WAS 117", "type": "final", "badge": "Final" },
-    { "text": "NYK 136 · IND 110", "type": "final", "badge": "Final" },
-    { "text": "MTL 3 · BOS 2 OT", "type": "final", "badge": "Final/OT" },
-    { "text": "MIN 4 · CHI 3 OT", "type": "final", "badge": "Final/OT" },
-    { "text": "TBL 6 · SEA 2", "type": "final", "badge": "Final" }
+    { "text": "WSH 4 · OTT 1 — Ovi #922", "type": "final", "badge": "Final" },
+    { "text": "DAL 2 · COL 1 SO", "type": "final", "badge": "Final/SO" },
+    { "text": "CAR 6 · PIT 5 OT", "type": "final", "badge": "Final/OT" },
+    { "text": "BOS 120 · GSW 99", "type": "final", "badge": "Final" },
+    { "text": "NOP 124 · LAC 109", "type": "final", "badge": "Final" },
+    { "text": "LAL def. HOU — LeBron/Luka 70", "type": "final", "badge": "Final" }
   ],
   "scoreboard": {
     "nba": {
       "games": [
-        { "away": "DET", "awayScore": 130, "home": "WAS", "homeScore": 117, "winner": "away", "status": "final", "tag": "Duren 36 pts/12 reb · Cunningham exits", "tagType": "context" },
-        { "away": "NYK", "awayScore": 136, "home": "IND", "homeScore": 110, "winner": "away", "status": "final", "tag": "Hart 33 pts · 12-of-13 FG", "tagType": "context" }
+        { "away": "GSW", "awayScore": 99, "home": "BOS", "homeScore": 120, "winner": "home", "status": "final", "tag": "Brown 32 pts · passes Cowens all-time", "tagType": "context" },
+        { "away": "NOP", "awayScore": 124, "home": "LAC", "homeScore": 109, "winner": "away", "status": "final", "tag": "final", "tagType": "final" },
+        { "away": "LAL", "awayScore": null, "home": "HOU", "homeScore": null, "winner": "away", "status": "final", "tag": "LeBron + Luka: 70 combined", "tagType": "context" }
       ],
-      "note": "OKC clinched a playoff spot — 9th straight win; Russell Westbrook climbs to 5th all-time in assists"
+      "note": "Celtics close a 3-game homestand sweep — Tatum 24/10 in blowout of Warriors"
     },
     "nhl": {
       "games": [
-        { "away": "MTL", "awayScore": 3, "home": "BOS", "homeScore": 2, "winner": "away", "status": "final", "tag": "OT · Caufield winner", "tagType": "context" },
-        { "away": "MIN", "awayScore": 4, "home": "CHI", "homeScore": 3, "winner": "away", "status": "final", "tag": "OT · Zuccarello winner", "tagType": "context" },
-        { "away": "TBL", "awayScore": 6, "home": "SEA", "homeScore": 2, "winner": "away", "status": "final", "tag": "Kucherov: 3G 2A · 2nd in Art Ross", "tagType": "context" }
+        { "away": "WSH", "awayScore": 4, "home": "OTT", "homeScore": 1, "winner": "away", "status": "final", "tag": "Ovechkin goal No. 922 · 78 shy of 1,000", "tagType": "context" },
+        { "away": "DAL", "awayScore": 2, "home": "COL", "homeScore": 1, "winner": "away", "status": "final", "tag": "SO · Stars within 2 of Central lead", "tagType": "context" },
+        { "away": "PIT", "awayScore": 5, "home": "CAR", "homeScore": 6, "winner": "home", "status": "final", "tag": "OT · Crosby returns · Walker winner", "tagType": "context" }
       ],
-      "note": "Two overtime thrillers on a packed 8-game Tuesday slate — Kucherov moves to 2nd in scoring"
+      "note": "Six-game Wednesday slate — Stars 15-1-1 in last 17, surging toward Avalanche atop the Central"
     },
     "wbc": {
       "label": "WBC — Final",
       "games": [
-        { "away": "VEN", "awayScore": 3, "home": "USA", "homeScore": 2, "winner": "away", "status": "final", "tag": "Venezuela's first WBC title", "tagType": "wbc" }
+        { "away": "VEN", "awayScore": 3, "home": "USA", "homeScore": 2, "winner": "away", "status": "final", "tag": "Venezuela wins first WBC title", "tagType": "wbc" }
       ],
-      "note": "Suárez RBI double in 9th · Harper HR tied it in 8th · Venezuela wins first-ever Classic crown"
+      "note": "Suárez 9th-inning double sealed it Tuesday · WBC stars return to spring camps this week"
     }
   },
   "topStories": [
     {
-      "kicker": "WBC Champion",
-      "headline": "Venezuela stuns Team USA in the ninth to claim first WBC title",
+      "kicker": "History on Ice",
+      "headline": "Ovechkin scores No. 922 — one of the greatest nights in Washington sports history",
       "body": [
-        "<strong>Venezuela</strong> captured its first World Baseball Classic championship with a heart-stopping 3–2 victory over Team USA on Tuesday night at loanDepot Park in Miami. <strong>Eugenio Suárez</strong> delivered the go-ahead RBI double against Garrett Whitlock in the top of the ninth, and closer <strong>Daniel Palencia</strong> retired the side in order to seal history. The U.S. had tied the game 2–2 in the eighth on a towering <strong>Bryce Harper</strong> center-field homer before Venezuela answered immediately.",
-        "<strong>Eduardo Rodriguez</strong> was the unsung hero — four scoreless innings, just one hit, four strikeouts against a loaded American lineup. <strong>Wilyer Abreu</strong>'s solo homer in the fifth had provided breathing room. Venezuela entered as underdogs, beat Japan and Italy in back-to-back nights with a taxed bullpen, and still found a way."
+        "<strong>Alex Ovechkin</strong> scored his 922nd career goal on Wednesday, deflecting a Rasmus Sandin centering pass off his right skate past Linus Ullmark to give Washington a 1–0 lead over Ottawa in the second period. It was his 25th goal of the season, tying <strong>Gordie Howe</strong> for the most 25-goal seasons in NHL history. The Capitals won 4–1. Ovechkin is now 78 goals from <strong>1,000 career goals</strong> — a number that once seemed impossible and now seems inevitable, if his legs hold.",
+        "Adding to the magic: rookie <strong>Cole Hutson</strong> scored his first NHL goal in the same game, one of those rare nights where history and youth collide cleanly. The Capital One Arena was electric."
       ]
     },
     {
-      "kicker": "NBA Concern",
-      "headline": "Cade Cunningham exits with back spasms — Pistons' stretch-run worry",
+      "kicker": "Central Division",
+      "headline": "Dallas stuns Colorado in a shootout — the Western Conference race just got interesting",
       "body": [
-        "<strong>Cade Cunningham</strong> left Detroit's 130–117 win over Washington in the first quarter after reaggravating back spasms diving for a loose ball. He returned briefly before being removed at the 6:40 mark and did not come back. The Pistons won anyway — <strong>Jalen Duren</strong> was dominant with 36 points and 12 rebounds — but the timing is terrible for Eastern Conference-leading Detroit heading into the stretch. An update is expected Wednesday."
+        "<strong>Jake Oettinger</strong> made 33 saves and stopped all three shootout attempts as the Dallas Stars upset the Colorado Avalanche 2–1 in Denver on Wednesday night. <strong>Wyatt Johnston</strong> scored the lone shootout goal in round three to complete it. The Stars have now gone <strong>15–1–1 in their last 17 games</strong>, a scorching run that has them within two points of Colorado atop the Central Division. The Avalanche's lead at the top of the West suddenly looks much less comfortable."
       ]
     },
     {
-      "kicker": "Art Ross Chase",
-      "headline": "Kucherov's 5-point night rockets him into the scoring race",
+      "kicker": "Brown Passes Cowens",
+      "headline": "Jaylen Brown is top 10 all-time in Celtics scoring — Boston closes the homestand in style",
       "body": [
-        "<strong>Nikita Kucherov</strong> had three goals and two assists as Tampa Bay routed Seattle 6–2, moving him to second in the Art Ross Trophy race. It was one of the most dominant individual performances of the NHL season — three different ways he put pucks in the net, and the Lightning looked every bit as dangerous as their Cup-window reputation demands."
+        "<strong>Jaylen Brown</strong> scored 32 points Wednesday, passing <strong>Dave Cowens</strong> to move into 10th on Boston's all-time scoring list. <strong>Jayson Tatum</strong> added 24 points and 10 rebounds in his third double-double in six games. The Celtics romped past Golden State 120–99 to sweep a three-game homestand. The Warriors, now 32–38, are out of the play-in picture entirely."
       ]
     }
   ],
@@ -66,16 +67,16 @@
       "stories": [
         {
           "divider": "Scores & Standings",
-          "headline": "Hart goes 12-of-13, OKC clinches — a banner Tuesday in the NBA",
+          "headline": "LeBron and Luka combine for 70 as Lakers extend streak to seven",
           "body": [
-            "The night's most aesthetically pleasing performance: <strong>Josh Hart</strong> went 12-of-13 from the field and 5-of-5 from three for a season-high 33 points as the Knicks blitzed Indiana 136–110. In Detroit, <strong>Jalen Duren</strong> carried the Pistons past Washington 130–117 while Cunningham watched the second half from the bench. Rookie <strong>Will Riley</strong> added 21 points for Washington. <strong>OKC</strong> clinched a playoff berth with their 9th straight win, and <strong>Russell Westbrook</strong> moved to fifth all-time in assists on the night."
+            "<strong>LeBron James</strong> and <strong>Luka Doncic</strong> combined for 70 points as the Los Angeles Lakers won in Houston on Wednesday, matching their longest winning streak of the season at seven games. The Lakers are firmly in the West playoff picture with this run, and the James-Doncic pairing continues to find new gears late in the season. <strong>New Orleans</strong> also got a comfortable 124–109 road win over the Clippers, led by a quietly strong Pelicans squad trending up at the right time."
           ]
         },
         {
           "divider": "Injuries & News",
-          "headline": "Cunningham update Wednesday — Bub Carrington quietly putting up numbers",
+          "headline": "Celtics' Tatum back healthy — Warriors' Curry timeline still murky",
           "body": [
-            "Detroit will provide a full update on <strong>Cade Cunningham's</strong> back on Wednesday. The Pistons atop the East cannot afford extended absence from their All-Star. On the Washington side, <strong>Bub Carrington</strong> scored a season-high 30 — a bright spot on a 13-game losing skid. Several WBC-participating players begin returning to spring training camps this week, and MLB teams with major league rosters still unsettled will be glad to have them back."
+            "Jayson Tatum played 34 minutes Wednesday with no restrictions, a good sign after the Achilles tendinopathy that had him questionable earlier in the week. Boston looks healthy entering the home stretch. On the other end, <strong>Stephen Curry's</strong> knee rehab has no firm return date. Golden State (32–38) has lost six straight and is officially a lottery team. The organization faces real questions about who's on the roster come October."
           ]
         }
       ]
@@ -83,17 +84,17 @@
     "nhl": {
       "stories": [
         {
-          "divider": "Playoff Race",
-          "headline": "Montreal shocks Boston in OT — Atlantic Division race is wide open",
+          "divider": "Central Division",
+          "headline": "Dallas is on fire — 15-1-1 in 17 games, closing in on Colorado",
           "body": [
-            "<strong>Cole Caufield</strong> scored 57 seconds into overtime as Montreal upended Boston 3–2 in a genuine statement win. The Bruins had led heading into the third period, but the Canadiens have been one of hockey's hottest teams since the deadline. Separately, <strong>Mats Zuccarello</strong> won it in overtime as Minnesota edged Chicago 4–3. Two overtime games in one night — March hockey is delivering."
+            "The Dallas Stars are playing the best hockey in the Western Conference right now. Wednesday's shootout win in Colorado — where they outshot the Avalanche and <strong>Oettinger</strong> was a wall — extended a remarkable run. <strong>Jason Robertson</strong> scored in regulation. The Stars (43–15–10) are within two points of the Avalanche for the Central lead and have genuine Cup contender credentials. Colorado's margin for error just got thinner."
           ]
         },
         {
-          "divider": "Individual Brilliance",
-          "headline": "Kucherov looks like a Hart Trophy candidate again — Tampa is dangerous",
+          "divider": "Metropolitan Division",
+          "headline": "Crosby returns; Hurricanes survive a wild one in OT",
           "body": [
-            "<strong>Nikita Kucherov</strong> scored three times and added two assists — 5 points — as Tampa Bay dismantled Seattle 6–2. He's now second in the Art Ross scoring race and playing as well as anyone in the league. The Lightning's forward group, with Kucherov operating at this level, makes them a legitimate dark-horse Cup contender with the playoffs weeks away."
+            "<strong>Sidney Crosby</strong> returned to Pittsburgh's lineup Wednesday after missing time with an upper-body injury, and for most of the night it looked like a storybook comeback — the Penguins led 5–4 with under a minute left. Then <strong>Sean Walker</strong> scored with 28.3 seconds left to tie it, and Walker again delivered in overtime as Carolina won 6–5. The Hurricanes remain atop the Metropolitan Division. Pittsburgh got a great Crosby performance but nothing to show for it."
           ]
         }
       ]
@@ -101,17 +102,11 @@
     "mlb": {
       "stories": [
         {
-          "kicker": "World Baseball Classic",
-          "headline": "Venezuela is champion — Suárez, Abreu, Rodriguez write the story",
+          "kicker": "Spring Training",
+          "headline": "WBC stars trickle back to camps — Opening Night eight days away",
           "body": [
-            "The road to the WBC title was anything but smooth. <strong>Venezuela</strong> dropped their final Pool D game, then came back to beat Japan (the defending champion) and Italy in the knockout rounds on back-to-back nights with a stretched bullpen. In the final, <strong>Eduardo Rodriguez</strong> gave four brilliant scoreless innings, <strong>Wilyer Abreu</strong> hit the go-ahead homer in the fifth, and <strong>Eugenio Suárez</strong> wrote the final sentence with his ninth-inning double against Whitlock. <strong>Bryce Harper's</strong> tying shot in the eighth looked like it might flip the game — instead it just made Venezuela's winner feel more earned.",
-            "For <strong>Team USA</strong>, a gut-punch after a strong run that included a semifinal win over the Dominican Republic thanks to a <strong>Roman Anthony</strong> solo shot. USA has now been eliminated in the championship game for the second straight WBC. MLB regular season opens <strong>March 25</strong>."
-          ]
-        },
-        {
-          "headline": "WBC stars return to camp — rosters take shape eight days before Opening Night",
-          "body": [
-            "With the Classic concluded, WBC players head back to spring training this week. Teams with heavy WBC rosters — the <strong>Yankees</strong>, <strong>Dodgers</strong>, <strong>Padres</strong>, and <strong>Astros</strong> — will have limited ramp-up time before the regular season. The good news for managers: every player returning from Miami is in peak mid-season condition. <strong>Opening Night is March 25</strong> — eight days away and counting."
+            "Players from the World Baseball Classic are reporting to spring training sites this week, and MLB teams are balancing excitement with caution about workloads. Venezuela's <strong>Eugenio Suárez</strong> and <strong>Eduardo Rodriguez</strong> — the heroes of Tuesday's final — return to their respective clubs. <strong>Bryce Harper</strong> and Team USA stars head back to Phillies camp. The window to finalize 26-man rosters is shrinking fast with <strong>Opening Night on March 25</strong>.",
+            "One subplot worth watching: teams that sent multiple starters to the WBC — the <strong>Dodgers</strong>, <strong>Yankees</strong>, and <strong>Padres</strong> most notably — are managing pitch counts carefully. No one wants their ace arriving at the regular season gassed."
           ]
         }
       ]
