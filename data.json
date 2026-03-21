@@ -1,57 +1,60 @@
 {
   "meta": {
-    "date": "2026-03-20",
-    "dayOfWeek": "Friday",
+    "date": "2026-03-21",
+    "dayOfWeek": "Saturday",
     "edition": "Morning",
-    "issue": 855
+    "issue": 856
   },
   "ticker": [
-    { "text": "LAL 134 · MIA 126 — Luka 60!", "type": "final", "badge": "Final" },
-    { "text": "SAS 101 · PHX 100 — Spurs clinch!", "type": "final", "badge": "Final" },
-    { "text": "FLA 4 · EDM 0 — Bobrovsky SO", "type": "final", "badge": "Final" },
-    { "text": "WSH — Ovi one goal from 1,000", "type": "final", "badge": "999 combined" }
+    { "text": "NYK 93 · BKN 92 — 14th straight", "type": "final", "badge": "Final" },
+    { "text": "HOU 117 · ATL 95 — streak over", "type": "final", "badge": "Final" },
+    { "text": "BOS 117 · MEM 112", "type": "final", "badge": "Final" },
+    { "text": "DET 115 · GSW 101", "type": "final", "badge": "Final" },
+    { "text": "POR 108 · MIN 104", "type": "final", "badge": "Final" },
+    { "text": "DEN 121 · TOR 115", "type": "final", "badge": "Final" }
   ],
   "scoreboard": {
     "nba": {
       "games": [
-        { "away": "LAL", "awayScore": 134, "home": "MIA", "homeScore": 126, "winner": "away", "status": "final", "tag": "Luka 60 pts · Most ever allowed by Heat", "tagType": "context" },
-        { "away": "SAS", "awayScore": 101, "home": "PHX", "homeScore": 100, "winner": "away", "status": "final", "tag": "Wemby 34/12 · Spurs clinch playoffs", "tagType": "context" }
+        { "away": "NYK", "awayScore": 93, "home": "BKN", "homeScore": 92, "winner": "away", "status": "final", "tag": "KAT 26/15 · Knicks' 14th straight vs Nets", "tagType": "context" },
+        { "away": "HOU", "awayScore": 117, "home": "ATL", "homeScore": 95, "winner": "away", "status": "final", "tag": "KD 25 · Hawks' 11-game streak ends", "tagType": "context" },
+        { "away": "BOS", "awayScore": 117, "home": "MEM", "homeScore": 112, "winner": "away", "status": "final", "tag": "Brown: Player of the Night", "tagType": "context" },
+        { "away": "POR", "awayScore": 108, "home": "MIN", "homeScore": 104, "winner": "away", "status": "final", "tag": "Grant buzzer 3 · 22.2 sec left", "tagType": "context" }
       ],
-      "note": "Lakers 8-game win streak · LeBron ties Robert Parrish for most games in NBA history"
+      "note": "Pistons 115, Warriors 101 · Nuggets 121, Raptors 115 — full 6-game Friday slate"
     },
     "nhl": {
       "games": [
-        { "away": "FLA", "awayScore": 4, "home": "EDM", "homeScore": 0, "winner": "away", "status": "final", "tag": "Bobrovsky SO · Cup Final rematch", "tagType": "context" }
+        { "away": "COL", "awayScore": null, "home": "CHI", "homeScore": null, "winner": null, "status": "final", "tag": "COL clinches West's 1st playoff spot", "tagType": "context" }
       ],
-      "note": "11-game Thursday slate — Panthers shut out Oilers in Cup Final rematch; Ovechkin 1 combined goal from 1,000"
+      "note": "Colorado clinches — Makar closing in on 500 career points; Toronto vs Ottawa in Atlantic showdown"
     },
     "wbc": {
       "label": "MLB — Spring Training",
       "games": [],
-      "note": "Venezuela WBC champions return to spring camps · Opening Night: March 25"
+      "note": "Opening Night 4 days away — March 25 · Rosters finalizing this weekend"
     }
   },
   "topStories": [
     {
-      "kicker": "Luka Masterclass",
-      "headline": "60 points. LeBron's record night. Lakers are on fire.",
+      "kicker": "NY Rivalry",
+      "headline": "KAT, Brunson bail out the Knicks — 14 straight over the Nets",
       "body": [
-        "<strong>Luka Dončić</strong> scored 60 points — a season high, and the most points ever allowed in Miami Heat history — as the Los Angeles Lakers rallied past Miami 134–126 on Thursday. Dončić was practically unstoppable in the second half, scoring 39 of his 60 after the break. He went 18-of-30 from the field, 9-of-17 from three, and 15-of-19 from the line, topping <strong>James Harden's</strong> previous Heat-opponent record of 58. In doing so he also passed D'Angelo Russell for the Lakers' single-season three-point record.",
-        "That wasn't even the only history made. <strong>LeBron James</strong>, 41 years old, posted a 19-point, 15-rebound, 10-assist triple-double and in the process tied <strong>Robert Parrish</strong> for the most games played in NBA history. The Lakers are on an 8-game winning streak and surging up the West standings. <strong>Bam Adebayo</strong> (28 pts, 10 reb) kept Miami in it, but Luka simply had no ceiling Thursday night."
+        "The New York Knicks trailed by 13 in the first half, blew a 14-point fourth-quarter lead, and still found a way. <strong>Karl-Anthony Towns</strong> finished with 26 points and 15 rebounds, <strong>Jalen Brunson</strong> scored 17, and <strong>OG Anunoby</strong> added 16 as the Knicks survived Brooklyn 93–92 on Friday to win their 14th consecutive game in the local rivalry — the longest winning streak for either team in the series. <strong>Ben Saraf</strong> had a chance to win it for the Nets at the buzzer, but his 45-footer was off. <strong>Josh Minott</strong> had 22 for Brooklyn in a loss that keeps the Nets firmly in lottery territory."
       ]
     },
     {
-      "kicker": "Wemby Does It",
-      "headline": "Wembanyama's fadeaway ends a 6-year wait — Spurs are back in the playoffs",
+      "kicker": "Streak Snapped",
+      "headline": "Rockets end Atlanta's 11-game run — KD and Jabari dominate",
       "body": [
-        "<strong>Victor Wembanyama</strong> buried a 17-foot fadeaway over Oso Ighodaro with 1.1 seconds remaining to lift San Antonio past Phoenix 101–100, clinching the Spurs' first playoff berth since 2019. The 22-year-old finished with 34 points, 12 rebounds, and 3 steals. The Spurs had not made the postseason in six seasons — the longest drought in franchise history — and they ended it with one of the most dramatic shots of the year. Wembanyama is the runaway frontrunner for the Western Conference's most exciting player this season."
+        "The Atlanta Hawks' 11-game winning streak — the longest in the East this season — came to a halt Friday night. <strong>Kevin Durant</strong> scored 25 points and <strong>Jabari Smith Jr.</strong> added 23 as Houston rolled to a 117–95 victory. The Rockets have quietly crept into serious West playoff seeding contention, and Durant looked every bit the postseason-ready veteran Atlanta had no answer for. The Hawks (now 42–28) still hold a top-four Eastern seed, but the loss exposed some defensive lapses that could matter come April."
       ]
     },
     {
-      "kicker": "Cup Final Rematch",
-      "headline": "Bobrovsky blanks the Oilers — Panthers still own Edmonton",
+      "kicker": "Last-Second Drama",
+      "headline": "Grant's buzzer three lifts Portland — Timberwolves drop a killer one",
       "body": [
-        "<strong>Sergei Bobrovsky</strong> stopped all 21 shots he faced as the Florida Panthers shut out the Edmonton Oilers 4–0 in a Stanley Cup Final rematch Thursday night. It was Bobrovsky's 4th shutout of the season and 53rd of his career. <strong>Carter Verhaeghe</strong> and <strong>Anton Lundell</strong> scored for Florida. The Panthers have now thoroughly dominated the Oilers in their last two meetings — a statement from a team that considers themselves the gold standard of the modern NHL."
+        "<strong>Jerami Grant</strong> hit a go-ahead three-pointer with 22.2 seconds left as the Portland Trail Blazers escaped Minnesota 108–104, handing the Timberwolves a painful late-season loss. Minnesota, fighting for playoff seeding, had led for most of the fourth quarter. The win keeps Portland in the play-in conversation — one of the NBA's most unexpectedly competitive fringe stories of March."
       ]
     }
   ],
@@ -60,16 +63,16 @@
       "stories": [
         {
           "divider": "Scores & Standings",
-          "headline": "Lakers surge, Spurs clinch — the West is getting wild",
+          "headline": "Brown leads Celtics, Pistons keep rolling — Friday's full slate",
           "body": [
-            "Two of the night's best stories came from the West. The <strong>Lakers</strong> (now 8-game winners) are climbing the standings fast behind the Dončić-LeBron pairing operating at its absolute peak. The <strong>Spurs</strong> (43–27) have quietly put together one of the best second halves in the league and are now locked in for the postseason with Wembanyama looking better every week. Meanwhile, OKC remains the 1-seed — but the West from 3 through 8 is brutally tight with less than three weeks to go."
+            "<strong>Jaylen Brown</strong> was named Player of the Night after leading Boston past Memphis 117–112 in a tighter-than-expected road win. The Celtics (50–19) are the East's runaway 1-seed and maintaining their dominant position. In Detroit, the <strong>Pistons</strong> (51–18) beat Golden State 115–101 — their Eastern Conference-leading record remains intact even with Cunningham's back still being monitored. <strong>Nikola Jokić</strong> and the Nuggets handled Toronto 121–115 as Denver holds steady in the West's 4-seed."
           ]
         },
         {
-          "divider": "Historic Milestones",
-          "headline": "LeBron ties Parrish — and he's still producing at an elite level",
+          "divider": "Playoff Picture",
+          "headline": "Hawks streak ends but their seed is safe — West fringe is chaos",
           "body": [
-            "<strong>LeBron James</strong> has now played as many NBA games as <strong>Robert Parrish</strong> — more than anyone in history. What makes Thursday different from other record nights: he didn't just show up, he posted a genuine triple-double (19/15/10) in a meaningful late-season win. At 41, he's still a first-team candidate on the Lakers. The record-setter one game ahead of him: Parrish himself, at 1,611. James needs one more to be alone at the top of the all-time games list."
+            "Atlanta's 11-game run is over but the Hawks aren't panicking — they're still firmly in the top four of the Eastern Conference. The West fringe from 5 through 9 remains a blur: <strong>OKC</strong> sits 1st, but seeds 5–9 are separated by just over two games. Portland's win and Minnesota's loss only tighten the scramble. Every game in the West matters now."
           ]
         }
       ]
@@ -77,17 +80,17 @@
     "nhl": {
       "stories": [
         {
-          "divider": "Playoff Picture",
-          "headline": "Panthers prove the Cup wasn't a fluke — Bobrovsky in Vezina territory",
+          "divider": "Western Conference",
+          "headline": "Colorado clinches — Makar closing in on 500 career points",
           "body": [
-            "Florida shut out Edmonton 4–0 in what amounted to a statement game. The Panthers were clean, disciplined, and Bobrovsky was impenetrable. His 4th shutout of the season cements him as a legitimate <strong>Vezina Trophy</strong> candidate. Florida's defensive structure — anchored by a deep blue line and one of the league's best goaltenders — makes them an uncomfortable first-round opponent for anyone. The Oilers, missing McDavid-level production in this game, were never really in it."
+            "The Colorado Avalanche became the first team in the NHL to clinch a playoff berth Friday, beating Chicago to lock up a postseason spot with weeks still to go. It's the expected outcome for a club that's been the West's class team all season. <strong>Cale Makar</strong> is closing in on 500 career points — a milestone that, if he hits it this week, would make him one of the fastest defensemen in history to reach the mark. Colorado's regular season has been a clinic in sustained excellence."
           ]
         },
         {
-          "divider": "Chase for 1,000",
-          "headline": "Ovechkin is one combined goal from history — the whole league is watching",
+          "divider": "Atlantic Division",
+          "headline": "Toronto-Ottawa heats up — four points separate three Atlantic teams",
           "body": [
-            "<strong>Alex Ovechkin</strong> stands at 999 combined regular season and playoff goals. He scored No. 922 in the regular season on Wednesday (77 career playoff goals) — and all of hockey is waiting for No. 1,000. The Capitals play again this weekend, and there's a genuine chance it comes at home. In the same game Wednesday, rookie <strong>Cole Hutson</strong> scored his first NHL goal, making it one of the more memorable nights Washington has seen in years."
+            "The Maple Leafs and Senators met Friday in a division game with real stakes. Toronto (40–22–8) and Ottawa (37–24–9) are separated by just four points in the Atlantic standings with the Bruins lurking. Every Atlantic game is a playoff audition now — these teams are playing meaningful hockey in the season's final three weeks. The winner of the division race likely earns home-ice advantage in the first round."
           ]
         }
       ]
@@ -95,9 +98,9 @@
     "mlb": {
       "stories": [
         {
-          "headline": "Spring rosters taking shape — five days until Opening Night",
+          "headline": "Four days to Opening Night — rosters must be set by Sunday",
           "body": [
-            "With the WBC concluded and Opening Night five days away on <strong>March 25</strong>, MLB rosters are coming into focus. The <strong>Yankees</strong>, <strong>Dodgers</strong>, and <strong>Padres</strong> are integrating WBC returnees on short ramp-up timelines. Venezuela's <strong>Eugenio Suárez</strong> and <strong>Eduardo Rodriguez</strong> are back with their clubs. Team USA's <strong>Bryce Harper</strong> resumed live batting practice in Clearwater on Thursday. Every team with WBC participants is carefully monitoring workloads — no one wants a star sidelined come April."
+            "MLB teams face roster submission deadlines this weekend ahead of <strong>Opening Night on March 25</strong>. The most watched situations: the <strong>Yankees</strong> are deciding between two rotation spots with Juan Soto and Gerrit Cole headlining the lineup; the <strong>Dodgers</strong> are managing a crowded outfield after WBC returns; and the <strong>Padres</strong> are watching <strong>Fernando Tatis Jr.</strong>'s wrist closely after his WBC workload. Spring training games wrap Sunday, and the real thing starts in four days."
           ]
         }
       ]
