@@ -1,91 +1,90 @@
 {
   "meta": {
-    "date": "2026-03-21",
+    "date": "2026-04-11",
     "dayOfWeek": "Saturday",
     "edition": "Morning",
-    "issue": 856
+    "issue": 877
   },
   "ticker": [
-    { "text": "NYK 93 · BKN 92 — KAT 26/15", "type": "final", "badge": "Final" },
-    { "text": "HOU 117 · ATL 95 — streak over", "type": "final", "badge": "Final" },
-    { "text": "BOS 117 · MEM 112", "type": "final", "badge": "Final" },
-    { "text": "POR 108 · MIN 104 — Grant buzzer", "type": "final", "badge": "Final" },
-    { "text": "Real Madrid 2 · Man City 1", "type": "final", "badge": "UCL" },
-    { "text": "Liverpool 4 · Galatasaray 0", "type": "final", "badge": "UCL" },
-    { "text": "Sinner wins Miami Open — Sunshine Double", "type": "final", "badge": "Tennis" },
-    { "text": "Antonelli leads F1 standings", "type": "final", "badge": "F1" },
-    { "text": "COL clinches — 1st team to playoffs", "type": "final", "badge": "NHL" },
-    { "text": "Valspar R3 underway — Masters in 19 days", "type": "next", "badge": "Golf" }
+    { "text": "McIlroy -12 · 6-shot Masters lead", "type": "final", "badge": "Masters R2" },
+    { "text": "Bayern 2 · Real Madrid 1 — UCL QF", "type": "final", "badge": "UCL" },
+    { "text": "PSG 2 · Liverpool 0 — UCL QF", "type": "final", "badge": "UCL" },
+    { "text": "Wemby 40p/13r in 26 min — Spurs", "type": "final", "badge": "NBA" },
+    { "text": "COL claims Presidents' Trophy · MacKinnon #52", "type": "final", "badge": "NHL" },
+    { "text": "Caufield 50th · MTL edges TBL 2-1", "type": "final", "badge": "NHL" },
+    { "text": "NYK 112 · TOR 95 — Knicks clinch 3-seed", "type": "final", "badge": "NBA" },
+    { "text": "Dodgers 9-3 · Ohtani OB streak: 40", "type": "final", "badge": "MLB" },
+    { "text": "NASCAR Bristol — Food City 500 today", "type": "next", "badge": "12:30 ET · FOX" },
+    { "text": "Masters R3 — McIlroy tee time 2:30 ET", "type": "next", "badge": "CBS" }
   ],
   "scoreboard": {
     "nba": {
       "games": [
-        { "away": "NYK", "awayScore": 93, "home": "BKN", "homeScore": 92, "winner": "away", "status": "final", "tag": "KAT 26/15 · 14th straight vs Nets", "tagType": "context" },
-        { "away": "HOU", "awayScore": 117, "home": "ATL", "homeScore": 95, "winner": "away", "status": "final", "tag": "KD 25 · Hawks' 11-game streak ends", "tagType": "context" },
-        { "away": "BOS", "awayScore": 117, "home": "MEM", "homeScore": 112, "winner": "away", "status": "final", "tag": "Brown: Player of the Night", "tagType": "context" },
-        { "away": "POR", "awayScore": 108, "home": "MIN", "homeScore": 104, "winner": "away", "status": "final", "tag": "Grant buzzer 3 · 22.2 sec left", "tagType": "context" }
+        { "away": "SAS", "awayScore": null, "home": "DAL", "homeScore": null, "winner": "away", "status": "final", "tag": "Wemby 40p/13r/5a in 26 min — fastest ever", "tagType": "context" },
+        { "away": "NOP", "awayScore": 118, "home": "BOS", "homeScore": 144, "winner": "home", "status": "final", "tag": "BOS clinch No. 2 seed", "tagType": "context" },
+        { "away": "TOR", "awayScore": 95, "home": "NYK", "homeScore": 112, "winner": "home", "status": "final", "tag": "NYK clinch No. 3 seed", "tagType": "context" },
+        { "away": "OKC", "awayScore": 107, "home": "DEN", "homeScore": 127, "winner": "home", "status": "final", "tag": "Nuggets surge late", "tagType": "final" }
       ],
-      "note": "Full slate: Pistons 115 Warriors 101 · Nuggets 121 Raptors 115"
+      "note": "15-game Friday · Hawks clinch playoff spot · PHI 105 IND 94 · BUK 125 NKS 108 · Regular season ends Sunday"
     },
     "nhl": {
       "games": [
-        { "away": "COL", "awayScore": null, "home": "CHI", "homeScore": null, "winner": "away", "status": "final", "tag": "COL clinches — 1st playoff spot", "tagType": "context" }
+        { "away": "COL", "awayScore": 3, "home": "CGY", "homeScore": 1, "winner": "away", "status": "final", "tag": "Presidents' Trophy · MacKinnon #52", "tagType": "context" },
+        { "away": "TBL", "awayScore": 1, "home": "MTL", "homeScore": 2, "winner": "home", "status": "final", "tag": "Caufield 50th goal · Slafkovsky winner", "tagType": "context" },
+        { "away": "DAL", "awayScore": 5, "home": "MIN", "homeScore": 4, "winner": "away", "status": "final", "tag": "Robertson breaks 4-4 in 3rd", "tagType": "context" }
       ],
-      "note": "Colorado clinches West · Makar closing on 500 career points · TOR–OTT Atlantic battle"
+      "note": "Playoffs begin April 18 · Stanley Cup Playoffs Buzz: Sabres lead Atlantic · Avalanche top seed locked"
     },
     "wbc": {
-      "label": "MLB — Spring Training",
+      "label": "MLB — Regular Season",
       "games": [],
-      "note": "Opening Night in 4 days · March 25 · Rosters finalize this weekend"
+      "note": "Dodgers 9-3 · Yankees 8-2 · Brewers 8-3 · Ohtani on-base streak: 40 straight games"
     },
     "soccer": {
-      "label": "UCL — Round of 16",
+      "label": "UCL — Quarter-Finals, 1st Leg",
       "games": [
-        { "away": "MCI", "awayScore": 1, "home": "RMA", "homeScore": 2, "winner": "home", "status": "final", "tag": "RMA adv. 5-1 agg · Vinícius brace", "tagType": "context" },
-        { "away": "LIV", "awayScore": 4, "home": "GAL", "homeScore": 0, "winner": "away", "status": "final", "tag": "LIV adv · Salah UCL goal No. 50", "tagType": "context" },
-        { "away": "ARS", "awayScore": 2, "home": "LEV", "homeScore": 0, "winner": "away", "status": "final", "tag": "ARS adv. 3-1 agg", "tagType": "final" },
-        { "away": "PSG", "awayScore": 3, "home": "CHE", "homeScore": 0, "winner": "away", "status": "final", "tag": "PSG adv. 8-2 agg", "tagType": "context" }
+        { "away": "BAY", "awayScore": 2, "home": "RMA", "homeScore": 1, "winner": "away", "status": "final", "tag": "Díaz + Kane · 2nd legs Apr 15", "tagType": "context" },
+        { "away": "PSG", "awayScore": 2, "home": "LIV", "homeScore": 0, "winner": "away", "status": "final", "tag": "Doué + Kvaratskhelia · 2nd leg Apr 14", "tagType": "context" },
+        { "away": "ATL", "awayScore": 2, "home": "BAR", "homeScore": 0, "winner": "away", "status": "final", "tag": "Álvarez + Sorloth · 10-man Barça", "tagType": "context" },
+        { "away": "ARS", "awayScore": 1, "home": "SPO", "homeScore": 0, "winner": "away", "status": "final", "tag": "Havertz 92' winner · 2nd leg Apr 15", "tagType": "context" }
       ],
-      "note": "QF draw: Real Madrid vs Bayern · PSG vs Liverpool · First legs April 7–8"
+      "note": "Second legs April 14–15 · Bayern lead Real Madrid · PSG control Liverpool tie"
     },
     "f1": {
-      "result": "🇦🇺 Australian GP: Russell 1st · Antonelli 2nd · 🇨🇳 Chinese GP: Antonelli 1st · Russell 2nd",
-      "note": "Antonelli leads championship · Japanese GP next weekend (Mar 27)"
-    },
-    "tennis": {
-      "result": "Sinner wins Miami Open 6-4 6-4 vs Lehecka — completes Sunshine Double without dropping a set",
-      "note": "First since Federer (2017) · Sabalenka sweeps IW + Miami on WTA side"
+      "result": "Standings: Antonelli 72 pts · Russell 63 · Leclerc 49 — after 3 races (AUS/CHN/JPN)",
+      "note": "Antonelli won China + Japan · Next: Miami GP May 1–3"
     },
     "golf": {
-      "result": "Valspar Championship R3 underway — Blanchet -7 leads at Innisbrook",
-      "note": "Final round tomorrow · Masters at Augusta April 9–12"
+      "result": "Masters R2: McIlroy -12 · 6-shot lead · historic 36-hole margin at Augusta",
+      "note": "Reed & Burns T2 at -6 · R3 today on CBS · Final round Sunday"
     },
     "nascar": {
-      "result": "Tyler Reddick leads Cup Series with 3 wins — Darlington race tomorrow (Mar 22)",
-      "note": "Reddick won COTA for historic 3rd straight to open season"
+      "result": "Food City 500 at Bristol today (12:30 ET · FOX) — Reddick leads Cup standings with 4 wins",
+      "note": "Chase Elliott won Martinsville last time out · Bristol short track wildcard"
     }
   },
   "topStories": [
     {
-      "kicker": "UCL Drama",
-      "headline": "Vinícius sinks Man City, Salah reaches 50 — the Champions League QF field is set",
+      "kicker": "Masters 2026",
+      "headline": "McIlroy at –12 with the largest 36-hole lead in Masters history — can anyone catch him?",
       "body": [
-        "<strong>Real Madrid</strong> knocked out <strong>Manchester City</strong> with a 2–1 win in the second leg (5–1 on aggregate) as <strong>Vinícius Júnior</strong> scored both goals and looked unstoppable throughout. It's another Champions League exit for a City side that increasingly looks like a team past its window. Meanwhile, <strong>Mohamed Salah</strong> scored his <strong>50th Champions League goal</strong> in Liverpool's ruthless 4–0 demolition of Galatasaray. <strong>Arsenal</strong> eliminated Bayer Leverkusen 3–1 on aggregate, and <strong>PSG</strong> swept Chelsea 8–2 over two legs.",
-        "The quarterfinal draw is set: <strong>Real Madrid vs. Bayern Munich</strong> and <strong>PSG vs. Liverpool</strong> headline the ties. First legs are April 7–8."
+        "<strong>Rory McIlroy</strong> birdied six of his final seven holes Friday to shoot 65 and reach 12-under par at Augusta National, taking a <strong>six-shot lead</strong> into the weekend — the largest 36-hole advantage in Masters history. He's seeking to become only the fourth player ever to defend the title at Augusta, joining Jack Nicklaus, Nick Faldo, and Tiger Woods.",
+        "<strong>Patrick Reed</strong> and <strong>Sam Burns</strong> are tied for second at –6. <strong>Bryson DeChambeau</strong> made a triple bogey at 18 and missed the cut. Round 3 is today on CBS with McIlroy's tee time at 2:30 ET."
       ]
     },
     {
-      "kicker": "Sunshine Double",
-      "headline": "Sinner does what no man has done since Federer — wins Indian Wells and Miami without dropping a set",
+      "kicker": "UCL Shocks",
+      "headline": "Bayern stuns Real Madrid, PSG silences Anfield — the quarterfinals have their stories",
       "body": [
-        "<strong>Jannik Sinner</strong> defeated Jiří Lehečka 6–4, 6–4 in the Miami Open final to complete the 'Sunshine Double' — winning both Indian Wells and Miami in the same season without dropping a set. He's the first man since <strong>Roger Federer in 2017</strong> to pull it off. Sinner beat <strong>Daniil Medvedev</strong> at Indian Wells, then dismantled <strong>Alexander Zverev</strong> in the semis and Lehečka in the final in Miami. On the WTA side, <strong>Aryna Sabalenka</strong> also swept both hardcourt Masters events."
+        "<strong>Bayern Munich</strong> beat <strong>Real Madrid</strong> 2–1 in the first leg on Tuesday, with <strong>Luis Díaz</strong> opening the scoring and <strong>Harry Kane</strong> doubling the lead within seconds of the second half. Real Madrid clawed one back but face a one-goal deficit heading to the Allianz Arena. On Wednesday, <strong>PSG</strong> dominated <strong>Liverpool</strong> 2–0 — <strong>Désiré Doué</strong> scored after 11 minutes and <strong>Khvicha Kvaratskhelia</strong> made it 2–0 in the 65th. The second legs are April 14–15.",
+        "<strong>Atlético Madrid</strong> beat 10-man <strong>Barcelona</strong> 2–0 with <strong>Julián Álvarez</strong> and <strong>Alexander Sorloth</strong> scoring. <strong>Arsenal</strong> edged Sporting CP 1–0 on a <strong>Kai Havertz</strong> goal in the 92nd minute."
       ]
     },
     {
-      "kicker": "NY Rivalry",
-      "headline": "Knicks survive the Nets 93–92 — 14 straight in the city rivalry",
+      "kicker": "Wembanyama",
+      "headline": "40 points, 13 rebounds in 26 minutes — the fastest 40/10/5 game in NBA history",
       "body": [
-        "<strong>Karl-Anthony Towns</strong> had 26 points and 15 rebounds, <strong>Jalen Brunson</strong> scored 17, and New York survived Brooklyn's furious fourth-quarter comeback to win 93–92. The Knicks trailed by 13 in the first half, blew a 14-point lead in the fourth, and were saved by <strong>Ben Saraf's</strong> missed 45-foot buzzer attempt. It's the Knicks' 14th consecutive win over the Nets — the longest winning streak for either team in the city rivalry."
+        "<strong>Victor Wembanyama</strong> reached 40 points, 13 rebounds, and 5 assists in just 26 minutes and 13 seconds on Friday, the fastest any player has ever recorded that stat line in NBA history. San Antonio won by 19 over Dallas. Wembanyama is now averaging 31.5 points, 12.4 rebounds, and 4.1 assists on the season — numbers that have the MVP conversation wide open with the playoffs one week away."
       ]
     }
   ],
@@ -93,17 +92,17 @@
     "nba": {
       "stories": [
         {
-          "divider": "Scores & Standings",
-          "headline": "Reddick-level dominance: Hawks streak snapped, Grant hits the buzzer, Celtics roll",
+          "divider": "Seeding & Clinches",
+          "headline": "Celtics 144–118, Knicks clinch 3 — the East bracket is nearly locked",
           "body": [
-            "<strong>Kevin Durant</strong> (25 pts) and <strong>Jabari Smith Jr.</strong> (23 pts) ended Atlanta's 11-game winning streak as Houston rolled 117–95. <strong>Jerami Grant</strong> broke Minnesota's hearts with a three-pointer at the 22.2-second mark to give Portland a 108–104 win — the Timberwolves are now on the wrong end of the play-in bubble. <strong>Jaylen Brown</strong> was Player of the Night as Boston handled Memphis 117–112. Detroit beat Golden State 115–101; Denver downed Toronto 121–115."
+            "Boston dropped 144 points on New Orleans to clinch the No. 2 seed — <strong>Jaylen Brown</strong> led with 33 and <strong>Jayson Tatum</strong> added 28. The Knicks beat Toronto 112–95 to lock up the 3-seed, with <strong>Karl-Anthony Towns</strong> dominant at both ends. The Atlanta Hawks clinched a playoff berth with a win over Cleveland. The regular season ends Sunday — seedings will be finalized."
           ]
         },
         {
-          "divider": "Injuries & News",
-          "headline": "Cunningham remains day-to-day — West chaos from 5 through 9",
+          "divider": "Friday Highlights",
+          "headline": "Wemby makes history, Nuggets beat OKC — 15-game Friday has everything",
           "body": [
-            "Detroit's <strong>Cade Cunningham</strong> (back spasms) remains day-to-day and the Pistons are being cautious heading into the final stretch. The Western Conference seeds 5 through 9 are separated by barely two games — Portland's win and Minnesota's loss tighten the race further. Every night in the West matters now, and the Trail Blazers are making a real push for the play-in."
+            "In a 15-game Friday slate with all 30 teams in action, <strong>Wembanyama's</strong> 40-point, 13-rebound, 5-assist performance in 26 minutes stole every highlight. Denver beat OKC 127–107 in a late-season statement. Philly beat Indiana 105–94 with <strong>Joel Embiid</strong> back healthy — the Sixers are playing confident basketball heading into the postseason."
           ]
         }
       ]
@@ -111,17 +110,17 @@
     "nhl": {
       "stories": [
         {
-          "divider": "Playoff Race",
-          "headline": "Colorado clinches — Makar is approaching an all-time defenseman milestone",
+          "divider": "Presidents' Trophy",
+          "headline": "Colorado clinches the Presidents' Trophy — MacKinnon's 52nd is a league record",
           "body": [
-            "The <strong>Colorado Avalanche</strong> became the first team in the NHL to clinch a playoff berth on Friday, locking up a postseason spot with weeks to spare. <strong>Cale Makar</strong> is closing in on 500 career points — a mark he could reach this week that would put him among the fastest defensemen in history to hit the milestone. Colorado's dominance this season has been historic and sustained."
+            "The <strong>Colorado Avalanche</strong> won the Presidents' Trophy — awarded to the NHL's best regular-season record — by defeating Calgary 3–1 on Thursday. <strong>Nathan MacKinnon</strong> scored his 52nd goal of the season, the most by any NHL player this year, and his 110th point. <strong>Cale Makar</strong> added two assists and passed the 500-career-points mark earlier this week. Colorado enters the playoffs as the clear favorite."
           ]
         },
         {
           "divider": "Atlantic Division",
-          "headline": "Toronto–Ottawa in a four-point Atlantic battle",
+          "headline": "Caufield reaches 50 — Canadiens are the Eastern Conference's hottest team",
           "body": [
-            "The <strong>Maple Leafs</strong> and <strong>Senators</strong> met Friday in a meaningful Atlantic matchup with playoff seeding implications. Toronto (40–22–8) and Ottawa (37–24–9) are just four points apart in the standings, with Boston right there too. The winner of this three-way race likely earns home-ice advantage in round one — and these teams know it."
+            "<strong>Cole Caufield</strong> scored his 50th goal of the season as Montreal edged Tampa Bay 2–1, with <strong>Juraj Slafkovsky</strong> netting the winner with 1:04 left in the third. The Canadiens have been one of hockey's best teams since February and are a dangerous playoff entry. Buffalo's Sabres are holding the Atlantic Division lead heading into the final weekend of the regular season."
           ]
         }
       ]
@@ -129,9 +128,10 @@
     "mlb": {
       "stories": [
         {
-          "headline": "Four days to Opening Night — the rosters are almost set",
+          "divider": "Early Season",
+          "headline": "Yankees and Dodgers out in front — Ohtani's on-base streak hits 40",
           "body": [
-            "MLB <strong>Opening Night is March 25</strong> — four days away. Teams face final roster decisions this weekend. The <strong>Yankees</strong> are managing Juan Soto's return from the WBC alongside a packed outfield. The <strong>Dodgers</strong> are still sorting rotation order after WBC fatigue. The <strong>Padres</strong> are monitoring <strong>Fernando Tatis Jr.</strong>'s wrist. Spring training wraps Sunday — and the games start counting Tuesday."
+            "Two weeks into the MLB season, the <strong>New York Yankees</strong> (8–2) and <strong>Los Angeles Dodgers</strong> (9–3) are the clear early movers. The Yankees have allowed just 8 runs in their first 9 games — tied for the fewest by any team in that span in modern history. <strong>Shohei Ohtani</strong> has reached base in <strong>40 consecutive games</strong>, an MLB-best streak that stretches back to spring. The <strong>Brewers</strong> (8–3) are the NL's other early standout."
           ]
         }
       ]
@@ -139,16 +139,16 @@
     "soccer": {
       "stories": [
         {
-          "divider": "Champions League",
-          "headline": "PSG's 8–2 aggregate win over Chelsea is the statement of the round",
+          "divider": "UCL Quarterfinals",
+          "headline": "Bayern's Kane is unstoppable — Real Madrid's road to the semis just got harder",
           "body": [
-            "<strong>Paris Saint-Germain</strong> dismantled Chelsea over two legs, advancing 8–2 on aggregate after winning the second leg 3–0. It's an utter statement of PSG's quality this season — their attack looks as deep and dangerous as any club in Europe. Combined with <strong>Arsenal's</strong> tidy 3–1 aggregate win over Leverkusen, the quarter-final field now has a genuine English presence in the Gunners and Liverpool facing a PSG side playing the best football in the competition."
+            "<strong>Harry Kane</strong> is having the season of his career at Bayern Munich, and it showed Tuesday. He scored within seconds of the second half to give Bayern a 2–1 lead that they protected to the final whistle against Real Madrid. <strong>Luis Díaz</strong> opened the scoring. Real Madrid head to the Allianz Arena April 15 needing to win — they've done it before, but Kane in this form is a different challenge."
           ]
         },
         {
-          "headline": "QF preview: Real Madrid vs. Bayern is the tie of the round",
+          "headline": "PSG's depth is a problem for everyone — Liverpool need a miracle at home",
           "body": [
-            "<strong>Real Madrid vs. Bayern Munich</strong> in the Champions League quarter-final is exactly the kind of blockbuster the competition was built for. Madrid come in red-hot — <strong>Vinícius</strong> is playing some of the best football of his career, and eliminating Man City 5–1 on aggregate sends a clear message. Bayern, meanwhile, have been grinding their way through the competition. First legs on April 7–8 — mark your calendar."
+            "<strong>PSG</strong> aren't just winning — they're winning convincingly. A 2–0 result at Anfield is an extraordinary result given Liverpool's home record. <strong>Désiré Doué</strong> (goal, 11') and <strong>Khvicha Kvaratskhelia</strong> (65') were clinical. Liverpool need to score three unanswered at the Parc des Princes April 14 to advance — possible in theory, unlikely given PSG's defensive discipline this season."
           ]
         }
       ]
@@ -156,10 +156,10 @@
     "f1": {
       "stories": [
         {
-          "kicker": "2026 Season",
-          "headline": "Antonelli leads the championship after two races — Mercedes' young gun is for real",
+          "kicker": "Championship",
+          "headline": "Antonelli 72, Russell 63 after three races — a teenage world champion is not impossible",
           "body": [
-            "<strong>Kimi Antonelli</strong> leads the 2026 Formula 1 World Championship after winning the Chinese Grand Prix in only his second career race, following a 2nd-place finish behind teammate <strong>George Russell</strong> in Australia. The 19-year-old Italian is already the story of the season — calm, measured, and fast enough to beat the field clean in Shanghai. <strong>Lewis Hamilton</strong> finished third in both races for a strong Ferrari start. The <strong>Japanese Grand Prix</strong> at Suzuka is next weekend (March 27–29), where Antonelli will look to extend his lead."
+            "<strong>Kimi Antonelli</strong> leads the Formula 1 World Championship with 72 points after winning the Chinese and Japanese Grands Prix. <strong>George Russell</strong> (63 pts) won Australia and has been his teammate's closest rival. <strong>Charles Leclerc</strong> sits third for Ferrari at 49 points. Mercedes are dominating the early season with their new 2026 regulation machinery. The next race is the <strong>Miami Grand Prix (May 1–3)</strong>."
           ]
         }
       ]
@@ -167,10 +167,10 @@
     "tennis": {
       "stories": [
         {
-          "kicker": "Miami Open",
-          "headline": "Sinner's Sunshine Double is the greatest hardcourt stretch since Federer's peak",
+          "kicker": "Clay Season",
+          "headline": "Monte Carlo Masters begins next week — the clay season opens with Sinner the heavy favorite",
           "body": [
-            "<strong>Jannik Sinner</strong> is simply the best player in the world right now. He won Indian Wells over <strong>Daniil Medvedev</strong>, then moved through the Miami draw without dropping a set — beating <strong>Alexander Zverev</strong> in the semis and <strong>Jiří Lehečka</strong> 6–4, 6–4 in the final. No man had completed the Sunshine Double without dropping a set since <strong>Roger Federer in 2017</strong>. Sinner is now the heavy favorite heading into the clay season. On the women's side, <strong>Aryna Sabalenka</strong> matched that feat with her own Indian Wells–Miami sweep."
+            "The ATP clay season officially opens with the <strong>Monte Carlo Masters</strong> starting April 13. <strong>Jannik Sinner</strong> arrives as the overwhelming favorite after his Sunshine Double sweep (Indian Wells + Miami without dropping a set). <strong>Carlos Alcaraz</strong>, a three-time Roland Garros champion, will be the main threat on clay. <strong>Novak Djokovic</strong>'s clay-season schedule is still uncertain. The French Open is May 25 — Monte Carlo is the first major data point."
           ]
         }
       ]
@@ -178,10 +178,11 @@
     "golf": {
       "stories": [
         {
-          "divider": "Valspar Championship",
-          "headline": "Third round underway at Innisbrook — Masters looms in 19 days",
+          "divider": "The Masters",
+          "headline": "McIlroy is playing the round of his life — Augusta has never seen a lead like this",
           "body": [
-            "<strong>Chandler Blanchet</strong> leads the Valspar Championship at –7 through 36 holes at Innisbrook's Copperhead Course. The final round is Sunday. The bigger story looming behind every March PGA Tour event: the <strong>Masters</strong> at Augusta National begins April 9. <strong>Rory McIlroy</strong> is the defending champion, seeking to become only the fourth player ever to successfully defend at Augusta and the first since <strong>Tiger Woods in 2002</strong>. <strong>Scottie Scheffler</strong> and the rest of the world's top players are tuning their games with Augusta in mind."
+            "Through 36 holes, <strong>Rory McIlroy</strong> is playing the best Masters golf anyone has ever seen. His 65 on Friday — six birdies in a seven-hole stretch to finish — left him at 12-under, six clear of <strong>Patrick Reed</strong> and <strong>Sam Burns</strong>. It's the largest 36-hole lead in the tournament's 90-year history. McIlroy won his first Masters last year and is four rounds from becoming only the fourth player to successfully defend.",
+            "The cut line fell around even par. <strong>Bryson DeChambeau</strong> made triple bogey on 18 and is done for the week. <strong>Scottie Scheffler</strong>, world No. 1, is five back and needs a special round Saturday to get back into it. Round 3 is today on CBS."
           ]
         }
       ]
@@ -189,10 +190,10 @@
     "nascar": {
       "stories": [
         {
-          "kicker": "Cup Series",
-          "headline": "Tyler Reddick is running away with 2026 — three wins before March is over",
+          "kicker": "Bristol",
+          "headline": "Food City 500 today — can anyone slow Tyler Reddick down?",
           "body": [
-            "<strong>Tyler Reddick</strong> became the only driver in NASCAR Cup Series history to win the first three races of a season when he took the checkered flag at Circuit of the Americas earlier this month. He now has three wins and a commanding points lead heading into <strong>Darlington Raceway tomorrow</strong> (March 22) — one of NASCAR's most demanding and historic tracks. No driver has dominated a season opening this completely in the modern era. The rest of the field is essentially playing for second."
+            "<strong>Tyler Reddick</strong> leads the NASCAR Cup Series standings with four wins in 2026, including a historic three-win streak to open the season. <strong>Chase Elliott</strong> won Martinsville two weeks ago to break Reddick's run. Today's <strong>Food City 500</strong> at Bristol Motor Speedway (12:30 ET, FOX) is one of NASCAR's most unpredictable events — the concrete short track rewards aggression and punishes mistakes. Bristol has produced some of the wildest finishes in recent memory. Reddick goes in as the points leader, but Bristol plays by its own rules."
           ]
         }
       ]
