@@ -6,55 +6,86 @@
     "issue": 856
   },
   "ticker": [
-    { "text": "NYK 93 · BKN 92 — 14th straight", "type": "final", "badge": "Final" },
+    { "text": "NYK 93 · BKN 92 — KAT 26/15", "type": "final", "badge": "Final" },
     { "text": "HOU 117 · ATL 95 — streak over", "type": "final", "badge": "Final" },
     { "text": "BOS 117 · MEM 112", "type": "final", "badge": "Final" },
-    { "text": "DET 115 · GSW 101", "type": "final", "badge": "Final" },
-    { "text": "POR 108 · MIN 104", "type": "final", "badge": "Final" },
-    { "text": "DEN 121 · TOR 115", "type": "final", "badge": "Final" }
+    { "text": "POR 108 · MIN 104 — Grant buzzer", "type": "final", "badge": "Final" },
+    { "text": "Real Madrid 2 · Man City 1", "type": "final", "badge": "UCL" },
+    { "text": "Liverpool 4 · Galatasaray 0", "type": "final", "badge": "UCL" },
+    { "text": "Sinner wins Miami Open — Sunshine Double", "type": "final", "badge": "Tennis" },
+    { "text": "Antonelli leads F1 standings", "type": "final", "badge": "F1" },
+    { "text": "COL clinches — 1st team to playoffs", "type": "final", "badge": "NHL" },
+    { "text": "Valspar R3 underway — Masters in 19 days", "type": "next", "badge": "Golf" }
   ],
   "scoreboard": {
     "nba": {
       "games": [
-        { "away": "NYK", "awayScore": 93, "home": "BKN", "homeScore": 92, "winner": "away", "status": "final", "tag": "KAT 26/15 · Knicks' 14th straight vs Nets", "tagType": "context" },
+        { "away": "NYK", "awayScore": 93, "home": "BKN", "homeScore": 92, "winner": "away", "status": "final", "tag": "KAT 26/15 · 14th straight vs Nets", "tagType": "context" },
         { "away": "HOU", "awayScore": 117, "home": "ATL", "homeScore": 95, "winner": "away", "status": "final", "tag": "KD 25 · Hawks' 11-game streak ends", "tagType": "context" },
         { "away": "BOS", "awayScore": 117, "home": "MEM", "homeScore": 112, "winner": "away", "status": "final", "tag": "Brown: Player of the Night", "tagType": "context" },
         { "away": "POR", "awayScore": 108, "home": "MIN", "homeScore": 104, "winner": "away", "status": "final", "tag": "Grant buzzer 3 · 22.2 sec left", "tagType": "context" }
       ],
-      "note": "Pistons 115, Warriors 101 · Nuggets 121, Raptors 115 — full 6-game Friday slate"
+      "note": "Full slate: Pistons 115 Warriors 101 · Nuggets 121 Raptors 115"
     },
     "nhl": {
       "games": [
-        { "away": "COL", "awayScore": null, "home": "CHI", "homeScore": null, "winner": null, "status": "final", "tag": "COL clinches West's 1st playoff spot", "tagType": "context" }
+        { "away": "COL", "awayScore": null, "home": "CHI", "homeScore": null, "winner": "away", "status": "final", "tag": "COL clinches — 1st playoff spot", "tagType": "context" }
       ],
-      "note": "Colorado clinches — Makar closing in on 500 career points; Toronto vs Ottawa in Atlantic showdown"
+      "note": "Colorado clinches West · Makar closing on 500 career points · TOR–OTT Atlantic battle"
     },
     "wbc": {
       "label": "MLB — Spring Training",
       "games": [],
-      "note": "Opening Night 4 days away — March 25 · Rosters finalizing this weekend"
+      "note": "Opening Night in 4 days · March 25 · Rosters finalize this weekend"
+    },
+    "soccer": {
+      "label": "UCL — Round of 16",
+      "games": [
+        { "away": "MCI", "awayScore": 1, "home": "RMA", "homeScore": 2, "winner": "home", "status": "final", "tag": "RMA adv. 5-1 agg · Vinícius brace", "tagType": "context" },
+        { "away": "LIV", "awayScore": 4, "home": "GAL", "homeScore": 0, "winner": "away", "status": "final", "tag": "LIV adv · Salah UCL goal No. 50", "tagType": "context" },
+        { "away": "ARS", "awayScore": 2, "home": "LEV", "homeScore": 0, "winner": "away", "status": "final", "tag": "ARS adv. 3-1 agg", "tagType": "final" },
+        { "away": "PSG", "awayScore": 3, "home": "CHE", "homeScore": 0, "winner": "away", "status": "final", "tag": "PSG adv. 8-2 agg", "tagType": "context" }
+      ],
+      "note": "QF draw: Real Madrid vs Bayern · PSG vs Liverpool · First legs April 7–8"
+    },
+    "f1": {
+      "result": "🇦🇺 Australian GP: Russell 1st · Antonelli 2nd · 🇨🇳 Chinese GP: Antonelli 1st · Russell 2nd",
+      "note": "Antonelli leads championship · Japanese GP next weekend (Mar 27)"
+    },
+    "tennis": {
+      "result": "Sinner wins Miami Open 6-4 6-4 vs Lehecka — completes Sunshine Double without dropping a set",
+      "note": "First since Federer (2017) · Sabalenka sweeps IW + Miami on WTA side"
+    },
+    "golf": {
+      "result": "Valspar Championship R3 underway — Blanchet -7 leads at Innisbrook",
+      "note": "Final round tomorrow · Masters at Augusta April 9–12"
+    },
+    "nascar": {
+      "result": "Tyler Reddick leads Cup Series with 3 wins — Darlington race tomorrow (Mar 22)",
+      "note": "Reddick won COTA for historic 3rd straight to open season"
     }
   },
   "topStories": [
     {
+      "kicker": "UCL Drama",
+      "headline": "Vinícius sinks Man City, Salah reaches 50 — the Champions League QF field is set",
+      "body": [
+        "<strong>Real Madrid</strong> knocked out <strong>Manchester City</strong> with a 2–1 win in the second leg (5–1 on aggregate) as <strong>Vinícius Júnior</strong> scored both goals and looked unstoppable throughout. It's another Champions League exit for a City side that increasingly looks like a team past its window. Meanwhile, <strong>Mohamed Salah</strong> scored his <strong>50th Champions League goal</strong> in Liverpool's ruthless 4–0 demolition of Galatasaray. <strong>Arsenal</strong> eliminated Bayer Leverkusen 3–1 on aggregate, and <strong>PSG</strong> swept Chelsea 8–2 over two legs.",
+        "The quarterfinal draw is set: <strong>Real Madrid vs. Bayern Munich</strong> and <strong>PSG vs. Liverpool</strong> headline the ties. First legs are April 7–8."
+      ]
+    },
+    {
+      "kicker": "Sunshine Double",
+      "headline": "Sinner does what no man has done since Federer — wins Indian Wells and Miami without dropping a set",
+      "body": [
+        "<strong>Jannik Sinner</strong> defeated Jiří Lehečka 6–4, 6–4 in the Miami Open final to complete the 'Sunshine Double' — winning both Indian Wells and Miami in the same season without dropping a set. He's the first man since <strong>Roger Federer in 2017</strong> to pull it off. Sinner beat <strong>Daniil Medvedev</strong> at Indian Wells, then dismantled <strong>Alexander Zverev</strong> in the semis and Lehečka in the final in Miami. On the WTA side, <strong>Aryna Sabalenka</strong> also swept both hardcourt Masters events."
+      ]
+    },
+    {
       "kicker": "NY Rivalry",
-      "headline": "KAT, Brunson bail out the Knicks — 14 straight over the Nets",
+      "headline": "Knicks survive the Nets 93–92 — 14 straight in the city rivalry",
       "body": [
-        "The New York Knicks trailed by 13 in the first half, blew a 14-point fourth-quarter lead, and still found a way. <strong>Karl-Anthony Towns</strong> finished with 26 points and 15 rebounds, <strong>Jalen Brunson</strong> scored 17, and <strong>OG Anunoby</strong> added 16 as the Knicks survived Brooklyn 93–92 on Friday to win their 14th consecutive game in the local rivalry — the longest winning streak for either team in the series. <strong>Ben Saraf</strong> had a chance to win it for the Nets at the buzzer, but his 45-footer was off. <strong>Josh Minott</strong> had 22 for Brooklyn in a loss that keeps the Nets firmly in lottery territory."
-      ]
-    },
-    {
-      "kicker": "Streak Snapped",
-      "headline": "Rockets end Atlanta's 11-game run — KD and Jabari dominate",
-      "body": [
-        "The Atlanta Hawks' 11-game winning streak — the longest in the East this season — came to a halt Friday night. <strong>Kevin Durant</strong> scored 25 points and <strong>Jabari Smith Jr.</strong> added 23 as Houston rolled to a 117–95 victory. The Rockets have quietly crept into serious West playoff seeding contention, and Durant looked every bit the postseason-ready veteran Atlanta had no answer for. The Hawks (now 42–28) still hold a top-four Eastern seed, but the loss exposed some defensive lapses that could matter come April."
-      ]
-    },
-    {
-      "kicker": "Last-Second Drama",
-      "headline": "Grant's buzzer three lifts Portland — Timberwolves drop a killer one",
-      "body": [
-        "<strong>Jerami Grant</strong> hit a go-ahead three-pointer with 22.2 seconds left as the Portland Trail Blazers escaped Minnesota 108–104, handing the Timberwolves a painful late-season loss. Minnesota, fighting for playoff seeding, had led for most of the fourth quarter. The win keeps Portland in the play-in conversation — one of the NBA's most unexpectedly competitive fringe stories of March."
+        "<strong>Karl-Anthony Towns</strong> had 26 points and 15 rebounds, <strong>Jalen Brunson</strong> scored 17, and New York survived Brooklyn's furious fourth-quarter comeback to win 93–92. The Knicks trailed by 13 in the first half, blew a 14-point lead in the fourth, and were saved by <strong>Ben Saraf's</strong> missed 45-foot buzzer attempt. It's the Knicks' 14th consecutive win over the Nets — the longest winning streak for either team in the city rivalry."
       ]
     }
   ],
@@ -63,16 +94,16 @@
       "stories": [
         {
           "divider": "Scores & Standings",
-          "headline": "Brown leads Celtics, Pistons keep rolling — Friday's full slate",
+          "headline": "Reddick-level dominance: Hawks streak snapped, Grant hits the buzzer, Celtics roll",
           "body": [
-            "<strong>Jaylen Brown</strong> was named Player of the Night after leading Boston past Memphis 117–112 in a tighter-than-expected road win. The Celtics (50–19) are the East's runaway 1-seed and maintaining their dominant position. In Detroit, the <strong>Pistons</strong> (51–18) beat Golden State 115–101 — their Eastern Conference-leading record remains intact even with Cunningham's back still being monitored. <strong>Nikola Jokić</strong> and the Nuggets handled Toronto 121–115 as Denver holds steady in the West's 4-seed."
+            "<strong>Kevin Durant</strong> (25 pts) and <strong>Jabari Smith Jr.</strong> (23 pts) ended Atlanta's 11-game winning streak as Houston rolled 117–95. <strong>Jerami Grant</strong> broke Minnesota's hearts with a three-pointer at the 22.2-second mark to give Portland a 108–104 win — the Timberwolves are now on the wrong end of the play-in bubble. <strong>Jaylen Brown</strong> was Player of the Night as Boston handled Memphis 117–112. Detroit beat Golden State 115–101; Denver downed Toronto 121–115."
           ]
         },
         {
-          "divider": "Playoff Picture",
-          "headline": "Hawks streak ends but their seed is safe — West fringe is chaos",
+          "divider": "Injuries & News",
+          "headline": "Cunningham remains day-to-day — West chaos from 5 through 9",
           "body": [
-            "Atlanta's 11-game run is over but the Hawks aren't panicking — they're still firmly in the top four of the Eastern Conference. The West fringe from 5 through 9 remains a blur: <strong>OKC</strong> sits 1st, but seeds 5–9 are separated by just over two games. Portland's win and Minnesota's loss only tighten the scramble. Every game in the West matters now."
+            "Detroit's <strong>Cade Cunningham</strong> (back spasms) remains day-to-day and the Pistons are being cautious heading into the final stretch. The Western Conference seeds 5 through 9 are separated by barely two games — Portland's win and Minnesota's loss tighten the race further. Every night in the West matters now, and the Trail Blazers are making a real push for the play-in."
           ]
         }
       ]
@@ -80,17 +111,17 @@
     "nhl": {
       "stories": [
         {
-          "divider": "Western Conference",
-          "headline": "Colorado clinches — Makar closing in on 500 career points",
+          "divider": "Playoff Race",
+          "headline": "Colorado clinches — Makar is approaching an all-time defenseman milestone",
           "body": [
-            "The Colorado Avalanche became the first team in the NHL to clinch a playoff berth Friday, beating Chicago to lock up a postseason spot with weeks still to go. It's the expected outcome for a club that's been the West's class team all season. <strong>Cale Makar</strong> is closing in on 500 career points — a milestone that, if he hits it this week, would make him one of the fastest defensemen in history to reach the mark. Colorado's regular season has been a clinic in sustained excellence."
+            "The <strong>Colorado Avalanche</strong> became the first team in the NHL to clinch a playoff berth on Friday, locking up a postseason spot with weeks to spare. <strong>Cale Makar</strong> is closing in on 500 career points — a mark he could reach this week that would put him among the fastest defensemen in history to hit the milestone. Colorado's dominance this season has been historic and sustained."
           ]
         },
         {
           "divider": "Atlantic Division",
-          "headline": "Toronto-Ottawa heats up — four points separate three Atlantic teams",
+          "headline": "Toronto–Ottawa in a four-point Atlantic battle",
           "body": [
-            "The Maple Leafs and Senators met Friday in a division game with real stakes. Toronto (40–22–8) and Ottawa (37–24–9) are separated by just four points in the Atlantic standings with the Bruins lurking. Every Atlantic game is a playoff audition now — these teams are playing meaningful hockey in the season's final three weeks. The winner of the division race likely earns home-ice advantage in the first round."
+            "The <strong>Maple Leafs</strong> and <strong>Senators</strong> met Friday in a meaningful Atlantic matchup with playoff seeding implications. Toronto (40–22–8) and Ottawa (37–24–9) are just four points apart in the standings, with Boston right there too. The winner of this three-way race likely earns home-ice advantage in round one — and these teams know it."
           ]
         }
       ]
@@ -98,9 +129,70 @@
     "mlb": {
       "stories": [
         {
-          "headline": "Four days to Opening Night — rosters must be set by Sunday",
+          "headline": "Four days to Opening Night — the rosters are almost set",
           "body": [
-            "MLB teams face roster submission deadlines this weekend ahead of <strong>Opening Night on March 25</strong>. The most watched situations: the <strong>Yankees</strong> are deciding between two rotation spots with Juan Soto and Gerrit Cole headlining the lineup; the <strong>Dodgers</strong> are managing a crowded outfield after WBC returns; and the <strong>Padres</strong> are watching <strong>Fernando Tatis Jr.</strong>'s wrist closely after his WBC workload. Spring training games wrap Sunday, and the real thing starts in four days."
+            "MLB <strong>Opening Night is March 25</strong> — four days away. Teams face final roster decisions this weekend. The <strong>Yankees</strong> are managing Juan Soto's return from the WBC alongside a packed outfield. The <strong>Dodgers</strong> are still sorting rotation order after WBC fatigue. The <strong>Padres</strong> are monitoring <strong>Fernando Tatis Jr.</strong>'s wrist. Spring training wraps Sunday — and the games start counting Tuesday."
+          ]
+        }
+      ]
+    },
+    "soccer": {
+      "stories": [
+        {
+          "divider": "Champions League",
+          "headline": "PSG's 8–2 aggregate win over Chelsea is the statement of the round",
+          "body": [
+            "<strong>Paris Saint-Germain</strong> dismantled Chelsea over two legs, advancing 8–2 on aggregate after winning the second leg 3–0. It's an utter statement of PSG's quality this season — their attack looks as deep and dangerous as any club in Europe. Combined with <strong>Arsenal's</strong> tidy 3–1 aggregate win over Leverkusen, the quarter-final field now has a genuine English presence in the Gunners and Liverpool facing a PSG side playing the best football in the competition."
+          ]
+        },
+        {
+          "headline": "QF preview: Real Madrid vs. Bayern is the tie of the round",
+          "body": [
+            "<strong>Real Madrid vs. Bayern Munich</strong> in the Champions League quarter-final is exactly the kind of blockbuster the competition was built for. Madrid come in red-hot — <strong>Vinícius</strong> is playing some of the best football of his career, and eliminating Man City 5–1 on aggregate sends a clear message. Bayern, meanwhile, have been grinding their way through the competition. First legs on April 7–8 — mark your calendar."
+          ]
+        }
+      ]
+    },
+    "f1": {
+      "stories": [
+        {
+          "kicker": "2026 Season",
+          "headline": "Antonelli leads the championship after two races — Mercedes' young gun is for real",
+          "body": [
+            "<strong>Kimi Antonelli</strong> leads the 2026 Formula 1 World Championship after winning the Chinese Grand Prix in only his second career race, following a 2nd-place finish behind teammate <strong>George Russell</strong> in Australia. The 19-year-old Italian is already the story of the season — calm, measured, and fast enough to beat the field clean in Shanghai. <strong>Lewis Hamilton</strong> finished third in both races for a strong Ferrari start. The <strong>Japanese Grand Prix</strong> at Suzuka is next weekend (March 27–29), where Antonelli will look to extend his lead."
+          ]
+        }
+      ]
+    },
+    "tennis": {
+      "stories": [
+        {
+          "kicker": "Miami Open",
+          "headline": "Sinner's Sunshine Double is the greatest hardcourt stretch since Federer's peak",
+          "body": [
+            "<strong>Jannik Sinner</strong> is simply the best player in the world right now. He won Indian Wells over <strong>Daniil Medvedev</strong>, then moved through the Miami draw without dropping a set — beating <strong>Alexander Zverev</strong> in the semis and <strong>Jiří Lehečka</strong> 6–4, 6–4 in the final. No man had completed the Sunshine Double without dropping a set since <strong>Roger Federer in 2017</strong>. Sinner is now the heavy favorite heading into the clay season. On the women's side, <strong>Aryna Sabalenka</strong> matched that feat with her own Indian Wells–Miami sweep."
+          ]
+        }
+      ]
+    },
+    "golf": {
+      "stories": [
+        {
+          "divider": "Valspar Championship",
+          "headline": "Third round underway at Innisbrook — Masters looms in 19 days",
+          "body": [
+            "<strong>Chandler Blanchet</strong> leads the Valspar Championship at –7 through 36 holes at Innisbrook's Copperhead Course. The final round is Sunday. The bigger story looming behind every March PGA Tour event: the <strong>Masters</strong> at Augusta National begins April 9. <strong>Rory McIlroy</strong> is the defending champion, seeking to become only the fourth player ever to successfully defend at Augusta and the first since <strong>Tiger Woods in 2002</strong>. <strong>Scottie Scheffler</strong> and the rest of the world's top players are tuning their games with Augusta in mind."
+          ]
+        }
+      ]
+    },
+    "nascar": {
+      "stories": [
+        {
+          "kicker": "Cup Series",
+          "headline": "Tyler Reddick is running away with 2026 — three wins before March is over",
+          "body": [
+            "<strong>Tyler Reddick</strong> became the only driver in NASCAR Cup Series history to win the first three races of a season when he took the checkered flag at Circuit of the Americas earlier this month. He now has three wins and a commanding points lead heading into <strong>Darlington Raceway tomorrow</strong> (March 22) — one of NASCAR's most demanding and historic tracks. No driver has dominated a season opening this completely in the modern era. The rest of the field is essentially playing for second."
           ]
         }
       ]

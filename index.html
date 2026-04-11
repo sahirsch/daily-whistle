@@ -149,6 +149,48 @@ body {
 }
 .masthead-sub::before,
 .masthead-sub::after { content: ''; display: block; width: 24px; height: 1px; background: var(--ink-mid); flex-shrink: 0; }
+/* ─── RESULTS RIBBON (individual sports) ─────────────────────── */
+.results-ribbon {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  margin: 16px 0 0;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(26,23,20,0.06), 0 1px 3px rgba(26,23,20,0.04);
+}
+.ribbon-item {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 8px 16px;
+  font-size: 13px;
+  border-bottom: 1px solid var(--border-light);
+}
+.ribbon-item:last-child { border-bottom: none; }
+.ribbon-sport {
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+  min-width: 64px;
+  flex-shrink: 0;
+}
+.ribbon-result {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--ink);
+  flex: 1;
+}
+.ribbon-note {
+  font-family: var(--sans);
+  font-size: 11px;
+  color: var(--ink-light);
+  font-style: italic;
+  flex-shrink: 0;
+}
+
 .dateline {
   font-family: var(--mono);
   font-size: 11px;
@@ -327,7 +369,7 @@ function buildMasthead(meta) {
         <span style="display:block;">Free · Daily</span>
       </div>
     </div>
-    <div class="dateline">3 leagues · 10 stories · 3-minute read · Delivered by 7am every morning</div>
+    <div class="dateline">8 sports · NBA · NHL · MLB · Soccer · F1 · Tennis · Golf · NASCAR · Delivered by 7am every morning</div>
   `;
   document.title = `The Daily Whistle — ${dateStr}`;
   document.getElementById('masthead-container').appendChild(header);
@@ -387,7 +429,38 @@ function buildScoreboard(sb) {
     `<div class="scoreboard-note">${sb.wbc.note}</div>`;
   board.appendChild(wbcSection);
 
+  // Soccer (optional)
+  if (sb.soccer && (sb.soccer.games.length > 0 || sb.soccer.note)) {
+    const soccerSection = el('div', 'league-section');
+    soccerSection.innerHTML = `<div class="league-label">⚽ ${sb.soccer.label || 'Soccer'}</div>` +
+      (sb.soccer.games || []).map(buildGameRow).join('') +
+      `<div class="scoreboard-note">${sb.soccer.note}</div>`;
+    board.appendChild(soccerSection);
+  }
+
   container.appendChild(board);
+
+  // Results ribbon for individual sports (F1, Tennis, Golf, NASCAR)
+  const ribbonSports = [
+    { key: 'f1',     icon: '🏎️', label: 'F1'     },
+    { key: 'tennis', icon: '🎾', label: 'Tennis'  },
+    { key: 'golf',   icon: '⛳', label: 'Golf'    },
+    { key: 'nascar', icon: '🏁', label: 'NASCAR'  },
+  ];
+  const ribbonItems = ribbonSports.filter(s => sb[s.key] && sb[s.key].result);
+  if (ribbonItems.length > 0) {
+    const ribbon = el('div', 'results-ribbon anim-2');
+    ribbon.innerHTML = `<div class="scoreboard-header">📋 &nbsp;Results &amp; Standings</div>`;
+    ribbonItems.forEach(s => {
+      const d = sb[s.key];
+      const item = el('div', 'ribbon-item');
+      item.innerHTML = `<span class="ribbon-sport">${s.icon} ${s.label}</span>
+        <span class="ribbon-result">${d.result}</span>
+        ${d.note ? `<span class="ribbon-note">${d.note}</span>` : ''}`;
+      ribbon.appendChild(item);
+    });
+    container.appendChild(ribbon);
+  }
 }
 
 // ─── STORIES ──────────────────────────────────────────────────────
@@ -464,11 +537,34 @@ function buildStories(data) {
     container.appendChild(buildStory(s));
   });
 
+  // Additional sports — only render if section exists and has stories
+  const extraSections = [
+    { key: 'soccer', icon: '⚽', label: 'Soccer'    },
+    { key: 'f1',     icon: '🏎️', label: 'Formula 1' },
+    { key: 'tennis', icon: '🎾', label: 'Tennis'     },
+    { key: 'golf',   icon: '⛳', label: 'Golf'       },
+    { key: 'nascar', icon: '🏁', label: 'NASCAR'     },
+  ];
+  extraSections.forEach(({ key, icon, label }) => {
+    const sec = data.sections[key];
+    if (!sec || !sec.stories || sec.stories.length === 0) return;
+    container.appendChild(el('hr', 'section-rule'));
+    container.appendChild(el('h2', 'section-head', `${icon} ${label}`));
+    let ld = null;
+    sec.stories.forEach(s => {
+      if (s.divider && s.divider !== ld) {
+        container.appendChild(buildSectionDivider(s.divider));
+        ld = s.divider;
+      }
+      container.appendChild(buildStory(s));
+    });
+  });
+
   // Footer
   const footer = el('footer', 'footer');
   footer.innerHTML = `
     <div class="footer-mark">The Daily Whistle</div>
-    Curated by Claude · Data via SportRadar, NBC Sports, ESPN, NHL.com, MLB.com
+    Curated by Claude · NBA · NHL · MLB · Soccer · F1 · Tennis · Golf · NASCAR
   `;
   container.appendChild(footer);
 }
