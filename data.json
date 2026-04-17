@@ -1,89 +1,83 @@
 {
   "meta": {
-    "date": "2026-04-15",
-    "dayOfWeek": "Wednesday",
+    "date": "2026-04-17",
+    "dayOfWeek": "Friday",
     "edition": "Morning",
-    "issue": 881
+    "issue": 882
   },
   "ticker": [
-    { "text": "McIlroy wins 2nd straight Masters — back-to-back!", "type": "final", "badge": "Champion" },
-    { "text": "PSG 4-0 agg · LIV eliminated · UCL semis set", "type": "final", "badge": "UCL" },
-    { "text": "ATL adv. 3-2 agg · Barça out · Lookman the hero", "type": "final", "badge": "UCL" },
-    { "text": "Bayern vs Real Madrid — 2nd leg tonight", "type": "next", "badge": "3 ET · Paramount+" },
-    { "text": "Hornets 127-126 OT · Miami eliminated", "type": "final", "badge": "Play-In" },
-    { "text": "Trail Blazers 114-110 · Portland gets 7-seed", "type": "final", "badge": "Play-In" },
-    { "text": "Magic vs 76ers tonight · Warriors vs Clippers", "type": "next", "badge": "7:30 ET · Prime" },
-    { "text": "Ty Gibbs wins Bristol — first Cup Series win", "type": "final", "badge": "NASCAR" },
-    { "text": "NHL regular season ends Thursday April 16", "type": "next", "badge": "Playoffs Sat" }
+    { "text": "Bayern 4-3 Real Madrid · advance 6-4 agg · UCL semis set", "type": "final", "badge": "UCL" },
+    { "text": "Arsenal 0-0 Sporting CP · Gunners through 1-0 agg · UCL semis", "type": "final", "badge": "UCL" },
+    { "text": "76ers 109-97 Magic · Maxey 31 pts · Philly earns East 7-seed", "type": "final", "badge": "Play-In" },
+    { "text": "Warriors 126-121 Clippers · Curry 35 pts · comeback from 13 down", "type": "final", "badge": "Play-In" },
+    { "text": "Hornets vs Magic tonight · East 8-seed · winner vs Detroit Pistons", "type": "next", "badge": "7:30 ET · ESPN" },
+    { "text": "Warriors vs Suns tonight · West 8-seed · winner vs OKC Thunder", "type": "next", "badge": "10 ET · Prime" },
+    { "text": "NHL playoffs begin Saturday April 18 · all 16 teams set", "type": "next", "badge": "NHL" },
+    { "text": "Åberg leads RBC Heritage R1 at -9 · Round 2 underway", "type": "final", "badge": "Golf" },
+    { "text": "NASCAR Kansas 400 on Sunday · Reddick leads Cup standings", "type": "next", "badge": "NASCAR" }
   ],
   "scoreboard": {
     "nba": {
       "games": [
-        { "away": "CHO", "awayScore": 127, "home": "MIA", "homeScore": 126, "winner": "away", "status": "final", "tag": "OT · LaMelo layup + Bridges block · Heat OUT", "tagType": "context" },
-        { "away": "POR", "awayScore": 114, "home": "PHO", "homeScore": 110, "winner": "away", "status": "final", "tag": "Portland earns West 7-seed", "tagType": "context" },
-        { "away": "ORL", "awayScore": null, "home": "PHI", "homeScore": null, "winner": null, "status": "upcoming", "tag": "7:30 ET · Prime Video · Winner = 7-seed", "tagType": "upcoming" },
-        { "away": "GSW", "awayScore": null, "home": "LAC", "homeScore": null, "winner": null, "status": "upcoming", "tag": "10 ET · Prime Video · Loser OUT", "tagType": "upcoming" }
+        { "away": "PHI", "awayScore": 109, "home": "ORL", "homeScore": 97, "winner": "away", "status": "final", "tag": "Maxey 31 pts · Sixers earn East 7-seed · vs Celtics R1", "tagType": "context" },
+        { "away": "GSW", "awayScore": 126, "home": "LAC", "homeScore": 121, "winner": "away", "status": "final", "tag": "Curry 35 pts · 43 4th-quarter pts · comeback from -13", "tagType": "context" },
+        { "away": "CHO", "awayScore": null, "home": "ORL", "homeScore": null, "winner": null, "status": "upcoming", "tag": "7:30 ET · ESPN · East 8-seed · winner faces Detroit", "tagType": "upcoming" },
+        { "away": "GSW", "awayScore": null, "home": "PHX", "homeScore": null, "winner": null, "status": "upcoming", "tag": "10 ET · Prime Video · West 8-seed · winner faces OKC", "tagType": "upcoming" }
       ],
-      "note": "NBA Playoffs begin Saturday April 18 · Play-In bracket finalizes tonight"
+      "note": "NBA Playoffs begin Saturday April 18 · Tonight's winners face No. 1 seeds in Round 1"
     },
     "nhl": {
-      "games": [
-        { "away": "PHI", "awayScore": null, "home": "CAR", "homeScore": null, "winner": "away", "status": "final", "tag": "Flyers clinch · Canes clinch East 1-seed", "tagType": "context" },
-        { "away": "DAL", "awayScore": null, "home": "TOR", "homeScore": null, "winner": "away", "status": "final", "tag": "Bourque 1st hat trick · 3 goals in 3rd", "tagType": "context" },
-        { "away": "STL", "awayScore": 6, "home": "MIN", "homeScore": 3, "winner": "away", "status": "final", "tag": "Blues rally 5 unanswered in 3rd", "tagType": "context" }
-      ],
-      "note": "Regular season ends Thursday April 16 · Playoffs begin April 18-19 · All spots clinched"
+      "games": [],
+      "note": "Regular season ended Thursday April 16 · Playoffs begin Saturday April 18 · All 16 seeds locked"
     },
     "wbc": {
       "label": "MLB — Regular Season",
       "games": [],
-      "note": "Angels 7-1 Yankees (Apr 14) · Nationals 5-4 Pirates · Dodgers 9-3 · Ohtani OB streak: 41"
+      "note": "Angels 11-4 Yankees (Apr 16) · Trout 5th HR of series · Dodgers lead NL at 12-3"
     },
     "soccer": {
-      "label": "UCL — Quarter-Finals, 2nd Legs",
+      "label": "UCL — Quarter-Finals, 2nd Legs (Apr 15)",
       "games": [
-        { "away": "PSG", "awayScore": 2, "home": "LIV", "homeScore": 0, "winner": "away", "status": "final", "tag": "PSG adv. 4-0 agg · Dembélé brace", "tagType": "context" },
-        { "away": "ATL", "awayScore": 1, "home": "BAR", "homeScore": 2, "winner": "home", "status": "final", "tag": "ATL adv. 3-2 agg · Lookman key goal", "tagType": "context" },
-        { "away": "RMA", "awayScore": null, "home": "BAY", "homeScore": null, "winner": null, "status": "upcoming", "tag": "Tonight 3 ET · BAY lead 2-1 on agg", "tagType": "upcoming" },
-        { "away": "SPO", "awayScore": null, "home": "ARS", "homeScore": null, "winner": null, "status": "upcoming", "tag": "Tonight 3 ET · ARS lead 1-0 on agg", "tagType": "upcoming" }
+        { "away": "BAY", "awayScore": 4, "home": "RMA", "homeScore": 3, "winner": "away", "status": "final", "tag": "BAY adv. 6-4 agg · Díaz 89' · Olise 90+4'", "tagType": "context" },
+        { "away": "SPO", "awayScore": 0, "home": "ARS", "homeScore": 0, "winner": "home", "status": "final", "tag": "ARS adv. 1-0 agg · Gunners through on clean sheet", "tagType": "context" }
       ],
-      "note": "UCL Semi-final draw follows tonight · PSG & Atlético through · Bayern/Arsenal expect to join them"
+      "note": "Semis: PSG vs Bayern (Apr 28) · Atlético vs Arsenal (Apr 29) · Final: Budapest May 30"
     },
     "f1": {
-      "result": "Standings: Antonelli 72 pts · Russell 63 · Leclerc 49 — after 3 races",
+      "result": "Antonelli 72 pts · Russell 63 · Leclerc 49 · Hamilton 41 · Norris 25",
       "note": "Next: Miami Grand Prix May 1–3"
     },
     "golf": {
-      "result": "McIlroy wins 2026 Masters at -12 · Scheffler 2nd · Cameron Young T3 · Historic back-to-back",
-      "note": "4th player ever to defend at Augusta: Nicklaus, Faldo, Tiger, McIlroy"
+      "result": "Åberg leads RBC Heritage R1 at -9 (63) · Im T2 · Hovland in contention",
+      "note": "Round 2 underway Friday at Harbour Town · Final round Sunday"
     },
     "nascar": {
-      "result": "Ty Gibbs wins Food City 500 at Bristol OT — 0.055s over Blaney · Gibbs' 1st Cup win",
-      "note": "Closest Bristol finish since Wallace/Irvan 1991 · Reddick still leads Cup standings"
+      "result": "Next: AdventHealth 400 at Kansas Speedway — Sunday April 19",
+      "note": "Reddick leads Cup standings · Ty Gibbs seeking back-to-back after Bristol"
     }
   },
   "topStories": [
     {
-      "kicker": "Masters History",
-      "headline": "Rory McIlroy joins Nicklaus, Faldo and Tiger — the back-to-back Masters champion",
+      "kicker": "UCL Drama",
+      "headline": "Late Díaz and Olise fire Bayern past Real Madrid — Arsenal hold their nerve to reach the semis",
       "body": [
-        "After squandering a six-shot lead on Saturday, <strong>Rory McIlroy</strong> dug deep on Sunday and did what only three men before him had ever done — won consecutive Masters titles. He birdied holes 7, 8, 12, and 13 to retake the lead as <strong>Cameron Young</strong> and <strong>Justin Rose</strong> both made costly errors in the final nine holes. McIlroy finished at –12, one shot clear of <strong>Scottie Scheffler</strong>, who was the day's most relentless chaser with a closing 67.",
-        "McIlroy now joins <strong>Jack Nicklaus</strong> (1965–66), <strong>Nick Faldo</strong> (1989–90), and <strong>Tiger Woods</strong> (2001–02) as the only players to defend the Masters title. He has four major championships and looks as complete as he has ever been."
+        "It was one of the great Champions League nights at the Allianz Arena. <strong>Aleksandar Pavlovic</strong> put Bayern ahead in the 6th minute, <strong>Harry Kane</strong> made it two in the 38th, but Real Madrid roared back to make it 3–3 before <strong>Luis Díaz</strong> curled inside the right post in the 89th minute. <strong>Michael Olise</strong> sealed the deal in stoppage time — Bayern win 4–3 on the night, 6–4 on aggregate, and <strong>Vinícius Júnior's</strong> heroics weren't enough to save Madrid.",
+        "At the Emirates, <strong>Arsenal</strong> were nervous but disciplined, holding Sporting CP to a 0–0 draw to advance 1–0 on aggregate. The UCL semifinals are set: <strong>PSG vs. Bayern Munich</strong> (April 28 in Paris) and <strong>Atlético Madrid vs. Arsenal</strong> (April 29 in Madrid). The final is at Puskás Arena in Budapest on May 30."
       ]
     },
     {
-      "kicker": "UCL Quarterfinals",
-      "headline": "PSG eliminate Liverpool 4–0 on aggregate — and Atlético stun Barcelona on away goals",
+      "kicker": "NBA Play-In",
+      "headline": "Maxey erupts and Curry leads a 43-point fourth quarter — 76ers and Warriors are in the playoffs",
       "body": [
-        "<strong>Ousmane Dembélé</strong> scored twice at Anfield — 72nd minute and stoppage time — as PSG shut Liverpool out at their own ground and advanced 4–0 on aggregate. Liverpool's Champions League campaign is over. PSG are now one of the clear favorites to win the competition.",
-        "In Madrid, <strong>Barcelona</strong> won 2–1 at the Metropolitano — <strong>Lamine Yamal</strong> and <strong>Ferran Torres</strong> scored inside 24 minutes — but it wasn't enough. <strong>Atlético's</strong> <strong>Ademola Lookman</strong> pulled one back to make it 3–2 on aggregate, and Atlético advance. It's a brutal exit for Barcelona, who led in the tie and still went out."
+        "<strong>Tyrese Maxey</strong> dropped 31 points including 11 in a dominant fourth quarter as Philadelphia outlasted Orlando 109–97, earning the East 7-seed. The Sixers face the second-seeded <strong>Boston Celtics</strong> in Round 1. In the West, <strong>Stephen Curry</strong> hit the tie-breaking 3-pointer with 50 seconds left and finished with 35 points as Golden State rallied from 13 down to stun the Clippers 126–121. <strong>Al Horford</strong> hit four 3-pointers in a blistering fourth quarter where the Warriors outscored LA 43 to however many — a comeback for the ages.",
+        "Tonight, two elimination games decide the final playoff seeds. The <strong>Charlotte Hornets</strong> — who ousted Miami in overtime behind LaMelo Ball — travel to face the <strong>Orlando Magic</strong> at 7:30 ET (ESPN). In the West, the Warriors head to Phoenix: winner faces the top-seeded <strong>OKC Thunder</strong>; loser goes home (10 ET, Prime Video)."
       ]
     },
     {
-      "kicker": "Play-In Drama",
-      "headline": "LaMelo's layup, Bridges' block — Hornets eliminate Miami in overtime heartbreak",
+      "kicker": "NHL Playoffs",
+      "headline": "The bracket is set — McDavid leads a stacked field as Stanley Cup hockey begins Saturday",
       "body": [
-        "<strong>LaMelo Ball</strong> hit a go-ahead layup with seconds left, then <strong>Miles Bridges</strong> swatted away the Heat's final attempt as Charlotte won 127–126 in overtime to eliminate Miami from the play-in tournament. The Heat — a team that's made deep playoff runs in recent years — are done. In the West, the <strong>Trail Blazers</strong> beat Phoenix 114–110 to claim the 7-seed. Tonight: <strong>Magic vs. 76ers</strong> (7:30 ET) and <strong>Warriors vs. Clippers</strong> (10 ET) decide the final two spots."
+        "The NHL regular season closed Thursday and the full 16-team playoff bracket is official. In the East: <strong>Carolina</strong> vs. Ottawa, <strong>Buffalo</strong> vs. Boston, <strong>Pittsburgh</strong> vs. Philadelphia (the Battle of Pennsylvania), and <strong>Tampa Bay</strong> vs. Montreal. In the West: <strong>Colorado</strong> vs. LA Kings, <strong>Vegas</strong> vs. Utah, <strong>Dallas</strong> vs. Minnesota, and <strong>Edmonton</strong> vs. Anaheim. <strong>Connor McDavid</strong> won the Art Ross Trophy and enters the playoffs as the league's most dangerous player. <strong>Anze Kopitar</strong> played his final regular-season game Thursday. Puck drops on the first round across multiple series starting <strong>Saturday, April 18</strong>."
       ]
     }
   ],
@@ -91,17 +85,18 @@
     "nba": {
       "stories": [
         {
-          "divider": "Play-In Results",
-          "headline": "Trail Blazers are in — Portland's improbable run continues into the first round",
+          "divider": "Tonight's Play-In",
+          "headline": "LaMelo's Hornets enter Orlando — Curry's Warriors arrive in Phoenix with everything on the line",
           "body": [
-            "The <strong>Portland Trail Blazers</strong> are a playoff team. Their 114–110 win over Phoenix in the play-in earned the West's 7-seed, setting up a first-round matchup that will be announced once tonight's games conclude. Portland has been one of the league's best stories in the second half of the season — their depth and <strong>Jerami Grant</strong>'s clutch shooting have made them dangerous."
+            "The <strong>Charlotte Hornets</strong> ride into Orlando with confidence after <strong>LaMelo Ball</strong>'s go-ahead layup and <strong>Miles Bridges</strong>' game-sealing block sent Miami home. The <strong>Magic</strong>, licking their wounds after a rough night against Philadelphia, must win at home or their season ends. The locker room reportedly has internal tension. <strong>Jonathan Isaac</strong> (knee) is questionable. Winner earns the East 8-seed vs. <strong>Detroit</strong> (7:30 ET, ESPN).",
+            "In Phoenix, <strong>Stephen Curry</strong>'s Warriors arrive on short rest but with enormous momentum. The <strong>Suns</strong> had a costly play-in loss to Portland earlier this week and desperately need a home win. <strong>Kristaps Porzingis</strong> is day-to-day with an ankle issue for Golden State. Winner faces the top-seeded <strong>OKC Thunder</strong> in Round 1 (10 ET, Prime Video)."
           ]
         },
         {
-          "divider": "Tonight's Games",
-          "headline": "Magic vs. 76ers: Embiid back healthy against a young Orlando squad",
+          "divider": "Round 1 Preview",
+          "headline": "Sixers head to Boston — Trail Blazers await their first-round opponent from tonight",
           "body": [
-            "<strong>Joel Embiid</strong> returns at full strength for Philadelphia after nursing an oblique injury all season. The Sixers (7-seed) host the Magic (8-seed) at 7:30 ET on Prime Video. <strong>Paolo Banchero</strong> and Orlando's young core have played fearless basketball all year. The winner faces the No. 2 seed in the first round. In the West, <strong>Golden State vs. LA Clippers</strong> (10 ET) is a potential Steph Curry farewell game if the Warriors lose."
+            "<strong>Joel Embiid</strong> is expected healthy for Philadelphia's first-round matchup against the second-seeded <strong>Boston Celtics</strong> beginning Sunday. The Sixers have the playoff pedigree but Embiid's health all season has been a question mark. In the West, the <strong>Trail Blazers</strong> — who shocked Phoenix in the play-in — await tonight's Warriors-Suns winner as their Round 1 opponent, seeded 7th out West."
           ]
         }
       ]
@@ -109,10 +104,11 @@
     "nhl": {
       "stories": [
         {
-          "divider": "Final Weekend",
-          "headline": "Flyers clinch, Hurricanes lock up the East — the bracket is set",
+          "divider": "Playoff Preview",
+          "headline": "Carolina and Colorado headline a loaded bracket — McDavid's Oilers are the dark horse everyone fears",
           "body": [
-            "The <strong>Philadelphia Flyers</strong> clinched a playoff spot with a shootout win over Carolina on Monday — <strong>Tyson Foerster</strong> scored the decisive attempt. Carolina, meanwhile, clinched the Eastern Conference's top seed. The <strong>Dallas Stars</strong> saw <strong>Rémi Bourque</strong> score his first NHL hat trick with three goals in the third period to beat Toronto. The <strong>St. Louis Blues</strong> mounted a 5-goal rally to down Minnesota 6–3. The regular season ends <strong>Thursday</strong>, playoffs begin <strong>Saturday April 19</strong>."
+            "The <strong>Carolina Hurricanes</strong> are the East's top seed and enter on form, but this playoff field has no weak links. The Battle of Pennsylvania — <strong>Pittsburgh vs. Philadelphia</strong> — is already a must-watch, and <strong>Tampa Bay vs. Montreal</strong> revives a storied rivalry. <strong>Buffalo</strong> vs. Boston in the Atlantic bracket is a grudge match with deep roots.",
+            "In the West, <strong>Colorado</strong> and <strong>Vegas</strong> are the chalk, but the <strong>Edmonton Oilers</strong> — with Art Ross winner <strong>Connor McDavid</strong> — face a soft draw in Anaheim and could make a deep run. <strong>Dallas vs. Minnesota</strong> in a Central Division battle is the series insiders are circling. Games 1 across the bracket begin Saturday April 18."
           ]
         }
       ]
@@ -120,9 +116,9 @@
     "mlb": {
       "stories": [
         {
-          "headline": "Angels hand Yankees their worst loss — early stumble for New York",
+          "headline": "Trout and the Angels keep slugging — the Yankees' rotation is suddenly a concern",
           "body": [
-            "The <strong>Los Angeles Angels</strong> dealt the Yankees a 7–1 beatdown on Tuesday — a sharp reality check for a New York team that started 8–2. The Yankees' vaunted pitching ran into a hot Angels lineup, and it wasn't competitive. The <strong>Dodgers</strong> (11–3) remain the NL's best record through three weeks, with <strong>Shohei Ohtani</strong>'s on-base streak now at 41 games."
+            "The <strong>Los Angeles Angels</strong> dismantled the Yankees 11–4 on Thursday, with <strong>Mike Trout</strong> launching his fifth home run of the series. New York's pitching staff has been tagged for 18 runs in the two-game stretch — a troubling sign for a team that entered the week 8–2. Meanwhile, the <strong>Dodgers</strong> (12–3) remain the NL's class act with <strong>Shohei Ohtani</strong>'s on-base streak still alive and a rotation that has given up almost nothing through the season's first three weeks."
           ]
         }
       ]
@@ -130,16 +126,11 @@
     "soccer": {
       "stories": [
         {
-          "divider": "UCL Tonight",
-          "headline": "Bayern–Real Madrid at the Allianz Arena — Kane vs. Vinícius, winner takes all",
+          "divider": "UCL Semifinals",
+          "headline": "PSG vs. Bayern, Arsenal vs. Atlético — the final four is a who's who of European royalty",
           "body": [
-            "<strong>Real Madrid</strong> must win in Munich tonight to advance — a loss or draw knocks them out as Bayern lead 2–1 on aggregate. <strong>Vinícius Júnior</strong> will carry Madrid's hopes; he scored both goals in the first leg. <strong>Harry Kane</strong> has been in unstoppable form all season and will front Bayern's attack on home soil. The Allianz Arena hasn't been beaten in the UCL all season. This is the tie of the round — kickoff 3 ET on Paramount+."
-          ]
-        },
-        {
-          "headline": "Arsenal at home vs Sporting — Havertz and Saka should finish the job",
-          "body": [
-            "<strong>Arsenal</strong> hold a 1–0 lead from the first leg and host Sporting CP tonight. The Gunners have been outstanding defensively and <strong>Kai Havertz</strong> has been their UCL clutch performer. A clean sheet tonight would advance them to the semis in style. The UCL semi-final draw will take place immediately after tonight's results, setting up the final four."
+            "<strong>PSG</strong> — who dismantled Liverpool 4–0 on aggregate — host <strong>Bayern Munich</strong> on April 28. It's a battle of the tournament's two most clinical sides: <strong>Ousmane Dembélé</strong>'s devastating pace against <strong>Harry Kane</strong>'s relentless goalscoring. <strong>Kylian Mbappé</strong>'s Madrid has already been eliminated, so this semi-final is the de facto final for many fans.",
+            "<strong>Atlético Madrid vs. Arsenal</strong> on April 29 is a coaching masterclass in the making — Diego Simeone's defensive brilliance against Mikel Arteta's organized pressing game. <strong>Ademola Lookman</strong> is Atlético's danger man; <strong>Kai Havertz</strong> has been Arsenal's UCL clutch performer. Return legs are May 5–6. Final: Puskás Arena, Budapest, May 30."
           ]
         }
       ]
@@ -147,10 +138,9 @@
     "f1": {
       "stories": [
         {
-          "kicker": "Standings",
-          "headline": "Antonelli's championship lead — Miami marks the next chapter in the 2026 title fight",
+          "headline": "Antonelli leads by 9 — Mercedes' intra-team war heads to Miami",
           "body": [
-            "<strong>Kimi Antonelli</strong> leads <strong>George Russell</strong> by 9 points in the championship after three races. Both drives for Mercedes have won races, making it an intra-team title fight for the ages. <strong>Charles Leclerc</strong> trails but Ferrari has been improving race by race. The <strong>Miami Grand Prix (May 1–3)</strong> is next — and the Florida heat typically shuffles the order."
+            "<strong>Kimi Antonelli</strong> holds a 9-point lead over teammate <strong>George Russell</strong> after three races, making this one of the sport's most compelling intra-team title fights in years. <strong>Charles Leclerc</strong> (49 pts) keeps Ferrari in the picture, while <strong>Lewis Hamilton</strong>'s 41 points show the 7-time champion is far from done. <strong>Lando Norris</strong> (25 pts) and McLaren are lurking. The <strong>Miami Grand Prix (May 1–3)</strong> brings the championship back to the Americas — a circuit where strategy and tire management typically shuffle the running order."
           ]
         }
       ]
@@ -158,10 +148,10 @@
     "tennis": {
       "stories": [
         {
-          "kicker": "Monte Carlo",
-          "headline": "Monte Carlo Masters underway — Sinner's clay debut expected Wednesday or Thursday",
+          "divider": "Clay Court Swing",
+          "headline": "Zverev survives in Munich, Stuttgart's elite draw takes shape — the road to Roland Garros is open",
           "body": [
-            "The <strong>Monte Carlo Masters</strong> is in its early rounds this week. <strong>Jannik Sinner</strong>, heavy favorite coming off his Sunshine Double, is expected to make his first-round appearance Wednesday or Thursday. <strong>Carlos Alcaraz</strong>, who has won Roland Garros three times, is the primary threat on clay. Early upsets are already being tracked on the red clay of the Principality — the clay season's opening major salvo ahead of the French Open on May 25."
+            "The European clay season hits full stride this week with four simultaneous events. <strong>Alexander Zverev</strong> survived a three-set battle (6–3, 3–6, 7–6) against Kecmanovic in Munich, while <strong>Ben Shelton</strong>, <strong>João Fonseca</strong>, and <strong>Flavio Cobolli</strong> all advanced. In Stuttgart, the WTA Porsche Grand Prix features an elite draw: <strong>Aryna Sabalenka</strong>, <strong>Iga Swiatek</strong>, <strong>Coco Gauff</strong>, and <strong>Elena Rybakina</strong> are all in action Friday. Coming off his Monte Carlo crown (def. Alcaraz 7–6, 6–3), <strong>Jannik Sinner</strong> is the runaway clay-court favorite heading to Roland Garros on May 25."
           ]
         }
       ]
@@ -169,10 +159,10 @@
     "golf": {
       "stories": [
         {
-          "divider": "Masters Recap",
-          "headline": "The Sunday collapse that almost cost him — and the four birdies that saved him",
+          "divider": "RBC Heritage R1",
+          "headline": "Åberg's bogey-free 63 sets the pace at Harbour Town — Hovland and Im right behind",
           "body": [
-            "The full narrative of <strong>McIlroy's</strong> second Masters: blow a record 36-hole lead on Saturday, wake up co-leading on Sunday, survive a final round that saw both <strong>Cameron Young</strong> and <strong>Justin Rose</strong> hold two-shot leads at points, and birdie 12 and 13 to retake control for good. <strong>Scottie Scheffler</strong> closed brilliantly with 67 to finish solo second — but McIlroy was just better when it mattered. It may be the most dramatic final round Augusta has seen in years."
+            "<strong>Ludvig Åberg</strong> opened with a flawless 8-under 63 at the RBC Heritage — not a bogey in sight around the tight, tree-lined Harbour Town Golf Links — to lead the field after Round 1. <strong>Sungjae Im</strong> eagled the par-5 second and sits in a tie for second, with <strong>Viktor Hovland</strong> showing signs of a return to form after a rough first quarter of the season. <strong>Scottie Scheffler</strong> — Masters runner-up last week — is in the field and looking to channel that Sunday 67 into a full-week performance. Round 2 is underway Friday with the cut expected around –5. Sunday decides the winner."
           ]
         }
       ]
@@ -180,10 +170,10 @@
     "nascar": {
       "stories": [
         {
-          "kicker": "Bristol",
-          "headline": "Ty Gibbs ends 131-race wait — the closest Bristol finish since 1991",
+          "divider": "Kansas Preview",
+          "headline": "The Cup Series rolls to Kansas — Reddick leads the standings, Gibbs riding a new wave of confidence",
           "body": [
-            "<strong>Ty Gibbs</strong> had gone 131 Cup Series starts without a win. On Sunday at Bristol, he held off <strong>Ryan Blaney</strong> by 0.055 seconds in overtime to finally get it done. <strong>Kyle Larson</strong> finished third. It was the closest finish at Bristol since Rusty Wallace beat Ernie Irvan by a foot in 1991. Gibbs races for Joe Gibbs Racing — his grandfather's team — making the moment deeply personal. <strong>Tyler Reddick</strong> still leads the Cup standings overall with four wins."
+            "One week after <strong>Ty Gibbs</strong> snapped his 131-race winless drought with that 0.055-second photo finish at Bristol, the field moves to <strong>Kansas Speedway</strong> for the AdventHealth 400 on Sunday. <strong>Tyler Reddick</strong> leads the Cup standings and is the model of consistency this season — always near the front at 1.5-mile ovals. <strong>Kyle Larson</strong> is the defending Kansas winner and will be hard to beat on a track that suits his raw horsepower. Gibbs, newly unburdened, arrives with confidence that could make him a factor too."
           ]
         }
       ]
