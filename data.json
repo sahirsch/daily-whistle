@@ -1,44 +1,42 @@
 {
   "meta": {
-    "date": "2026-04-21",
-    "dayOfWeek": "Tuesday",
+    "date": "2026-04-22",
+    "dayOfWeek": "Wednesday",
     "edition": "Morning",
-    "issue": 884
+    "issue": 885
   },
   "ticker": [
-    { "text": "CLE 115 · TOR 105 · Cavs lead series 2-0 · Mitchell 30/7/5", "type": "final", "badge": "NBA G2" },
-    { "text": "ATL 107 · NYK 106 · Hawks steal MSG in G2 · McCollum 32 · series 1-1", "type": "final", "badge": "NBA G2" },
-    { "text": "MIN 119 · DEN 114 · Wolves erase 19-pt deficit · series tied 1-1", "type": "final", "badge": "NBA G2" },
-    { "text": "LAL 107 · HOU 98 · Lakers win G1 · Kennard career playoff-high 27 · LeBron 19/13a · KD out", "type": "final", "badge": "NBA G1" },
-    { "text": "CAR 3 · OTT 2 (2OT) · Hurricanes lead series 2-0", "type": "final", "badge": "NHL G2" },
-    { "text": "PHI 3 · PIT 0 · Flyers take 2-0 series lead · Battle of Pennsylvania", "type": "final", "badge": "NHL G2" },
-    { "text": "EDM 4 · ANA 3 · Oilers win G1 · McDavid title defense under way", "type": "final", "badge": "NHL G1" },
-    { "text": "Fitzpatrick wins RBC Heritage in playoff over world No. 1 Scheffler · earns $3.6M", "type": "final", "badge": "Golf" },
-    { "text": "Reddick wins Kansas in OT · 5th Cup win in 9 races · historic pace", "type": "final", "badge": "NASCAR" }
+    { "text": "PHI 111 · BOS 97 — Edgecombe 30/10 · Maxey 29 · 76ers tie series 1-1 without Embiid", "type": "final", "badge": "NBA G2" },
+    { "text": "TBL 3 · MTL 2 (OT) — Moser OT winner · Lightning even series 1-1", "type": "final", "badge": "NHL G2" },
+    { "text": "BOS 4 · BUF 2 — Arvidsson leads Bruins to equalizer · series 1-1", "type": "final", "badge": "NHL G2" },
+    { "text": "ORL at DET · Game 2 · Magic lead series 1-0", "type": "next", "badge": "7 ET · ESPN" },
+    { "text": "PHX at OKC · Game 2 · Thunder lead 1-0", "type": "next", "badge": "9:30 ET · ESPN" },
+    { "text": "PHI at PIT · Game 3 · Flyers lead series 2-0", "type": "next", "badge": "7 ET · TNT" },
+    { "text": "Shelton vs. Cobolli — Munich ATP 500 Final", "type": "next", "badge": "Sunday · Munich" }
   ],
   "scoreboard": {
     "nba": {
       "games": [
-        { "away": "TOR", "awayScore": 105, "home": "CLE", "homeScore": 115, "winner": "home", "status": "final", "tag": "Cavs lead 2-0 · Mitchell 30/7/5", "tagType": "context" },
-        { "away": "ATL", "awayScore": 107, "home": "NYK", "homeScore": 106, "winner": "away", "status": "final", "tag": "McCollum 32 · Hawks comeback win · series 1-1", "tagType": "context" },
-        { "away": "MIN", "awayScore": 119, "home": "DEN", "homeScore": 114, "winner": "away", "status": "final", "tag": "Wolves erase 19-pt hole · series 1-1", "tagType": "context" },
-        { "away": "HOU", "awayScore": 98, "home": "LAL", "homeScore": 107, "winner": "home", "status": "final", "tag": "Lakers win G1 · Kennard 27 · LeBron 19/13a · KD out", "tagType": "context" }
+        { "away": "PHI", "awayScore": 111, "home": "BOS", "homeScore": 97, "winner": "away", "status": "final", "tag": "Edgecombe 30/10 · Maxey 29 · series 1-1", "tagType": "context" },
+        { "away": "ORL", "awayScore": null, "home": "DET", "homeScore": null, "winner": null, "status": "upcoming", "tag": "G2 · ORL leads 1-0 · 7 ET · ESPN", "tagType": "upcoming" },
+        { "away": "PHX", "awayScore": null, "home": "OKC", "homeScore": null, "winner": null, "status": "upcoming", "tag": "G2 · OKC leads 1-0 · 9:30 ET · ESPN", "tagType": "upcoming" },
+        { "away": "LAL", "awayScore": null, "home": "HOU", "homeScore": null, "winner": null, "status": "upcoming", "tag": "G2 · KD game-time decision", "tagType": "upcoming" }
       ],
-      "note": "OKC 119 · PHX 84 in G1 rout — Thunder lead 1-0 · Embiid status uncertain ahead of Celtics-Sixers"
+      "note": "ORL stole G1 at top-seed DET · POR ties SAS 1-1 · Embiid in recovery, G3 Friday in Philly · OKC eyes 2-0 lead tonight"
     },
     "nhl": {
       "games": [
-        { "away": "OTT", "awayScore": 2, "home": "CAR", "homeScore": 3, "winner": "home", "status": "final", "tag": "2OT thriller · Hurricanes lead 2-0", "tagType": "context" },
-        { "away": "PHI", "awayScore": 3, "home": "PIT", "homeScore": 0, "winner": "away", "status": "final", "tag": "Flyers shutout Penguins in G2 · lead 2-0", "tagType": "context" },
-        { "away": "ANA", "awayScore": 3, "home": "EDM", "homeScore": 4, "winner": "home", "status": "final", "tag": "Oilers edge Ducks in G1 opener", "tagType": "context" },
-        { "away": "MIN", "awayScore": 2, "home": "DAL", "homeScore": 4, "winner": "home", "status": "final", "tag": "Stars even series 1-1 with G2 win", "tagType": "context" }
+        { "away": "MTL", "awayScore": 2, "home": "TBL", "homeScore": 3, "winner": "home", "status": "final", "tag": "Moser OT winner · Lightning even 1-1", "tagType": "context" },
+        { "away": "BUF", "awayScore": 2, "home": "BOS", "homeScore": 4, "winner": "home", "status": "final", "tag": "Arvidsson leads Bruins even 1-1", "tagType": "context" },
+        { "away": "PHI", "awayScore": null, "home": "PIT", "homeScore": null, "winner": null, "status": "upcoming", "tag": "G3 · Flyers lead 2-0 · 7 ET · TNT", "tagType": "upcoming" },
+        { "away": "DAL", "awayScore": null, "home": "MIN", "homeScore": null, "winner": null, "status": "upcoming", "tag": "G3 · series 1-1 · 9:30 ET · TNT", "tagType": "upcoming" }
       ],
-      "note": "MTL leads TBL 1-0 · BUF leads BOS 1-0 · early upsets brewing across the East"
+      "note": "ANA at EDM G2 · 10 ET · TBS · Oilers defend 1-0 series lead tonight"
     },
     "wbc": {
       "label": "MLB — Regular Season",
       "games": [],
-      "note": "Red Sox 8 · Tigers 6 (Apr 20) · Dodgers lead NL · Ohtani anchoring lineup · full slate continues"
+      "note": "HOU 8 · CLE 2 (Apr 21) · MIA 4 · STL 2 (Apr 21) · Dodgers pace NL · full slate tonight"
     },
     "soccer": {
       "label": "UCL — Semifinals",
@@ -53,45 +51,45 @@
       "note": "No April race — Bahrain & Saudi GPs cancelled · Next: Miami GP May 1–3"
     },
     "tennis": {
-      "result": "Rybakina wins Stuttgart d. Muchová 7-5, 6-1 · Madrid Open underway",
-      "note": "ATP/WTA Madrid Masters 1000 in progress · Apr 20 – May 3"
+      "result": "Munich SF: Cobolli d. Zverev 6-3 6-3 · Shelton d. Molcan 6-3 6-4 · Final Sunday",
+      "note": "Barcelona Open SF stage · Madrid Masters 1000 ongoing · Apr 20–May 3"
     },
     "golf": {
       "result": "Fitzpatrick wins RBC Heritage in playoff over world No. 1 Scheffler",
-      "note": "$3.6M winner's check · PGA Championship at Quail Hollow up next in May"
+      "note": "Zurich Classic starts Thu at TPC Louisiana · team format · Fitzpatrick brothers favored"
     },
     "nascar": {
       "result": "Reddick wins AdventHealth 400 at Kansas · 5th Cup win in 9 races",
-      "note": "Passes Larson by 0.118s in OT · extends standings lead · Dover Motor Speedway next"
+      "note": "Dover Motor Speedway next weekend · Monster Mile challenge ahead"
     }
   },
   "topStories": [
     {
       "kicker": "NBA PLAYOFFS",
-      "headline": "Hawks Stun Knicks, Wolves Erase 19-Point Hole — Game 2s Deliver Chaos",
+      "headline": "76ers Shock Celtics Without Embiid — Edgecombe and Maxey Deliver Stunning G2 Win",
       "body": [
-        "<strong>CJ McCollum</strong> poured in 32 points as the <strong>Atlanta Hawks</strong> rallied with a 28-15 fourth quarter to steal Game 2 at Madison Square Garden and even their first-round series 1-1. In Denver, the <strong>Minnesota Timberwolves</strong> authored the night's most stunning comeback — erasing a 19-point deficit to beat the <strong>Nuggets 119-114</strong> and tie that series as well. <strong>Donovan Mitchell</strong> was clinical for Cleveland, posting 30 points, 7 rebounds and 5 assists as the Cavaliers took a 2-0 series lead over Toronto. The <strong>Los Angeles Lakers</strong> also opened strong, winning Game 1 over Houston 107-98 with <strong>Luke Kennard</strong> setting a career playoff high of 27 points and <strong>LeBron James</strong> adding 19 points and 13 assists against a Rockets team missing <strong>Kevin Durant</strong>."
-      ]
-    },
-    {
-      "kicker": "GOLF",
-      "headline": "Fitzpatrick Sinks Playoff Birdie to Deny World No. 1 Scheffler at Harbour Town",
-      "body": [
-        "<strong>Matt Fitzpatrick</strong> holed a 12-foot birdie putt on the first extra hole Sunday to claim the RBC Heritage title in a playoff over world No. 1 <strong>Scottie Scheffler</strong> at Harbour Town Golf Links. Fitzpatrick earned $3.6 million from the $20 million purse in a result that gives him real momentum heading into the major season. <strong>Si Woo Kim</strong> finished third. Scheffler, who had held the 54-hole lead, was denied by Fitzpatrick's poise under pressure — a rare blemish on an otherwise exceptional 2026 for the world number one."
+        "The <strong>Philadelphia 76ers</strong>, playing without <strong>Joel Embiid</strong> for the second straight game following his emergency appendectomy, stunned the <strong>Boston Celtics 111-97</strong> in Game 2 to even their first-round series 1-1. Rookie <strong>V.J. Edgecombe</strong> was breathtaking — 30 points and 10 rebounds in a breakout performance — while <strong>Tyrese Maxey</strong> added 29 to shoulder the floor general load in Embiid's absence. The Celtics, who had won Game 1 comfortably 123-91, were outplayed in every phase at TD Garden. The series shifts to Philadelphia for Game 3 on Friday, and the defining question of this matchup is now when — or whether — Embiid can return."
       ]
     },
     {
       "kicker": "NHL PLAYOFFS",
-      "headline": "Flyers Silence Pittsburgh Twice, Hurricanes Survive Double-OT as East Heats Up",
+      "headline": "Lightning Survive OT, Bruins Rally to Even Their Series — East's Upsets Contained",
       "body": [
-        "The <strong>Philadelphia Flyers</strong> shut out the <strong>Pittsburgh Penguins 3-0</strong> to grab a commanding 2-0 series lead in the Battle of Pennsylvania — a dominant start that has <strong>Sidney Crosby</strong> and the Penguins facing an early elimination threat. The <strong>Carolina Hurricanes</strong> survived double overtime, outlasting the <strong>Ottawa Senators 3-2</strong> to lead their series 2-0. <strong>Connor McDavid</strong> and the defending-champion <strong>Edmonton Oilers</strong> opened their title defense with a gritty 4-3 win over the <strong>Anaheim Ducks</strong>. Upsets are brewing: the <strong>Montreal Canadiens</strong> lead Tampa Bay 1-0 and the <strong>Buffalo Sabres</strong> lead Boston 1-0 after Game 1 victories."
+        "Two teams that stumbled in Game 1 responded emphatically Tuesday night. <strong>J.J. Moser</strong> scored in overtime to give the <strong>Tampa Bay Lightning</strong> a 3-2 win over the <strong>Montreal Canadiens</strong> — Moser became the first Lightning player to score his first career playoff goal in overtime, a genuinely rare moment. In Boston, <strong>Viktor Arvidsson</strong> and <strong>Morgan Geekie</strong> led a composed Bruins effort in a 4-2 win over the <strong>Buffalo Sabres</strong>. Both series are now 1-1, with Games 3 and 4 heading to the underdogs' buildings — Tampa and Boston traveling to face hostile crowds in Montreal and Buffalo."
       ]
     },
     {
-      "kicker": "NASCAR",
-      "headline": "Reddick Makes History With Fifth Win in Nine Races at Kansas",
+      "kicker": "TENNIS",
+      "headline": "Cobolli Dismantles World No. 1 Zverev in Munich Semis — Shelton Final Sunday",
       "body": [
-        "<strong>Tyler Reddick</strong> overtook <strong>Kyle Larson</strong> on the final lap of overtime at Kansas Speedway to win the AdventHealth 400 — his fifth Cup Series victory in the first nine races of 2026. Only four drivers in NASCAR history have ever won five of the first nine races in a season. Reddick survived a fuel strategy scramble and a late caution before sealing the win by 0.118 seconds. <strong>Chase Briscoe</strong> (3rd), <strong>Denny Hamlin</strong> (4th), and <strong>Bubba Wallace</strong> (5th) rounded out the top five. The <strong>Cup Series heads to Dover Motor Speedway</strong> next weekend."
+        "<strong>Flavio Cobolli</strong> delivered one of the clay-court season's biggest upsets, dispatching top seed <strong>Alexander Zverev 6-3, 6-3</strong> with 32 winners in the Munich ATP 500 semifinals. Zverev, the world number one, had no answers for the Italian's relentless forehand. Cobolli will face <strong>Ben Shelton</strong> in Sunday's final — Shelton eased past qualifier Alex Molcan 6-3, 6-4 in the other semi. A Shelton win on Sunday would make him the first American man to claim an ATP 500+ clay title since <strong>Andre Agassi</strong> in Rome in 2002."
+      ]
+    },
+    {
+      "kicker": "TONIGHT'S SLATE",
+      "headline": "Six Playoff Games on Deck — OKC Eyes 2-0, Battle of PA Returns to Pittsburgh",
+      "body": [
+        "Wednesday's schedule delivers six playoff games across both leagues. In the NBA, the <strong>Magic visit Detroit</strong> for Game 2 (7 ET, ESPN) — Orlando pulled off the G1 upset and now faces a hostile Pistons crowd. The <strong>Thunder host Phoenix</strong> in Game 2 (9:30 ET, ESPN): OKC torched the Suns by 35 in Game 1 and look to seize a 2-0 lead. The <strong>Lakers visit Houston</strong> for Game 2 with <strong>Kevin Durant's</strong> availability uncertain. In the NHL, the <strong>Flyers go to Pittsburgh</strong> for Game 3 (7 ET, TNT) with a chance to put the Penguins on the brink, the <strong>Stars visit Minnesota</strong> for G3 (9:30 ET, TNT), and the <strong>Oilers host Anaheim</strong> in G2 (10 ET, TBS)."
       ]
     }
   ],
@@ -100,16 +98,16 @@
       "stories": [
         {
           "divider": "Scores & Standings",
-          "headline": "Wolves Come Back From 19, Hawks Steal MSG — Cavs Roll to 2-0 Series Lead",
+          "headline": "Sixers Stun Celtics, Trail Blazers Even Series — Four 1-1 Ties Across the Bracket",
           "body": [
-            "<strong>Minnesota's</strong> 19-point second-half comeback against the <strong>Nuggets</strong> was the evening's signature moment — the Timberwolves locked in defensively in the fourth quarter, holding Denver to just 20 points in the final frame. In New York, <strong>CJ McCollum's</strong> 32-point explosion powered the <strong>Hawks</strong> to a 107-106 road win, Atlanta outscoring the Knicks 28-15 in the final frame. <strong>Cleveland</strong> looks like the most complete team in the East through two games, with <strong>Donovan Mitchell</strong> leading every key moment. The <strong>Oklahoma City Thunder</strong> sent an early statement in the West — their 119-84 Game 1 demolition of Phoenix signals that the defending champions are on a mission."
+            "The night's signature moment came in Boston, where the <strong>76ers — Embiid-less — beat the Celtics 111-97</strong> to level their series. <strong>V.J. Edgecombe's</strong> 30-point, 10-rebound performance and <strong>Tyrese Maxey's</strong> 29-point masterclass made Philadelphia impossible to guard without their superstar center. The Celtics, who had been dominant in Game 1, were simply outworked. The <strong>Portland Trail Blazers</strong> also tied their series with the <strong>San Antonio Spurs 1-1</strong>, reclaiming home-court advantage. The first-round bracket now features four 1-1 series — Boston-Philly, Atlanta-New York, Minnesota-Denver, and Portland-San Antonio — creating maximum chaos heading into Games 3 and 4."
           ]
         },
         {
           "divider": "Injuries & News",
-          "headline": "Embiid's Appendectomy Clouds Celtics-Sixers, Durant Sits for Houston",
+          "headline": "KD Questionable Tonight, Embiid in Recovery — Luka Also Out for Lakers",
           "body": [
-            "<strong>Joel Embiid</strong> is a major question mark after his emergency appendectomy on April 9. The average NBA recovery window of 23 days puts his first-round availability against <strong>Boston</strong> in serious doubt — an enormous blow for Philadelphia, already the underdog against the Celtics. The Sixers received a slightly positive update ahead of Game 2 but nothing definitive. The <strong>Houston Rockets</strong> were also without <strong>Kevin Durant</strong> in their Game 1 loss to the Lakers — without KD's scoring load, Houston's offense was blunted against the experienced Los Angeles defense."
+            "<strong>Kevin Durant</strong> is a game-time decision for tonight's <strong>Lakers-Rockets Game 2</strong> — he missed Game 1 entirely, and Houston was blunted in his absence. The <strong>Lakers</strong> are simultaneously without <strong>Luka Dončić</strong> and <strong>Austin Reaves</strong>, making tonight's game a hobbled affair on both ends. <strong>Joel Embiid</strong> remains the first-round's central health storyline: his appendectomy on April 9 has already cost him two games, and the average recovery window suggests his return — if it comes in this series — would be for Games 4 or 5. The Sixers proved Tuesday that they can compete; the question is whether Boston adjusts."
           ]
         }
       ]
@@ -118,16 +116,16 @@
       "stories": [
         {
           "divider": "Scores & Standings",
-          "headline": "Flyers and Hurricanes Jump to 2-0 Leads; Oilers Launch Title Defense",
+          "headline": "Lightning and Bruins Even Their Series — Underdogs' Early Leads Wiped Out",
           "body": [
-            "The <strong>Philadelphia Flyers</strong> are two wins from a stunning first-round sweep of the <strong>Pittsburgh Penguins</strong> — winning both games at home in the Battle of Pennsylvania, including a shutout in Game 2. The <strong>Carolina Hurricanes</strong>, the East's top seed, survived a double-overtime scare against <strong>Ottawa</strong> to also lead 2-0. In the West, defending-champion <strong>Edmonton</strong> opened with a 4-3 win over <strong>Anaheim</strong> — <strong>Connor McDavid</strong> and company showing no championship hangover. The <strong>Dallas Stars</strong> bounced back with a 4-2 Game 2 win to even their series with <strong>Minnesota</strong> at 1-1."
+            "Two of the East's early 'upset' series reset to 1-1 Tuesday night. <strong>J.J. Moser's</strong> overtime goal gave the <strong>Tampa Bay Lightning</strong> a 3-2 Game 2 win over the <strong>Montreal Canadiens</strong> — the first career playoff goal for the defenseman, delivered in the most dramatic setting possible. <strong>Brandon Hagel</strong> and <strong>Nikita Kucherov</strong> also scored for Tampa. In Boston, the <strong>Bruins</strong> methodically pulled away from the <strong>Sabres 4-2</strong>, with <strong>Viktor Arvidsson</strong>, <strong>Morgan Geekie</strong>, and <strong>Pavel Zacha</strong> all finding the net. Both series now move to the lower seed's buildings for Games 3 and 4, where Montreal and Buffalo will try to reclaim ground."
           ]
         },
         {
-          "divider": "Injuries & News",
-          "headline": "East Upsets Brewing: Sabres Lead Bruins, Canadiens Lead Lightning 1-0",
+          "divider": "Tonight's Games",
+          "headline": "Battle of PA G3 in Pittsburgh — Flyers Can Put Penguins on the Brink",
           "body": [
-            "The East bracket took on a volatile look early. The <strong>Buffalo Sabres</strong> opened by surprising the <strong>Boston Bruins</strong> in Game 1, while an improved <strong>Montreal Canadiens</strong> team beat the <strong>Tampa Bay Lightning</strong> in their series opener. If either underdog extends their lead to 2-0 this week, the Eastern Conference picture would be dramatically reshaped heading into the second round. Both Tampa and Boston face real pressure to respond emphatically in their upcoming Game 2s."
+            "The <strong>Philadelphia Flyers</strong>, leading the <strong>Pittsburgh Penguins</strong> 2-0, travel to PPG Paints Arena tonight for Game 3 (7 ET, TNT). A third Flyers win would push <strong>Sidney Crosby</strong> and the Penguins to the edge of elimination — a stunning outcome for a storied franchise. The <strong>Dallas Stars</strong> visit the <strong>Minnesota Wild</strong> for Game 3 (9:30 ET, TNT) in a series tied 1-1 — home ice now belongs to Minnesota. Later, the defending-champion <strong>Edmonton Oilers</strong> host the <strong>Anaheim Ducks</strong> for Game 2 (10 ET, TBS), with <strong>Connor McDavid</strong> expected to push for a 2-0 series advantage."
           ]
         }
       ]
@@ -136,9 +134,9 @@
       "stories": [
         {
           "divider": "Scores & News",
-          "headline": "Red Sox Edge Tigers 8-6 as Early-Season MLB Races Take Shape",
+          "headline": "Astros Cruise Past Guardians 8-2 as Early-Season Division Races Take Shape",
           "body": [
-            "The <strong>Boston Red Sox</strong> held off the <strong>Detroit Tigers 8-6</strong> on Sunday in a high-scoring affair, continuing their competitive early-season form. With the NBA and NHL playoffs commanding the weekend headlines, MLB hums along in the background: the <strong>Los Angeles Dodgers</strong> remain the NL's class act with <strong>Shohei Ohtani</strong> anchoring the lineup, while unexpected division leaders are beginning to emerge across both leagues. The season approaches its one-quarter mark this week with standings battles in every division still very much unsettled."
+            "The <strong>Houston Astros</strong> handled the <strong>Cleveland Guardians 8-2</strong> Tuesday night, with Houston's lineup clicking across the board as the AL Central race begins to crystallize. The <strong>Miami Marlins</strong> also won, beating the <strong>St. Louis Cardinals 4-2</strong>. With the NBA and NHL playoffs commanding attention, MLB hums productively in the background — the <strong>Los Angeles Dodgers</strong> remain the NL's benchmark team, with <strong>Shohei Ohtani</strong> anchoring a lineup that has been near-unstoppable. The season is approaching its one-quarter mark, and meaningful division separations are beginning to form across both leagues."
           ]
         }
       ]
@@ -147,9 +145,9 @@
       "stories": [
         {
           "divider": "UCL Semifinals",
-          "headline": "PSG vs. Bayern, Arsenal vs. Atlético — Europe's Final Four Set for April 28-29",
+          "headline": "PSG vs. Bayern, Arsenal vs. Atlético — First Legs Six Days Away",
           "body": [
-            "The UEFA Champions League semifinals are locked in after a dramatic quarterfinal stage. <strong>PSG</strong> — who dismantled <strong>Liverpool 4-0 on aggregate</strong> — host <strong>Bayern Munich</strong> on April 28 at the Parc des Princes. Bayern had beaten <strong>Real Madrid</strong> in an extraordinary 6-4 aggregate tie, with <strong>Luis Díaz</strong> and <strong>Michael Olise</strong> sealing the comeback in Munich. On April 29, <strong>Atlético Madrid host Arsenal</strong> — Diego Simeone's defensive machine against Mikel Arteta's structured press. <strong>Atlético</strong> eliminated <strong>Barcelona 3-2 on aggregate</strong>; <strong>Arsenal</strong> edged through 1-0 against Sporting. <strong>Harry Kane</strong> is Bayern's danger man; <strong>Kai Havertz</strong> has been Arsenal's UCL clutch performer. Return legs: May 5-6. Final: Budapest, May 30."
+            "The UEFA Champions League semifinals arrive in six days with two absorbing matchups. <strong>PSG</strong> — who swept <strong>Liverpool 4-0 on aggregate</strong> — host <strong>Bayern Munich</strong> on April 28 at the Parc des Princes. Bayern advanced in one of the quarterfinal stage's great comebacks, overturning Real Madrid 6-4 on aggregate across two legs. On April 29, <strong>Atlético Madrid</strong> host <strong>Arsenal</strong> in Madrid — Diego Simeone's defensive organization versus Mikel Arteta's high press in what should be a tactical chess match. <strong>Kai Havertz</strong> has been Arsenal's clutch UCL performer; <strong>Harry Kane</strong> and <strong>Michael Olise</strong> lead Bayern's attack. Return legs May 5–6. Final: Budapest, May 30."
           ]
         }
       ]
@@ -158,9 +156,9 @@
       "stories": [
         {
           "divider": "Season Snapshot",
-          "headline": "No April Grand Prix: F1 Championship Battle on Hold Until Miami",
+          "headline": "F1 Championship Paused Until Miami — Antonelli Leads Russell by Nine Points",
           "body": [
-            "Formula 1's 2026 season has an unplanned break in April after the <strong>Bahrain</strong> and <strong>Saudi Arabian</strong> Grands Prix were cancelled due to regional instability — replacement venues could not be organized on short notice. The championship resumes at the <strong>Miami Grand Prix (May 1-3)</strong>. Through three rounds, teenager <strong>Kimi Antonelli</strong> leads the standings with 72 points after his Chinese GP win, with Mercedes teammate <strong>George Russell</strong> nine points back at 63. <strong>Charles Leclerc</strong> (49) keeps Ferrari in contention and <strong>Lewis Hamilton</strong> (41) remains a factor. The break gives teams extra development time ahead of an intense Americas swing."
+            "Formula 1's 2026 season has an extended break in April after the <strong>Bahrain</strong> and <strong>Saudi Arabian</strong> Grands Prix were cancelled due to regional instability. The championship resumes at the <strong>Miami Grand Prix (May 1–3)</strong>. Teenager <strong>Kimi Antonelli</strong> leads the standings at 72 points after his Chinese GP victory, with Mercedes teammate <strong>George Russell</strong> nine points back at 63. <strong>Charles Leclerc</strong> (49 pts) keeps Ferrari in the conversation. The break gives teams additional development time as the season heads into a busy Americas swing."
           ]
         }
       ]
@@ -168,10 +166,10 @@
     "tennis": {
       "stories": [
         {
-          "divider": "Clay Swing",
-          "headline": "Rybakina Wins Stuttgart, Madrid Open Begins as Clay Season Intensifies",
+          "divider": "Munich Open Semifinals",
+          "headline": "Cobolli Destroys Zverev — Shelton vs. Cobolli Final Set for Sunday",
           "body": [
-            "<strong>Elena Rybakina</strong> defeated <strong>Karolína Muchová 7-5, 6-1</strong> to win the Porsche Tennis Grand Prix in Stuttgart, adding to her growing clay-court credentials ahead of Roland Garros. The win reinforces Rybakina as a top contender on any surface heading into the swing's marquee events. The <strong>Mutua Madrid Open</strong> — a combined ATP Masters 1000 and WTA 1000 clay event — began Monday and runs through May 3, drawing the full complement of top players. <strong>Carlos Alcaraz</strong>, the two-time defending Madrid champion, headlines the ATP draw on his best surface as the clay season builds toward the French Open."
+            "<strong>Flavio Cobolli</strong> struck 32 winners to dismantle top seed <strong>Alexander Zverev 6-3, 6-3</strong> in the BMW Open Munich semifinals Wednesday — a dominant, clean display from the Italian that gave the world number one no foothold. He'll face <strong>Ben Shelton</strong> in Sunday's ATP 500 final: Shelton dispatched qualifier <strong>Alex Molcan 6-3, 6-4</strong> in the other semi, losing just six points on his first serve. A Shelton title Sunday would make him the first American man to win an ATP 500+ clay event since <strong>Agassi in Rome (2002)</strong>. The <strong>Barcelona Open</strong> is also at the semifinal stage this week, and the <strong>Mutua Madrid Open</strong> (ATP Masters 1000 / WTA 1000) continues through May 3."
           ]
         }
       ]
@@ -179,10 +177,10 @@
     "golf": {
       "stories": [
         {
-          "divider": "RBC Heritage Final",
-          "headline": "Fitzpatrick Drains Playoff Birdie to Edge World No. 1 Scheffler at Harbour Town",
+          "divider": "Zurich Classic Preview",
+          "headline": "Team Event Opens Thursday at TPC Louisiana — Fitzpatrick Brothers Among Favorites",
           "body": [
-            "<strong>Matt Fitzpatrick</strong> claimed the 2026 RBC Heritage title in a playoff over world No. 1 <strong>Scottie Scheffler</strong>, sinking a clutch 12-foot birdie on the first extra hole at Harbour Town Golf Links. Fitzpatrick earned $3.6 million from the $20 million purse. <strong>Si Woo Kim</strong> took third. Scheffler — who had held the 54-hole lead with <strong>Webb Simpson</strong> sliding out of contention on Sunday — was denied by Fitzpatrick's poise under pressure, a rare playoff loss for the world number one. The win gives Fitzpatrick real momentum heading into the major season, with the <strong>PGA Championship at Quail Hollow</strong> the next big target."
+            "The <strong>Zurich Classic of New Orleans</strong> — the PGA Tour's only team competition — begins Thursday at TPC Louisiana in Avondale, running through Sunday. The 74-team, 148-player field plays alternate-shot and better-ball rounds in a unique format that rewards chemistry as much as individual brilliance. <strong>Matt and Alex Fitzpatrick</strong> enter as one of the most talked-about pairings after Matt's dramatic RBC Heritage playoff win last Sunday over world No. 1 Scheffler. <strong>Brooks Koepka</strong> and <strong>Shane Lowry</strong> are among other notable teams in the field."
           ]
         }
       ]
@@ -190,10 +188,10 @@
     "nascar": {
       "stories": [
         {
-          "divider": "AdventHealth 400 — Kansas",
-          "headline": "Reddick Passes Larson on Final Lap for Historic 5th Cup Win in Nine Races",
+          "divider": "What's Next",
+          "headline": "Dover Looms After Reddick's Historic Kansas Performance",
           "body": [
-            "<strong>Tyler Reddick</strong> made a decisive last-lap move on <strong>Kyle Larson</strong> after an overtime restart at Kansas Speedway on Sunday, winning the AdventHealth 400 by 0.118 seconds for his fifth Cup Series victory in the first nine races of 2026. Reddick joins an elite group — only four drivers in NASCAR history have won five of the opening nine races in a season. A late caution by <strong>Cody Ware</strong> triggered the overtime that ultimately swung the race to Reddick after fuel strategy drama earlier in the event. <strong>Chase Briscoe</strong> (3rd), <strong>Denny Hamlin</strong> (4th), and <strong>Bubba Wallace</strong> (5th) completed the top five. The <strong>Cup Series heads to Dover Motor Speedway</strong> next weekend."
+            "Following <strong>Tyler Reddick's</strong> five-wins-in-nine-races historic Kansas run last Sunday, the NASCAR Cup Series prepares for <strong>Dover Motor Speedway</strong> next weekend. Reddick's 2026 pace has placed him in elite company — only four drivers in NASCAR history have managed five wins in the first nine Cup races of a season. Dover's Monster Mile is a different test entirely: a one-mile concrete oval that punishes mechanical issues and demands precise tire management. Whether Reddick can maintain his extraordinary pace on a track this demanding will be one of the weekend's central storylines."
           ]
         }
       ]
